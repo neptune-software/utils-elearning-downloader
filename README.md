@@ -13,7 +13,7 @@ To install Puppeteer and its dependencies, follow these steps:
 ## Usage
 After installation, you can use this script as follows:
 
-- Locate the following sections in the code of `node mian_get_sctructure.js` or `node run mian_get_contents.js`:
+- Locate the following sections in the code of `mian_get_sctructure.js` or `mian_get_contents.js`:
 ```javascript
 username: {
     selector: 'input[id="user[email]"]',
@@ -27,7 +27,7 @@ password: {
 - Replace 'YOUR_USERNAME_HERE' with your Neptune ELearning username and 'YOUR_PASSWORD_HERE' with your password.
 - Save the file.
 - Run the `node mian_get_sctructure.js` command to run the script to get the structure information of the course. The results are saved as `open-edition-developer-training-foundation-2024.html`.
-- Run the `node run mian_get_contents.js` command to run the script to get the text and video contents of the course, saved in the `./data/` folder.
+- Run the `node mian_get_contents.js` command to run the script to get the text and video contents of the course, saved in the `./data/` folder.
 
 Option: Modify the TARGET object in the code with your specific target URL, login credentials, and button selector.
 Option: Uncommenting that code snippet will indeed allow users to observe the script's actions in real-time within the browser window.
