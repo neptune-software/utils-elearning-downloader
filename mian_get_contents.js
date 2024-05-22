@@ -158,61 +158,60 @@ const scraper = async (target) => {
   console.log("Scraping completed and data saved.");
 };
 
-function updaterTranscriptonRecords() {
-  // Read the records.json file
-  fs.readFile("./data/records.json", "utf8", (err, data) => {
-    if (err) {
-      console.error("Error reading records.json:", err);
-      return;
-    }
-
-    try {
-      const records = JSON.parse(data);
-
-      // Iterate over the records array
-      records.forEach((record) => {
-        // If sourceType is video
-        if (record.sourceType === "video") {
-          // Construct the corresponding txt file path
-          const txtFilePath = `./data/${record.lessonTitle}.txt`;
-
-          // Read the content of the corresponding txt file
-          fs.readFile(txtFilePath, "utf8", (err, txtContent) => {
-            if (err) {
-              console.error(`Error reading ${txtFilePath}:`, err);
-              return;
-            }
-
-            // Replace content with the content of the txt file
-            record.content = txtContent;
-
-            // Print the replaced content for the record
-            console.log("Replaced content for:", record.lessonTitle);
-          });
-        }
-      });
-
-      // Write the modified records back to records.json file
-      fs.writeFile(
-        "./data/records.json",
-        JSON.stringify(records, null, 2),
-        "utf8",
-        (err) => {
-          if (err) {
-            console.error("Error writing records.json:", err);
-            return;
-          }
-
-          console.log("Content replacement completed.");
-        }
-      );
-
-      const csvContent = parse(records);
-      fs.writeFileSync("./data/records.csv", csvContent);
-    } catch (error) {
-      console.error("Error parsing records.json:", error);
-    }
+function readFileAsync(path) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, "utf8", (err, data) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(data);
+      }
+    });
   });
+}
+
+function writeFileAsync(path, data) {
+  return new Promise((resolve, reject) => {
+    fs.writeFile(path, data, "utf8", (err) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve();
+      }
+    });
+  });
+}
+
+async function updaterTranscriptonRecords() {
+  try {
+    const data = await readFileAsync("./data_Foundation/records.json");
+    const records = JSON.parse(data);
+
+    for (const record of records) {
+      if (record.sourceType === "video") {
+        const txtFilePath = `./data_Foundation/${record.lessonTitle}.txt`;
+
+        try {
+          const txtContent = await readFileAsync(txtFilePath);
+          record.content = txtContent;
+          console.log("Replaced content for:", record.lessonTitle);
+        } catch (err) {
+          console.error(`Error reading ${txtFilePath}:`, err);
+        }
+      }
+    }
+
+    await writeFileAsync(
+      "./data_Foundation/records_updated.json",
+      JSON.stringify(records, null, 2)
+    );
+    console.log("Content replacement completed.");
+
+    const csvContent = parse(records);
+    fs.writeFileSync("./data_Foundation/records.csv", csvContent);
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 
 const TARGET = {
