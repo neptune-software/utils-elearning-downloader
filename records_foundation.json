@@ -1,0 +1,1052 @@
+[
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54722648-cockpit-tool-overview-blog",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54722648-cockpit-tool-overview-blog",
+    "sourceType": "text",
+    "content": "In the following linked blog, you can find a high-level overview of a range of the most commonly used tools within the platform.\nIt highlights some key links between the tools - when they are likely to be used together. Such as integration APIs within Applications and Server Scripts, and how Server Scripts integrate with the platform tables, connectivity tooling, and Workflows.\n\nIt initially highlights the Development Package concept, then it explains information about the applications that are created within the platform - the development tools, the connectivity tools, the database and scripting tools, the workflow, and the user management tools that are used to do this. Finally, the administration and deployment tools are introduced.\n\nhttps://community.neptune-software.com/topics/planet-9/blogs/updated--video--neptune--software----open--edition--dev\nGive the video (embedded in the blog) a watch-through!\n\nSupplementary documentation is available here:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/cockpit-components.html"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54722861-runtime-overview-video",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54722861-runtime-overview-video",
+    "sourceType": "video",
+    "content": "54722861-runtime-overview-video"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54722916-runtime-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54722916-runtime-overview",
+    "sourceType": "text",
+    "content": "Introduction to the runtime environment of the Open Edition:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/getting-started-guide/overview-runtime.html\nLearn about the database setup and the support for various other standalone databases.\n\nComparison between SAP Edition and Open Edition, highlighting hosting methods and shared tools.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/getting-started-guide/overview-comparing.html\n\nNote:\n\nNeptune DXP - SAP Edition applications can run natively in a Neptune DXP - Open Edition launchpad. This means when both modules are used, it is possible to connect the SAP Edition to the Open Edition as a remote system, so applications can be called and loaded at runtime and run embedded into the Open Edition."
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54722949-the-open-ui5-framework-video",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54722949-the-open-ui5-framework-video",
+    "sourceType": "video",
+    "content": "54722949-the-open-ui5-framework-video"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54722971-the-open-ui5-framework",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54722971-the-open-ui5-framework",
+    "sourceType": "text",
+    "content": "Here is the documentation reference for the Open UI5 framework implementation within the Open Edition:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/getting-started-guide/overview-openui5.html\n\nSome additional information about the Open UI5 framework worth noting - is that it is a subset of the full SAP UI5 library that is available. \n\n\n\n\n\n\n\nThe Open UI5 collection is more than enough to build comprehensive applications, however, a few additional components exist only within the context of the full SAP UI5 library.\n\nYou can read more about the difference between the two here:\nhttps://sapui5.hana.ondemand.com/sdk/#/topic/5982a9734748474aa8d4af9c3d8f31c0.html\n\nThis fact means it is not directly possible to export an SAP Edition App Designer application into the Open Edition App Designer, as they may be utilizing different library components.\n\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54723324-the-neptune-ecosystem",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54723324-the-neptune-ecosystem",
+    "sourceType": "text",
+    "content": "Familiarise yourself with these key ecosystem resources:\nWe recommend saving them to your favorites/bookmarks!\n\nCommunity - https://community.neptune-software.com\nBlogs from Neptune\nPosts from community developers\nMonthly ‘Neptune Heros’\n\nNeptune Portal - https://portal.neptune-software.com/launchpad/portal\nProduct Download + Installation Guide\nMarketplace\nApp Builder\nMobile Build Service (MBS)\nSample Applications\nPartner resources\n\nDXP Demo - https://dxpdemo.neptune-software.cloud/launchpad/DXP\nExample applications based on real use cases\n\nNeptune Documentation - https://docs.neptune-software.com\nOpenUI5 Documentation - https://openui5.org/documentation\n(Open UI5 is the framework of components, used to build the user interface of the applications within the platform)\n\n\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54723338-community-blogs-and-posts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54723338-community-blogs-and-posts",
+    "sourceType": "text",
+    "content": "The Neptune community is an essential component within the developer ecosystem. It contains useful information, announcements, updates, tutorials, and more.\n\nTwo of the key categories are Blogs and Posts:\n\nBlogs - Structured, informative - Created by Neptune (+ other partners)\nPosts - Questions and answers from all community members\n\nTo stay up to date, it is recommended to check in with the Blogs in the community regularly.\nFeel free to post your questions (or feature requests) within the Posts section.\nHowever, we recommend using the built-in search (or using Google search for \"Neptune Software [your question]\") to see if someone if the question has already been answered!"
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54723380-users-dxp-developers-compared-to-end-users",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54723380-users-dxp-developers-compared-to-end-users",
+    "sourceType": "text",
+    "content": "DXP Personas:\nThe Cockpit developer perspective, vs the end user Launchpad perspective.\n\nBoth are the same underlying \"user\" within the platform, just with different roles, permissions, and authorization. \n\nEnd Users will log in via a Launchpad, and use the applications available to them there. \n\nDevelopers will log in and access the Cockpit, alongside the end user Launchpads.\n\nThe number of users in the trial version is set by default to 2. Adding a license to the platform increases the number of users that can be created.\nUsers can be created manually using the Cockpit tools, or automatically when the platform is integrated with an SSO provider. More information about these processes is covered later in the course."
+  },
+  {
+    "chapterName": "Welcome to Neptune DXP",
+    "lessonTitle": "54723646-extra-details-evaluation-guides",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54723646-extra-details-evaluation-guides",
+    "sourceType": "text",
+    "content": "Whilst learning more about the platform - you may find it useful to understand more details around high-level topic areas that the platform addresses:\n\nhttps://docs.neptune-software.com/neptune-dxp-evaluation-guide/All/evaluation-guide/overview.html\n\nThe evaluation guide has the purpose of explaining the Neptune DXP in the context of the enterprise. \n\nThe following topics are addressed:\n\nIntegration\n\nArchitecture\n\nSecurity\n\nDevelopment\n\nApplications\n\nNeptune Mobile Build Service"
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54723923-platform-versioning",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54723923-platform-versioning",
+    "sourceType": "text",
+    "content": "Here you can see a diagram explaining the version numbers for the platform. \n\nPlease ensure you are downloading and running the latest version and patch when starting this course. \n\nKeep an eye on the Community for blog posts announcing updates to the platform.\n\nWithin an annual release cycle, this is how the version numbers update:\n\n\n"
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54749929-first-look-how-to-navigate-the-developer-cockpit",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54749929-first-look-how-to-navigate-the-developer-cockpit",
+    "sourceType": "text",
+    "content": "There is a search bar at the top of the cockpit - This searches for tools and artifacts by default, so anything that has been created within the system. You can click into the search bar and search for any tool or artifact. \n\n  \n \nHere ”Tool\" is being searched for: \n \n\n \n\nNote only the following categories are searched through: \n \n\nThere is a switch to change to search the Documentation website instead. \nHere you can see the results when the Document Search is enabled: \n\n \n\nTiles can be marked with a star to be saved into the 'Favourites' group in the cockpit (they also appear in the drop down of the search results!): \n\n \n\nOpen apps appear on the left bar, the menu can be expanded and collapsed to view the names of the tools: \n\n  \n \n \n\n  \n\nRecommendations will be presented in the bottom left of the cockpit when similar tools might be useful to complete your current development process: \n\n  \n\nIt is possible to change your user settings in the top right - to adjust the position of the action buttons for example, from defaulting to the right had side of the screen, to the left instead! Useful when working on a larger screen. You can also swap between Light and Dark mode: \n\n \n\nEnhancement: There is now an option in the user settings menu to change how editors are opened, i.e. tab or window. \n\nThis effects the behaviour of the App Designer, Adaptive Designer, Script Editor (and others), which open in their own browser instance. \n\n "
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724044-development-package-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724044-development-package-introduction",
+    "sourceType": "text",
+    "content": "Here is a link to the Development Package documentation - give it a read-over:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/development-package.html\n\nYou will now understand that packages are a way of organizing everything you develop within the platform. It is important to utilize packages to keep your projects organized.\nEnsure you start the practice of creating logical packages to collect artifacts that function together.\nA development package is simple to create - simply give one a name.\n\n\nWhat is the value of having a Development Package?\nEasy deployment and better organization of projects. It is possible to deploy individual artifacts from system to system - however, it is likely a number of artifacts power your processes. They should be deployed together, and so should be included in the same package.\n\nDependencies / Requirements\nAn individual artifact can only be assigned to one package at a time. There are a number of packages that rely on the logic provided within other \"common\" artifacts, such as the Launchpad app, Adaptive Framework apps, and Workflow Inbox app. These are shown within the \"Product Requirements\" section on the product pages in the Marketplace. Artifacts such as these, or any you develop yourself, that will be utilized across a number of other packages - should be within their own individual package.\n\nGitHub CI/CD\nIt is possible to integrate development packages with GitHub, to utilise a Continuous Integration/Continuous Development process. Each package can link 1:1 with a GitHub repo. More details on this integration will be covered later in the course, within the chapter \"Deployment Mastery\""
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724308-creating-and-adding-artifacts-to-a-development-package",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724308-creating-and-adding-artifacts-to-a-development-package",
+    "sourceType": "text",
+    "content": "When each component is created, it can be assigned to a package.\nThis is an optional property, and at any time you can assign or remove artifacts to and from packages.\nThere is a 1:1 link between an artifact (EG: an API, an Application, a Tile...) and a package.\n\nHere you can see the three above-mentioned tools, each of which has opened a specific artifact, that is assigned to a package.\n\n\n"
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724312-cockpit-buttons-add-edit-display-save-delete",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724312-cockpit-buttons-add-edit-display-save-delete",
+    "sourceType": "text",
+    "content": "Here you can see a couple of examples of the common tool action buttons within the Cockpit. Note that each tool can put any artifact into 'Edit' mode. This locks the record to your user, so only you can make changes. The lock must be manually removed for others to edit the artifact. When you return to 'Display' mode, the artifact is unlocked again and you can't edit it further."
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724365-marketplace-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724365-marketplace-introduction",
+    "sourceType": "text",
+    "content": "Read through the Marketplace documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/marketplace.html\n\n\nYou should now know about:\n\nMarketplace overview and architecture\nTypes of items available in the Marketplace\nAccess points for Marketplace items within Neptune DXP"
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724373-downloading-products-from-the-marketpalce-inspecting-the-packages",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724373-downloading-products-from-the-marketpalce-inspecting-the-packages",
+    "sourceType": "text",
+    "content": " \n\nThe Marketplace hosts a range of products, most of which you can install directly into your system. \n\nHere is an example of a product you can install: \n\n \n\n \n\n   There is a connection between Development Packages and Marketplace items you install. \n\n  When you install a product, you are installing a package, which can contain one or more artifacts. Within the Marketplace, after installing, you can click \"Open Package\" to open the Development Package tool straight into the installed package \n\nHere you can view the artifacts and utilise the shortcut to open them directly within their respective tools. \n\n \n\n  \n\n Press “Open” within the product to view the Neptune hosted repository, which integrates with the package via the CI/CD configuration. \n\nFor the example above:  \n\nhttps://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-uploadtomedialibrary \n\nNote, Neptune published items will be contained within this GitHub organisation. \n\n \n\nIf a product is installed, a re-install button will be visible: \n \n \n\nIt is important to re-install carefully when updates are available. Here you can see an example of the messaging available when your currently installed version doesn’t match the latest version linked to the Marketplace product: \n \n\n \n\nThe best practice is to copy / export the development item(s) included in the package you wish to re-install, so if there are critical issues, you can restore the original copy. \n\n "
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54724733-download-update-required-products-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54724733-download-update-required-products-from-the-marketplace",
+    "sourceType": "text",
+    "content": "A range of applications are included by default when you set up the Open Edition. These are the Adaptive Framework Applications and the Launchpad Application.\n\nThis is to enable functionality out of the box, however, it is highly recommended at this point to download and update these products via the Marketplace, so you are working with the latest stable functionality.\n\n\nPlease visit the Marketplace and Install:\nNeptune DXP - Open Edition Launchpad\nAdaptive Framework Templates\n\nThis will update the following applications:\n\n\nTo replace the provided applications with their latest copies.\nWhen updates are made to these products when you re-visit the product page in the Marketplace at any time, where you will be able to re-install to the latest version."
+  },
+  {
+    "chapterName": "Setup, Overview, Development Package & Marketplace Essentials",
+    "lessonTitle": "54755671-top-tip-action-button-placement",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54755671-top-tip-action-button-placement",
+    "sourceType": "text",
+    "content": "\n\n\nRemember to adjust the action buttons to the left, within your profile customizations - as when working on a larger screen, you may prefer the more user-friendly option of having them closer to the other common cockpit actions."
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755712-launchpad-documentation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54755712-launchpad-documentation",
+    "sourceType": "text",
+    "content": "Launchpad Documentation Link - Please read through this documentation page to learn about the concept of the Launchpad:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/launchpad-concept.html\n\nSecurity and Roles will be covered later in the course."
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755750-what-is-a-launchpad",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54755750-what-is-a-launchpad",
+    "sourceType": "video",
+    "content": "54755750-what-is-a-launchpad"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755901-launchpad-update-cycle",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54755901-launchpad-update-cycle",
+    "sourceType": "text",
+    "content": "The Launchpad is an Application that is created by Neptune, downloaded from the Marketplace and is regularly updated with new functionalities and bug fixes. \n\n  \n\nThe Launchpad application name is 'planet9_launchpad_standard'. \n\nWhen you configure a Launchpad within the developer cockpit, this is the application you choose within this ‘Launchpad Application’ field: \n \n\n  \n\nIt is always recommended to be running the latest version of the Launchpad. You can check at any time, the Marketplace product, to view the version running within your instance, compared to the version available to download. \n\nEG: When running the latest version, you will see this message: \n \n\nWhen you are running a different version, you will see this message: \n\n  \n\nIt is possible to make adjustments to the Launchpad application itself, like any other, but this is not recommended. For this purpose, there are 'Launchpad Enhancements' that cover this which will be explained in the expert level of this course. \n\nIf you attempt to use a different Launchpad application – you will see this warning: \n\n "
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755929-what-are-tiles-and-tile-groups",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54755929-what-are-tiles-and-tile-groups",
+    "sourceType": "text",
+    "content": "Overview of the Tile, Tile Group, and Launchpad Relationship:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/launchpad-concept.html#_launchpad_objects\n\nApps are assigned to Tiles.\nTiles are assigned to Tile Groups.\nTile Groups are assigned to Launchpads.\n\nTile Groups can also be included within other Tile Groups.\nTiles can also be configured, to open other Tile Groups.\n\nRoles, that can be created and assigned to users - can then be applied against Tile Groups or individual tiles - to enable full role-based access control for your Launchpad. This enables different users to see different tiles and tile groups.\n\nPlease read the overview pages for Tiles:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/tiles.html\n\nAnd for Tile Groups:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/tile-groups.html"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755965-dxp-demo-launchpad-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54755965-dxp-demo-launchpad-example",
+    "sourceType": "video",
+    "content": "54755965-dxp-demo-launchpad-example"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54755973-dxp-demo-advantages",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54755973-dxp-demo-advantages",
+    "sourceType": "text",
+    "content": "The DXP Demo is a useful example to understand the look and feel of applications built using the UI5 framework when running within the Neptune context.\n\nThese demos have specifically been built to utilize a range of common components and are based on real-life use cases.\n\nAll the DXP Demo examples are available for download within the Marketplace, so you can run the applications and processes yourself, adjusting and re-using to your convenience.\n\nThe UI5 documentation and library contains many other examples that are useful to familiarise yourself with, and to understand the capabilities and limitations of the framework. EG:\nhttps://sapui5.hana.ondemand.com/test-resources/sap/m/demokit/cart/webapp/index.html?sap-ui-theme=sap_horizon_dark"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54756041-exercise-creating-your-own-basic-launchpad-with-a-tile-group-and-two-tiles",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54756041-exercise-creating-your-own-basic-launchpad-with-a-tile-group-and-two-tiles",
+    "sourceType": "video",
+    "content": "54756041-exercise-creating-your-own-basic-launchpad-with-a-tile-group-and-two-tiles"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808062-highlight-tile-button-setting",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54808062-highlight-tile-button-setting",
+    "sourceType": "text",
+    "content": "\"Hide buttons and make tile clickable\" is a key setting that changes the way users will open the action set for the tile. Observe the difference here:"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808169-changing-the-name-of-your-launchpad-implications",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54808169-changing-the-name-of-your-launchpad-implications",
+    "sourceType": "text",
+    "content": "Changing the 'Name' property of your launchpad directly impacts the URL to access it.\nKeep this in mind if you have shared the Launchpad with others, that the name of the launchpad stays the same.\n\n%20 is a URL-encoded character.\n\nNote: You can learn more about URL encoding here: https://www.w3schools.com/tags/ref_urlencode.ASP"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808363-configuring-tiles-general-type-and-action-type-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54808363-configuring-tiles-general-type-and-action-type-example",
+    "sourceType": "video",
+    "content": "54808363-configuring-tiles-general-type-and-action-type-example"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808492-end-users-customising-a-launchpad-tile-layout",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54808492-end-users-customising-a-launchpad-tile-layout",
+    "sourceType": "video",
+    "content": "54808492-end-users-customising-a-launchpad-tile-layout"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808586-disabling-customisations-setting-customisations-for-individual-devices",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54808586-disabling-customisations-setting-customisations-for-individual-devices",
+    "sourceType": "text",
+    "content": "It Is possible to disable customizations at the launchpad level, for all users, using this setting.\nThis prevents the right-click menu for tiles from being opened, and the 'Edit Screen\" menu item will be removed.\n\nAlso note the following setting bellow \"Configure customizations for each individual device e.g. Mobile, Tablet, and Desktop separately.\".\n\n\n"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808854-download-the-elearning-example-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54808854-download-the-elearning-example-from-the-marketplace",
+    "sourceType": "text",
+    "content": "If you have not already, you can download the eLearning 2022 Demo product from the Marketplace.\n\nThis product will serve as an example for the next exercise in this chapter as well as within other exercises throughout the rest of this course."
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808865-exercise-re-organising-tile-groups-from-one-group-to-two-sub-groups-and-moving-tiles-between-tabs",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54808865-exercise-re-organising-tile-groups-from-one-group-to-two-sub-groups-and-moving-tiles-between-tabs",
+    "sourceType": "video",
+    "content": "54808865-exercise-re-organising-tile-groups-from-one-group-to-two-sub-groups-and-moving-tiles-between-tabs"
+  },
+  {
+    "chapterName": "Launchpad, Tile and Tile Group Basics",
+    "lessonTitle": "54808876-launchpad-layouts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54808876-launchpad-layouts",
+    "sourceType": "video",
+    "content": "54808876-launchpad-layouts"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54830854-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54830854-introduction",
+    "sourceType": "text",
+    "content": "Familiarise yourself with the Table Definition and Browser documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/table-definition.html\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/table-browser.html\n\nTables are where we can store and persist data to be utilized across the platform. Tables consist of Properties (rows) and entries (columns).\n\nIt is possible to use one large table to power an application or a combination of smaller ones. There is no one-size-fits-all approach - but in general, you will want to separate your data logically.\n\nEach entry created within a Table within the platform will have 5 automatically populated properties.\nCreatedBy\nCreatedAt\nUpdatedBy\nUpdatedAt\nA unique ID (GUID)\n\nWhen a new record is created, these properties are created and stored automatically, and can't be edited. Only the UpdatedAt and UpdatedBy properties are adjusted to reflect any changes made to the rest of the record."
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54830875-table-definition-and-browser",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54830875-table-definition-and-browser",
+    "sourceType": "video",
+    "content": "54830875-table-definition-and-browser"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54831985-understanding-data-types",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54831985-understanding-data-types",
+    "sourceType": "text",
+    "content": "Let’s now look at the properties you can select for your definition:\n\n\n \n\nIn the context of SQL (Structured Query Language), which is used for managing and manipulating relational databases, these data types represent the kind of data that can be stored in a column of a database table:\n\nText: A data type for storing long-form text strings. It can hold a string with a maximum length that is dependent on the database system (often very large, up to GBs of text).\nUUID (Universally Unique Identifier): Used to store unique identifiers across a database. UUIDs are 128-bit values that are globally unique. They are used in various software applications to ensure a higher level of uniqueness than traditional incrementing IDs.\nDecimal: A fixed-point number where the number of digits before and after the decimal point is fixed, based on the specified precision and scale. It's used to store exact numeric data values, often for financial calculations where rounding errors of floating-point numbers are unacceptable.\nBoolean: A simple binary data type that can store true or false values. It is used to store truth values, often in flags that indicate a condition, such as is_active or has_logged_in.\nSmallint: A small-range integer data type that is used to store a numeric value without a decimal. It generally has a smaller range and storage size than a standard integer, often from -32768 to 32767.\nInteger: The standard data type for numerical values that don't require a fraction. It's used to store whole numbers, typically with a range from -2,147,483,648 to 2,147,483,647.\nBigint: An extended-size integer data type that can store very large numbers, usually with a range from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. It's used when the range of integers is insufficient.\nSmalltext: This isn't a standard SQL data type, but based on its naming, it's likely a text string with a smaller limit on its size than a full 'Text' data type. Specific details would depend on the SQL database system in use.\nMediumtext: Similar to the 'Text' data type, but usually with a smaller maximum size. The exact limit can vary by the database system.\nTimestamp With Time Zone: Stores a date and time with an associated time zone offset from UTC. It is used when you need to record the exact time an event occurs and maintain the correct time relative to the time zone.\nTimestamp Without Time Zone: Similar to the above but does not store any time zone data. It represents a specific point in time and is usually considered as being in the local time zone of the database server.\nJSON (JavaScript Object Notation): A data type for storing JSON documents. It allows the storage of structured data in a text format that can be easily parsed and generated by many programming languages."
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54832003-default-database-configuration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54832003-default-database-configuration",
+    "sourceType": "text",
+    "content": "By default, the platform will be running on its embedded SQLite database.\n\nThe platform can and should be configured with different databases for productive purposes.  This still utilizes the same Table Tools.\n\nThis is not required for this training course, however, if you wish to learn more, you can read about the settings to configure within the Documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/installation-guide/configuring-database.html"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54832010-exercise-create-your-own-table-based-on-this-example-specification-and-add-data",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54832010-exercise-create-your-own-table-based-on-this-example-specification-and-add-data",
+    "sourceType": "text",
+    "content": "To define an example customer table with properties, data types, and unique and nullable properties, you can follow these steps:\n\n    Open Neptune Cockpit and go to \"Tools\" and click on \"Table Definition\".\n    Open your desired database table.\n    Navigate to the \"Properties\" tab.\n    Click on \"+ Add\" to add a new column to the table.\n    Enter a column name for each property, such as \"name\", \"age\", \"email\", \"address\", and \"phone_number\".\n    Select the appropriate data type for each column, such as \"text\" for email and address, and \"Integer\" for age and phone_number.\n    Optionally, you can enter a description and default value for each column.\n    If a column should only have unique values, activate the \"Unique\" option.\n    If a column can have no value, activate the \"Nullable\" option.\n\n\nHere's an example of how the customer table properties could look like:\n\nColumn Name    | Data Type    | Unique    | Nullable\n---------------------------------------------------\nname           | text         |        | No\nage            | Integer      | No        | No\nemail          | text         | Yes       | No\naddress        | text         | No        | Yes\nphone_number   | Integer      | Yes | Yes"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54832093-understanding-data-concepts-objects-arrays-json",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54832093-understanding-data-concepts-objects-arrays-json",
+    "sourceType": "text",
+    "content": "Array vs Object Diagram\n\nAn Array =\nA Table, or List, repeating information\n\nAn Object =\nA single record, such as what is displayed in a form.\nOften many objects are contained within an array\n\nWithin an object, there are Key-Value pairs.This is where the column name and data are stored within the structure.\n\n\nWhat is JSON?\n\nData is stored within the tables as JSON. This is just the name of the structure of the data in its raw form. In the case of the Tables within the platform, this is an array of objects.\n\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54832309-null-vs-false",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54832309-null-vs-false",
+    "sourceType": "text",
+    "content": "Note the difference between a null value and a false value, particularly around assigning booleans.\n\nIn JSON, null and false are two different values with distinct meanings.\n\n    null: It represents the absence of a value or the intentional lack of a value. When a property or variable is assigned the value null, it means that there is no value present. It is often used to indicate that a particular property or field is intentionally empty or has no assigned value.\n\nExample:\n\n{\n  \"name\": \"John\",\n  \"age\": null,\n  \"isActive\": true\n}\n\nIn this example, the age property is set to null, indicating that the age of the person is not known or not applicable.\n\n    false: It represents a boolean value that is logically false. It is used to indicate that a condition or statement is not true. A value of false indicates that the statement or condition is false or not valid.\n\nExample:\n\n{\n  \"name\": \"John\",\n  \"isStudent\": false,\n  \"isActive\": true\n}\n\nIn this example, the isStudent property is set to false, indicating that the person is not a student.\n\nTo summarize, null represents the absence or lack of a value, while false represents a boolean value that is logically false.\n\nYou can use logic like this if in your scenario, both Null and False are logically the same:\n    if (value === null || value === false) {}"
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54832341-including-table-data-when-deploying",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54832341-including-table-data-when-deploying",
+    "sourceType": "text",
+    "content": "Within the table configuration, there is a setting - \"Include Table Data in Development Package (when pushing to git)\"\n\n\n\nThis ties in with the Development Package CI/CD process - when this setting is enabled, and the package is deployed to GitHub - a separate JSON containing the table data will be included.\nThis results in the table data being added to the definition when it is installed via the Development Package import from Git, or installed via the Marketplace (which installs from Git in the background).\n\nMore information about the Git CI/CD process is available within the Advanced course, within the Deployment Mastery chapter."
+  },
+  {
+    "chapterName": "Data Management Fundamentals: Tables",
+    "lessonTitle": "54833511-table-browser-form-viewer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54833511-table-browser-form-viewer",
+    "sourceType": "text",
+    "content": "A form viewer is available within the Table Browser (23.10.3+), allowing you to view and edit individual line items within a dedicated dialog."
+  },
+  {
+    "chapterName": "Introduction to the different ways to build apps (No-Code vs Low-Code vs Pro-Code)",
+    "lessonTitle": "54833683-summary-of-progress-so-far",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54833683-summary-of-progress-so-far",
+    "sourceType": "text",
+    "content": "Summary of course progress so far:\n\n\nThe fundamentals of the platform have been introduced.\nYou understand that Development packages are used to organize all the components you create within the platform.\nYou know there are a range of 'Application Building Blocks' within the Marketplace to download, explore, and integrate across your platform.\n\nYou understand a Launchpad is a responsive Desktop and mobile-ready container, with Tile Groups and Tiles. Later in this course, you will learn how the addition of Roles enables different users to have different levels of access to these Tiles and Groups and the applications and integrations they utilize.\nYou have accessed some pre-made examples and created your own first simple Launchpad.\n\nYou understand what tables are, how to create them with the Table Definition tool, and how to view and edit the data with the Table Browser.\nYou understand that table records are arrays of objects, each object containing key-value pairs, where the key is in the table property name, and the value is the unique value for that row.\nYou know that local instances will be configured with a lightweight SQLite database layer by default - but for productive use, it is recommended to deploy a scalable separate database layer, and configure the platform to connect to this. This will be covered in the Expert training level.\n\n\n\n"
+  },
+  {
+    "chapterName": "Introduction to the different ways to build apps (No-Code vs Low-Code vs Pro-Code)",
+    "lessonTitle": "54834128-understanding-the-no-code-low-code-and-pro-code-concept",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54834128-understanding-the-no-code-low-code-and-pro-code-concept",
+    "sourceType": "text",
+    "content": "Next up it is recommended to read through this blog post:\n\nNo-Code, Low-Code & Pro-Code Tooling Integration Diagrams\nhttps://community.neptune-software.com/topics/neptune-dxp/blogs/no--code--low--code---pro--code--tooling--integration--d\n\nThis blog post introduces the next set of tools we will discover in this course - and how their output will feed into the Launchpad for end users to utilize:\n\nThe App Builder (No-Code Designer)\nThe Adaptive Framework (No-Code Designer)\nConnectors\nThe App Designer (Low-Code Designer)\nThe Script Editor (Pro-Code Editor)\n\nAdditional information about the Add-Ons mentioned in this blog post will be available in the Expert level of this course."
+  },
+  {
+    "chapterName": "Introduction to the different ways to build apps (No-Code vs Low-Code vs Pro-Code)",
+    "lessonTitle": "54834573-next-up",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54834573-next-up",
+    "sourceType": "text",
+    "content": "Over the next few chapters of the course, you will start building your own applications using the new tools you have just learned about. The focus will start with the no-code tools, which are optimized for designing and building the front-end (interfaces) of applications.\n\nThe App Builder - Released 2022 - Allows you to use drag and drop to assemble multi-screen applications, using different components. There are a number of handy features that will be covered in the dedicated chapter about this tool.\nCurrently, the App Builder allows you to add 'mock', or 'test' data, which is static and can be used to generate responsive Tables and Lists.\nThe apps built using this tool should be exported when they reach the end of their design process, to then be imported and integrated into your own instance of the platform.\n\nThe Adaptive Framework - Is data-driven and relies on Templates combined with a data source (connector) to create the front end of the apps. These applications work off live database tables."
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864367-app-builder-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54864367-app-builder-introduction",
+    "sourceType": "text",
+    "content": "Welcome to the App Builder - this is a unique tool as it is hosted and used within the Neptune Portal.\nYou can access it via the cockpit (opens in a new tab), or via this link:\nhttps://portal.neptune-software.com/app/appbuilder\nYou will need to login to the Neptune Portal to use the App Builder. Please register for an account if you have not already.\n\nThis chapter will be based on an existing comprehensive tutorial, available on YouTube.\nThe full video here is available as a reference, however, this chapter will focus only on the relevant parts for this stage of the eLearning course. The full video shows a full deployment process via the Marketplace, into your Open Edition instance.\n\nhttps://www.youtube.com/watch?v=MKGKVn6e6DE\n\n\n\nIt is important to understand that the Apps being built with the App Builder - use the same underlying components and functionality as the rest of the toolset within the platform. This means that the apps built here, are forward compatible with the App Designer. The same UI5 framework components are used."
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864573-building-the-functional-foundation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864573-building-the-functional-foundation",
+    "sourceType": "video",
+    "content": "54864573-building-the-functional-foundation"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864580-new-lessonintegrating-data-and-wizard-development",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864580-new-lessonintegrating-data-and-wizard-development",
+    "sourceType": "video",
+    "content": "54864580-new-lessonintegrating-data-and-wizard-development"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864717-buttons-and-events",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864717-buttons-and-events",
+    "sourceType": "video",
+    "content": "54864717-buttons-and-events"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864724-sharing-options",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864724-sharing-options",
+    "sourceType": "video",
+    "content": "54864724-sharing-options"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864761-using-advanced-mode-in-app-builder",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864761-using-advanced-mode-in-app-builder",
+    "sourceType": "video",
+    "content": "54864761-using-advanced-mode-in-app-builder"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864772-app-settings-moving-from-sandbox-to-account",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864772-app-settings-moving-from-sandbox-to-account",
+    "sourceType": "video",
+    "content": "54864772-app-settings-moving-from-sandbox-to-account"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864801-exporting-the-app-to-a-file-to-import-into-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864801-exporting-the-app-to-a-file-to-import-into-the-app-designer",
+    "sourceType": "video",
+    "content": "54864801-exporting-the-app-to-a-file-to-import-into-the-app-designer"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864551-achievements",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54864551-achievements",
+    "sourceType": "text",
+    "content": "The App Builder has Achievements!\n\nUse this as a guide to help learn all the aspects of the tool. Each achievement has a built-in helper that shows you how to achieve it. Aim for 100%!"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54864832-explore-then-download",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54864832-explore-then-download",
+    "sourceType": "text",
+    "content": "Note: The App Builder doesn't follow the same update lifecycle as the Open Edition platform, since the App Builder is running within the DXP Portal. This means new functionality can be available next time you use the App Builder. Feel free to leave your own feedback for us, as it helps us improve the App Builder!\n\n\nFun fact: This feedback framework is available to download and use within your own applications, from the Marketplace!\n\n\n\n\nOnce you have finished exploring the capabilities of the App Builder, remember to export the app to an Open Edition file, as it will be used in the App Designer Pt1 chapter!"
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54865294-deeper-understanding-of-the-layouts-and-responsive-design-principle-wrap",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54865294-deeper-understanding-of-the-layouts-and-responsive-design-principle-wrap",
+    "sourceType": "text",
+    "content": "Remember to build your applications with their intended users in mind - will they only be used on a Mobile or Tablet, or Desktop, or all three scenarios?\n\nYou can easily change the layout of your application within the App Builder, to see how your components respond to different sizes and orientations.\n\n\n\n\nNot every interface component is optimised to fit on a smaller screen. Controlling how users navigate through your applications interface can help design different screens for different screen sizes. You can show or hide components depending on the size of the viewport too.\n\n\n\n\nA range of Layout components are available to help you organize components within your interface:\n\n\nIn particular, the Horizontal Box and Vertical box are the most commonly used.\n\nThese are standard HTML containers, and when understood, can be utilised to achieve most layouts. Here is a more complex example with nested containers:\n\n\n\n\n\nThese containers, along with other components such as Text, have a \"wrap\" property, which impacts their behavior when there is not enough room on the screen.\n\nThis a standard web development practice, where lots of information and examples are available, and the possibilities of combinations are nearly endless:\n\n\nMuch more detailed information and examples are available in the App Builder chapters of this course."
+  },
+  {
+    "chapterName": "Creating Your First App: App Builder ",
+    "lessonTitle": "54865858-headers-and-footers-bar-bar-content",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54865858-headers-and-footers-bar-bar-content",
+    "sourceType": "text",
+    "content": "There are pre-made building blocks for Header and Footer implementations.\n\nHeaders, subheaders and footers are sticky the page, so are always visible.\n\nIn advanced mode, you can find the \"Bar\" component, which functions as a Header, Sub Header or Footer component.\nWhen you drag and drop this component into your app, it will ask where you would like to aggregate it:\n\ncustomHeader will replace the default screen header so you can add your own components.\n\nWhen you continue to add more components to the bar, it will ask what position you wish to place it in:\n\n\n"
+  },
+  {
+    "chapterName": "(Table) Connectors",
+    "lessonTitle": "54835055-connectors-and-tables",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835055-connectors-and-tables",
+    "sourceType": "text",
+    "content": "Familiarise yourself with the Connector tool Documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/connectors.html\n\nTable connector setup\nA connector can be used to facilitate quick and easy communication with tables you have defined.\n\nIt is possible to generate a connector based on a table.\nWithin the Table Definition tool, select a table, click Edit, click Generate, then click Connector. You can use the default name, and assign a package.\nThis will then create the connector, and open the Connector tool to display it.\n\nYou can also create the connector manually within the Connector tool.\nSimply configure the 'Data Source' as Table, and select your table within the 'Table Definition'.\n\nConnectors can be used within the Adaptive Designer, and App Designer, to provide communication with the table, within the applications you build.\n\nBoth the Adaptive Designer and App Designer tools will be covered later in this foundation course.\n\nConnectors can be used for more purposes than just communicating with Tables.\nMore information about advanced use of the Connectors will be in the Advanced level of the course."
+  },
+  {
+    "chapterName": "(Table) Connectors",
+    "lessonTitle": "54835129-exercise-generate-a-connector",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835129-exercise-generate-a-connector",
+    "sourceType": "text",
+    "content": "Exercise:\nGenerate a connector based on a table you have defined, by opening the Table Definition tool, and using the \"Generate\" feature, available when the table definition is in edit mode.\n\nThese will be used later in the course."
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835201-foreword",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835201-foreword",
+    "sourceType": "text",
+    "content": "This chapter of the eLearning integrates an existing course dedicated to the Adaptive Framework - released in 2023.\nhttps://community.neptune-software.com/topics/planet-9/blogs/adaptive-framework-add-on\n\nThe cockpit and designer interface in the videos may be using an older theme, but the same underlying functionality is available."
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835463-promotional-overview-video",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835463-promotional-overview-video",
+    "sourceType": "text",
+    "content": "https://www.youtube.com/watch?v=9MVEtnRieIQ\n\nYou can watch this short promotional video around the Adaptive Framework, to give yourself an idea of what the Adaptive Framework is, and what templates are available to use with it! \n\nA full introduction is coming up next."
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835475-introduction-presentation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835475-introduction-presentation",
+    "sourceType": "video",
+    "content": "54835475-introduction-presentation"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835510-adaptive-framework-setup-download-the-adaptive-framwork-applications-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835510-adaptive-framework-setup-download-the-adaptive-framwork-applications-from-the-marketplace",
+    "sourceType": "video",
+    "content": "54835510-adaptive-framework-setup-download-the-adaptive-framwork-applications-from-the-marketplace"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835584-1-list-app-with-multiselect-filter-and-date-formatting",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835584-1-list-app-with-multiselect-filter-and-date-formatting",
+    "sourceType": "video",
+    "content": "54835584-1-list-app-with-multiselect-filter-and-date-formatting"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835586-2-edit-app",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835586-2-edit-app",
+    "sourceType": "video",
+    "content": "54835586-2-edit-app"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835590-3-combining-list-and-edit-apps-create-delete-export-import-and-rules-engine",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835590-3-combining-list-and-edit-apps-create-delete-export-import-and-rules-engine",
+    "sourceType": "video",
+    "content": "54835590-3-combining-list-and-edit-apps-create-delete-export-import-and-rules-engine"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835601-changing-one-of-the-inputs-to-a-date-picker",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835601-changing-one-of-the-inputs-to-a-date-picker",
+    "sourceType": "video",
+    "content": "54835601-changing-one-of-the-inputs-to-a-date-picker"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835618-4-build-and-adaptive-tile-chart-and-add-it-to-the-launchpad",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835618-4-build-and-adaptive-tile-chart-and-add-it-to-the-launchpad",
+    "sourceType": "video",
+    "content": "54835618-4-build-and-adaptive-tile-chart-and-add-it-to-the-launchpad"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835613-download-the-example-hr-launchpad",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835613-download-the-example-hr-launchpad",
+    "sourceType": "text",
+    "content": "\n"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835598-5-launchpad-sidepanel-and-dynamic-title",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835598-5-launchpad-sidepanel-and-dynamic-title",
+    "sourceType": "video",
+    "content": "54835598-5-launchpad-sidepanel-and-dynamic-title"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835790-changing-one-of-the-inputs-to-a-lookup",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54835790-changing-one-of-the-inputs-to-a-lookup",
+    "sourceType": "video",
+    "content": "54835790-changing-one-of-the-inputs-to-a-lookup"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835826-try-out-the-adaptive-framework-in-the-dxp-demo-system",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835826-try-out-the-adaptive-framework-in-the-dxp-demo-system",
+    "sourceType": "text",
+    "content": "The entire Sales CRM demo is built using the Adaptive Framework!\n\nTry it out here:\n\nhttps://dxpdemo.neptune-software.cloud/launchpad/DXP#sales-CRM"
+  },
+  {
+    "chapterName": "Adaptive Designer (and Rules Engine) Introduction",
+    "lessonTitle": "54835906-install-the-crm-sales-operation-portal-demo-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54835906-install-the-crm-sales-operation-portal-demo-from-the-marketplace",
+    "sourceType": "text",
+    "content": "Get hands on with the CRM Demo within your own instance!\n\n\n"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836115-basics-of-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54836115-basics-of-the-app-designer",
+    "sourceType": "video",
+    "content": "54836115-basics-of-the-app-designer"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836445-find-download-and-install-the-sample-applications",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54836445-find-download-and-install-the-sample-applications",
+    "sourceType": "text",
+    "content": "Visit the Marketplace, search for and install the 'UI5 Application Samples' product.\n\n \n\nThis package contains 100+ examples of common components in use, each within its own independant application:\n\nThe value of having these samples installed in your own instance, is to enable you to easily reference them, by opening them and inspecting your desired component(s) running with several different property configurations.\n\n \n\nFor example, you might want to implement a slider within your App. You can find and open the ‘SAMPLE_SLIDER’ sample application, which contains a range of the same UI5 Slider component configured with different properties. Such as with a label, or with steps, in this example:\n\nYou can then simply copy and paste the component (with its configured properties) into your own application to utilise.\n\nThis promotes reusability, and is encouraged throughout the development process – you should aim to re-use and reference examples where possible!\n\n \n\nFor reference, the GitHub repo where the apps are stored is found here: https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-sampleapps\n\nMore information around GitHub CI/CD is available later in the course.\n\n \n\nIt is worth highlighting the sample apps included in this package are also the same ones running within the Portal resources:\n\nhttps://portal.neptune-software.com/launchpad/portal#p9Sample-display\n\n "
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836549-building-your-first-new-app-with-common-components-using-navigation-events",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54836549-building-your-first-new-app-with-common-components-using-navigation-events",
+    "sourceType": "video",
+    "content": "54836549-building-your-first-new-app-with-common-components-using-navigation-events"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836475-exercise-clear-the-form-on-submit",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54836475-exercise-clear-the-form-on-submit",
+    "sourceType": "text",
+    "content": "Time to test your knowledge.\n\nNotice when you add data to the input fields, and press 'Submit' to navigate to the next page - and then press back to return to the first page - the data remains in the Inputs.\nTo clear the data, add to the Submit buttons press event:\n\nInputFirstName.setValue(\"\")\nInputAge.setValue(\"\")\n\n\nThis sets the value to an empty string.\nNow activate and test the process again - and note the input fields are reset after submitting."
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836613-selecting-the-correct-components-from-the-component-library",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54836613-selecting-the-correct-components-from-the-component-library",
+    "sourceType": "text",
+    "content": "Pay attention to the components you are selecting from the component tree!\n\nFor many components there are both the UI5 version, and the Bootstrap version available to use. Bootstrap components are covered later in the course. They have most of the same functionality as the UI5 component, however have some differences, including their styling.\n\n\nHighchart components, utilising the Highchart library, are also available and will be covered in a dedicated chapter later in the course."
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836764-layout-components",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54836764-layout-components",
+    "sourceType": "video",
+    "content": "54836764-layout-components"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836919-responsive-design-principles",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54836919-responsive-design-principles",
+    "sourceType": "text",
+    "content": "Foundation eLearning – Responsive Design Principles\n\n  \n\nThis document describes the responsive design principles within the App Designer.\n\nTo showcase the responsive design principles, the SAMPLE_HBOXVSVBOX application from the UI5 Application Samples package has been used. \n\n \n\nDownload the UI5 Application Samples from the Marketplace and open the SAMPLE_ HBOXVSVBOX application in the App Designer. \n\n \n\n \n\n \n\nLet’s have a look at the more comprehensive example within the third tab of the application.\n\nSAMPLE_ HBOXVSVBOX – third tab\n\n \n\n \n\nYou can adjust the size of the view port to mimic the size of different screens when running the application.\n\nAdjust the view port\n\n \n\nOne of the most important properties to consider when using layout boxes is the Wrap property. \n\nThe wrap property in layout boxes like HBox and VBox directly affects how the elements behave when the available space changes, which is crucial for responsiveness:\n\nWhen the wrap property is set to wrap, the items will wrap onto the next line or column as the container's size decreases, ensuring that all items remain visible and arranged even on smaller screens. This is ideal for creating responsive layouts.\n\nWhen the wrap property is set to NoWrap, the items will try to maintain their position in a single line or column. If there isn't enough space, they may overflow the container, potentially causing a horizontal scrollbar or cutting off content.\n\n \n\n \n\n\n\n\n \n\nAnother property that aids when building responsive applications is the styleClassVisibility. This property allows you to dynamically control the visibility of the components within your application.\n\nThe styleClassVisibility has multiple options to choose from:\n\nsapUiHideOnDesktop: Hides the component on desktop devices.\nsapUiHideOnPhone: Hides the component on mobile devices.\nsapUiHideOnTablet: Hides the component on tablet devices.\nsapUiVisibleOnlyOnDesktop: Makes the component visible only on desktop devices.\nsapUiVisibleOnlyOnPhone: Makes the component visible only on mobile devices.\nsapUiVisibleOnlyOnTablet: Makes the component visible only on tablet devices.\n \n\nIn the following example the HBox3, which contains the price information of the product, has the styleClassVisibility set to sapUiHideOnPhone, therefore the panel will be visible on Desktop and Tablet devices, but hidden on Mobile devices.\n\nstyleClassVisibility example\n\n \n\n \n\n \n\nIt is important to consider the design of your interface, and to implement layout components to account for your different use cases. Most components are responsive by default, however when combining mutliple components, it is your responsibility to decide the behaviour of how these components should be arranged when the application runs on different devices and screen sizes.\n\n "
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54836983-layout-revsion",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54836983-layout-revsion",
+    "sourceType": "text",
+    "content": "Layout Boxes – Revision\n\n \n\nThis document offers additional insights into Layout boxes. Layout boxes in OpenUI5, such as HBox and VBox, essentially function as HTML <divs> designed for layout purposes within the application. They provide a structured way to organize and position UI elements.\n\n \n\nHBox – Horizontal Box\n\nIf you wish to display content on the right side within an HBox, you can achieve this by setting the justifyContent property to “End”, as demonstrated in the figure below\n\n \n\n \n\nTo create space around the content within the HBox, you can set the justifyContent property to \"SpaceAround,\" as demonstrated in the figure below.\n\n \n\n \n\n \n\nTo create space between the content within the HBox, you can set the justifyContent property to \"SpaceBetween,\" as demonstrated in the figure below.\n\n  \n\n \n\n \n\nTo center the content of the HBox, you can set the justifyContent property to “Center”, as seen in the figure below. \n\n  \n\n \n\nVBox – Vertical Box\n\nThe height of a VBox in OpenUI5 adjusts automatically based on the number of components added to it. However, if you want the VBox to take up the full height of the page, you'll need to set the height property to 100%.\n\nIf you wish to display content on the bottom within an VBox, you can achieve this by setting the justifyContent property to “End”, as demonstrated in the figure below\n\n \n\n \n\nTo create space around the content within the VBox, you can set the justifyContent property to \"SpaceAround,\" as demonstrated in the figure below.\n\n \n\n \n\nTo create space between the content within the VBox, you can set the justifyContent property to \"SpaceBetween,\" as demonstrated in the figure below.\n\n \n\n \n\nTo center the content of the VBox, you can set the justifyContent property to “Center”, as seen in the figure below. \n\n \n\n  \n\n \n\nHBox and VBox: alignItems and justifyContent \n\n \n\nIn an HBox context, the alignItems property controls vertical alignment of content, while the justifyContent property controls horizontal alignment within the HBox.\n\n \n\nIn a VBox context, the e alignItems property controls horizontal alignment of content, while the justifyContent property controls vertical alignment within the HBox.\n\n \n\nEssentially, they are the same but just opposite!\n\n \n\n \n\n\n\n\n \n\nApp Builder layout properties comparison\n\n \n\nWithin the App Builder, the alignItems property of a VBox is referred to as \"Place content horizontally\", while the justifyContent property is referred to as \"Place content vertically\".\n\nWhereas in the context of an HBox, in the App Builder, the alignItems property is referred to as \"Place content vertically\", while the justifyContent property is referred to as \"Place content horizontally\".\n\nFor instance, in the example below, a VBox is used with alignItems set to center, which horizontally centers the content. The justifyContent is set to end, so the content is displayed at the bottom of the VBox. The outcome of these properties is the same in both the App Designer and App Builder as seen in the following figure. \n\n \n\n \n\n "
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54838405-adding-bars-and-barcontents-to-an-application-add-basic-component-to-the-barcontents",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54838405-adding-bars-and-barcontents-to-an-application-add-basic-component-to-the-barcontents",
+    "sourceType": "video",
+    "content": "54838405-adding-bars-and-barcontents-to-an-application-add-basic-component-to-the-barcontents"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54838597-inspecting-the-developer-console-f12",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54838597-inspecting-the-developer-console-f12",
+    "sourceType": "video",
+    "content": "54838597-inspecting-the-developer-console-f12"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54839368-minify-source-code-related-error",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54839368-minify-source-code-related-error",
+    "sourceType": "text",
+    "content": "Uncaught (in promise) TypeError: e is undefined\n\n\nIf you see this error, you can untick \"Minify Source Code\" in the application settings, to view the true name of the variable.\n\nAfter changing the setting:"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54839945-message-toast-inform-end-users",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54839945-message-toast-inform-end-users",
+    "sourceType": "video",
+    "content": "54839945-message-toast-inform-end-users"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840055-writing-good-error-messages",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840055-writing-good-error-messages",
+    "sourceType": "text",
+    "content": "Writing good error messages can be the difference between a useable application, and something that confuses and frustrates end users.\n\nHere is some guidance on how to write a good error message for your users.\n\n\n\n\n \n\n\n"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840078-searching-within-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840078-searching-within-the-app-designer",
+    "sourceType": "text",
+    "content": "As you start to build more comprehensive applications, searching for what you need within the App Designer becomes a vital skill. Here are a few of the search processes available:\n\n \n\n \n\n \n\nOpen some example applications and test each of these search processes to become familiar with their capabilities!"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840151-app-builder-import-to-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840151-app-builder-import-to-app-designer",
+    "sourceType": "text",
+    "content": "Foundation eLearning – Import App Builder application in App Designer\n\n \n\n \n\n \n\n \n\nThis document describes the process of importing an App Builder application in the App Designer. \n\n \n\nTo showcase this functionality, the “My First App!” application from the Marketplace has been used, but you can also use the application built in the App Builder chapter.\n\n \n\nDownload the “My First App!” from the Marketplace and open the application in the App Designer.\n\n \n\n \n\nIf you've opted to use the application built in the App Builder chapter, click on the “Export to Open Edition” button within the App Builder, and the application file will be downloaded.  \n\n \n\n \n\nOnce the file has been downloaded, open the App Designer, click on \"New From File,\" and select the application file from your machine.\n\n \n\nApp Designer - Import application from file\n\n \n\nOnce you've opened the application in the App Designer or imported it from a file, the application will be available for editing in the App Designer.\n\nNote: The application imported into the App Designer remains unchanged, so it will look the same as it did in the App Builder.\n\n \n\nApp Builder application in the App Designer\n\n \n\n \n\n \n\nTest data\n\nThe import functionality also includes any test data assigned to your application within the App Builder. Bindings are preserved, and the data is added to the models of the components at runtime. Therefore, you can easily continue developing the application within the Low-Code environment of the App Designer. It is then possible to swap (disable) the static (hardcoded) test data and integrate an API to request the data at runtime. \n\n \n\nMore information about Models and Bindings, along with API integration, is covered in the Foundation - App Designer Part 2 chapter.\n\n \n\nApp Builder Test Data\n\n \n\nAbove we can focus on two files that will be present within your imported App Builder application if you have assigned test data to it. The first is a MultiModel component called “TestData”, and the second is a JavaScript file, that runs when the application starts, that sets the data to the MultiModel “TestData”. You can see the JSON stored within the JavaScript file.\n\nAny components, such as the Table in the above example – that point to the model, will utilise their bindings to display the data, just as in ‘Run Mode’ within the App Builder.\n\n \n\nConclusion\n\n \n\nIn conclusion, the import functionality bridges the gap between the No-Code environment of the App Builder and the Low-Code environment of the App Designer. It enables you to design your application in the App Builder as per your requirements, then seamlessly import it into the App Designer to further enhance it with additional functionality, logic, APIs, server scripts, and more.\n\n "
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840178-javascript-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840178-javascript-introduction",
+    "sourceType": "text",
+    "content": "From here on, small sections of code will be implemented to perform a number of functional tasks within your application. From showing and hiding components to getting and setting data, everything should be simple and self-explanatory at this stage.\n\nIf you are familiar with JavaScript, great! If this is the first time you have seen code, don't worry - just follow along and see what patterns you can observe. You only need to know and understand a little to go a long way!\n\nJavaScript will be utilized more later in the course, in the Pro-Code tooling (Script Editor).\n\n\n\n\nYou can learn a lot very quickly about JavaScript by utilising resources online.\n\nhttps://www.w3schools.com/js/js_statements.asp\n\nFor example, here is a recommended site where you can click next to cycle through many topics to learn all of the basics around JavaScript if you are not familiar with it."
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840471-programatically-interacting-with-components",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54840471-programatically-interacting-with-components",
+    "sourceType": "video",
+    "content": "54840471-programatically-interacting-with-components"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840669-how-to-perform-good-data-validation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54840669-how-to-perform-good-data-validation",
+    "sourceType": "video",
+    "content": "54840669-how-to-perform-good-data-validation"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840807-understanding-the-different-application-types",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840807-understanding-the-different-application-types",
+    "sourceType": "text",
+    "content": "Application, Adaptive Template, Building Block, Launchpad, Custom Component.\nThese flags exist for Applications created or installed within the platform.\n\nAt this stage, it is only important to understand the difference between an application of type: Application and type: Building Block.\n\nApplication is the default type and represents the main place for your logic. It is what your users access and use.\n\nBuilding Block type is fundamentally the same as a normal application - however, it will be visible within the right-click menu of the App Designer component tree. These types of applications are designed to be \"copied\" into other apps, to help speed up the development process.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-designer-application-building-blocks.html\n\nAdaptive Template type applications are used exclusively by the Adaptive Designer. These are complex and follow a specific structure. It is recommended to just use the Neptune provided templates downloaded from the Marketplace.\n\nLaunchpad type applications follow a similar approach - these are specifically used within the Launchpad tool when creating a launchpad. The 'planet9_launchpad_standard' provided by Neptune, which is downloaded from the Marketplace, is the one recommended for use. It is important to know the launchpad is just like a normal application under the hood.\n\nCustom Components will be covered in more detail in the Expert level of the course.\n\n\n"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840882-fiori-design-guidelines",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840882-fiori-design-guidelines",
+    "sourceType": "text",
+    "content": "Links to these resources are included in the previous lessons, it is important to understand the importance of learning about the guidelines for implementation of the components you are utilizing within your applications. There are best-case components for different scenarios - you should account for optimizing the experience for your end users, using your applications, based on the guidelines here:\n\nhttps://experience.sap.com/fiori-design-web/"
+  },
+  {
+    "chapterName": "App Designer Pt.1 Introduction",
+    "lessonTitle": "54840956-autogenerated-versions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54840956-autogenerated-versions",
+    "sourceType": "text",
+    "content": "Foundation eLearning – Generate Application Versions \n\n \n\n \n\n \n\nThis document describes the process of generating versions of your application in the App Designer. This feature offers you the ability to save previous versions of your application, allowing you to effectively track changes and maintain a history of your app’s previous iterations.\n\nIn the App Designer, you have the option to manually generate versions or enable the autogenerated versions of your application.\n\n \n\n \n\nManual Version Generation \n\n \n\nTo manually create versions of your application, click on the Application, then choose \"Generate Version\" from the dropdown menu. In the description field of the dialog, provide a name for the version and click on \"Create.\"\n\n \n\n \n\n \n\nTo preview the generated version click on the Version Management from the left side menu of the App Designer. Within this tab, the right pane displays the previous version of the application, while the left pane displays the current version (V1).\n\n \n\n \n\nVersion Management also provides the option to export the previous version of the application by clicking the \"Export\" button.\n\n \n\nAutogenerated Versions \n\n \n\nAutogenerated versions allow you to generate application versions automatically upon activation. To enable this feature, go to the application settings, navigate to the properties tab, and enable \"Autogenerated Versions.\" You can then specify the number of versions to keep in history upon activation.\n\n \n\n \n\n \n\nOnce Autogenerated Versions is enabled, the App Designer will generate a new version of the application every time it is activated. These versions can be previewed within the Version Management tab. In this tab, the right pane shows the previous version of the application, while the left pane displays the current version. The right panel contains all the autogenerated versions of the application, each of which can be exported using the \"Export\" button.\n\n \n\n \n\n \n\n \n\nRevert Changes to applications\n\n \n\nTo revert changes made to an application, you have two options. You can export a previous version and then import it back into the App Designer, restoring the application to its earlier state. Alternatively, in Neptune DXP – Open Edition LTS23, the undo button history is now preserved even after saving or activating the application. This means you can simply use the undo button to revert the app to its previous version without the need to export and import.\n\n \n\n\n"
+  },
+  {
+    "chapterName": "Naia Introduction",
+    "lessonTitle": "54841152-what-who-is-naia",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841152-what-who-is-naia",
+    "sourceType": "text",
+    "content": "Naia is the Neptune AI Assistant. It is embedded within version 23 onwards. It is designed to help with many tasks across the platform. You can open the Naia chat window within the Cockpit, App Designer, Script Editor, and more. Naia buttons are also integrated into several tools within the Cockpit, to help generate code, data, and color schemes.\n\nYou can chat with Naia, asking questions about the platform, both technically and at a high level. Naia has access to data from the Neptune Documentation, a history of community blog posts and solutions from our Support portal, that it uses to help formulate answers.\n\n\nNaia can help you create applications with several automations, that can generate UI components and charts - or help you configure or change components and their properties more easily.\nGenerating or refining code is simple with Naia.\nNaia can also help you across the Cockpit, by generating email templates for example!\n\nWe recommend reading through the documentation page for Naia.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/naia.html\n\nJust like the App Builder, Naia is hosted within the DXP Portal - but runs within your instance. This means that each time you load your instance there can be new functionality!"
+  },
+  {
+    "chapterName": "Naia Introduction",
+    "lessonTitle": "54841162-naia-blog",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841162-naia-blog",
+    "sourceType": "text",
+    "content": "This blog post is designed to help you understand more about Naia, with more screenshots, videos, and examples of it in use:\n\nhttps://community.neptune-software.com/topics/news/blogs/introducing-naia\n\nGive it read over, and particularly understand the \"What can Naia do?\" button - which provides access to the built-in documentation within Naia - along with the change log - so you can take full advantage of the capabilities!\n\nNaia can be particularly powerful when combined with the right prompts. Always ensure you are as detailed as possible with the questions or prompts you provide."
+  },
+  {
+    "chapterName": "Naia Introduction",
+    "lessonTitle": "54841179-disclaimer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841179-disclaimer",
+    "sourceType": "text",
+    "content": "Like most current AI models, there are possibilities for responses to contain inaccuracies. Naia might for example, suggest using tools or components that don't exist. Naia can make mistakes. Consider checking important information."
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54841230-what-are-apis",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841230-what-are-apis",
+    "sourceType": "text",
+    "content": "Before you start this module, it's important that you have a basic understanding of APIs, with a particular focus on REST APIs. \n\n \n\nWhat are APIs? \n\n \n\nAn API (Application Programming Interface) is a set of rules that allows different software applications to communicate with each other. It acts like a bridge between a website or app and a user, enabling them to send and receive information. For example, when you search for a TV on a web shop, you're using an API to tell the server what you're looking for. The server then uses the API to understand your request, find the information about TVs that match your search, and send this information back to you. \n\n \n\n \n\n \n\n \n\nWhen you browse through a web shop and search for a specific product, such as a TV, you are essentially requesting from the server. The server processes your request and returns a response based on the parameters of your request, which could include TVs made from brands A and B, with a size of 32 inches, and so on. You can also make requests without parameters, to get all the TV’s for example! \n\n \n\nAPIs: Not the Server or Database \n\n \n\nIt's important to remember that an API is not the database that stores the information, nor is it the server that houses the database. Instead, think of an API as a messenger that takes your request, tells the server, waits for the server's response, and then brings that response back to you. \n\n \n\nIntroduction to REST APIs \n\n \n\nAmong the various types of APIs, such as SOAP, GraphQL, and WebSocket, REST APIs are the most common. They work over the internet using HTTP requests to perform operations on data. These operations include creating, reading, updating, and deleting records—a set often referred to as CRUD.  \n \nREST APIs use specific HTTP methods to handle these operations (more are available, ): \n\n \n\n    GET: Retrieves data from the server. Like when you read information about a product on a website. \n\n    POST: Sends data to the server to create a new item. Like when you sign up on a website, creating a new user profile. \n\n    PUT: Updates existing data on the server. It's like editing your profile information. \n\n    DELETE: Removes data from the server. Like deleting a post or a comment. \n \n\nWhy REST APIs Are Special: Stateless Communication \n\n \n\nOne key principle of REST APIs is statelessness. This means that every request from your application to the server must include all the information the server needs to understand and fulfill the request. The server doesn't remember anything from previous requests. This makes the system more reliable and scalable because the server doesn't need to keep track of any state or session information. \n\n \n\nIn Summary \n\n \n\nUnderstanding APIs, especially REST APIs, is crucial for developing applications that interact with the web. APIs are the communication layer that enables you to perform actions on the web, like searching for products, signing up for services, or posting messages. By mastering APIs, you open a world of possibilities for what your applications can do. "
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54863684-api-designer-introduction-configuring-apis-understanding-operations-and-definitions-generating-a-table-api",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54863684-api-designer-introduction-configuring-apis-understanding-operations-and-definitions-generating-a-table-api",
+    "sourceType": "video",
+    "content": "54863684-api-designer-introduction-configuring-apis-understanding-operations-and-definitions-generating-a-table-api"
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54864014-api-testing-using-the-platform-tools-api-client-and-swagger-ui",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864014-api-testing-using-the-platform-tools-api-client-and-swagger-ui",
+    "sourceType": "video",
+    "content": "54864014-api-testing-using-the-platform-tools-api-client-and-swagger-ui"
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54864169-configure-an-external-api",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864169-configure-an-external-api",
+    "sourceType": "video",
+    "content": "54864169-configure-an-external-api"
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54864200-comparing-a-table-and-external-api-url",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54864200-comparing-a-table-and-external-api-url",
+    "sourceType": "text",
+    "content": "Table Definition and External APIs\n\nTable Definition and External APIs serve similar purposes, both operating under REST API principles. However, Table Definition APIs enable you to create, update, list, and delete your internal data (tables generated from the Table Definition tool). On the other hand, external APIs facilitate connections to external resources such as weather APIs, stock market APIs, and others.\n\n \n\nIt's important to note that you can develop an external API to interact with your internal tables. However, this process requires specifying endpoints, parameters, definitions, and more. This is precisely why the Table Definition API tool generates these elements for you when selected.\n\nHere we can see how the endpoint for a Table API is configured automatically, running against the domain of the environment, with the endpoints using the table name. Compared to an external API, which is configured manually:\n\n \n\n "
+  },
+  {
+    "chapterName": "API Designer Introduction",
+    "lessonTitle": "54864316-api-inspecting-using-the-developer-tools",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54864316-api-inspecting-using-the-developer-tools",
+    "sourceType": "video",
+    "content": "54864316-api-inspecting-using-the-developer-tools"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54841277-introduction-to-pt2",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841277-introduction-to-pt2",
+    "sourceType": "text",
+    "content": "Over the next chapter, you will learn more about integrating and displaying data within applications. \n\nYou will learn how to manipulate and save data, work with APIs, and store data within models. \n\nThe more confident and optimized you are with the data flow within your applications, the better they will perform, the easier they will be to use and they will be simpler to develop, maintain and improve.\n\nStay committed to watching all the content and following along with the examples. Once you have learned all the foundational parts of the App Designer, you can begin to create fully featured applications for a variety of use cases."
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54841620-api-integration-displaying-table-data-via-api-using-the-wizard",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54841620-api-integration-displaying-table-data-via-api-using-the-wizard",
+    "sourceType": "video",
+    "content": "54841620-api-integration-displaying-table-data-via-api-using-the-wizard"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54841722-creating-and-displaying-data-in-a-form-using-the-wizard-and-binding-context",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54841722-creating-and-displaying-data-in-a-form-using-the-wizard-and-binding-context",
+    "sourceType": "video",
+    "content": "54841722-creating-and-displaying-data-in-a-form-using-the-wizard-and-binding-context"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54841748-api-definitions-integration-with-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841748-api-definitions-integration-with-the-app-designer",
+    "sourceType": "text",
+    "content": "Understanding the importance of definitions within the App Designer context.\n\n \n\nThis diagram higlights the Defintion Properties within an API, in the API Designer. It links to the right, where within the App Designer, the Wizard generation tool (within the right-click context menu) is used.\n\nThe Tables configured ‘Model Source’ or ‘Model Path’, can choose any operations of any APIs configured within the application\n \n\nEG:\n\n\nThis then enables the wizard to access the properties associated with that operation, so it can then generate the required components and bindings automatically.\n\n \n\n "
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54841969-highlight-the-full-binding-data-flow",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54841969-highlight-the-full-binding-data-flow",
+    "sourceType": "text",
+    "content": "Here we can see the full data binding flow. It is similar to the Wizard generation process, which creates both the components and bindings automatically.\n\nIt highlights a table API’s definition. This API definition has been assigned to an API component within the App Designer.\n\nA List component has then utilised the API operation as its Model Source, and within the List is a ObjectListItem, which is bound to one of the properties from the definition - {assigned_for_checking}\n\nThe API has its response body defined – so can be configured within the API component to set the data to the model of the List. This then populates the list with data when the API is called."
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842188-revision-apis-in-the-application-inspecting-the-network-data",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54842188-revision-apis-in-the-application-inspecting-the-network-data",
+    "sourceType": "video",
+    "content": "54842188-revision-apis-in-the-application-inspecting-the-network-data"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842213-highlighting-a-common-mistake-understanding-the-underlying-data-format-of-your-response-object-vs-array-response",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54842213-highlighting-a-common-mistake-understanding-the-underlying-data-format-of-your-response-object-vs-array-response",
+    "sourceType": "video",
+    "content": "54842213-highlighting-a-common-mistake-understanding-the-underlying-data-format-of-your-response-object-vs-array-response"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842288-api-ajax-response-events",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54842288-api-ajax-response-events",
+    "sourceType": "text",
+    "content": "The AjaxSuccess and AjaxError events are available for every API within your App Designer.\nThey are used for running JavaScript logic when the API completes.\nSuccess events are triggered when a 2xx response codes are received.\nError events are triggered when 4xx response codes are received.\n\nIt is possible to handle different success or error situations within each respective event.\n\n\n\nThis is covered in the Advanced - Data Models, Bindings & Responses chapter of this course."
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842470-models-and-bindings",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54842470-models-and-bindings",
+    "sourceType": "text",
+    "content": "Models are based on API definitions, utilizing their definition properties to handle bindings – but can also just be “Generic” - which just lacks the binding metadata.\n\nA model must be configured with one of these two sources to hold data or be interacted with programmatically.\n\n \n\nYou have already been working with models!\n\nModels are present on most components, and there are specific model components too.\n\nWhen the wizard creates a List or a Table, the model is set automatically to the List or Table component. Other examples are Pages and Panels which have their model source configuration, and so their own model, and can store data.\n\nThe model gives the component the ability to store data, plus the context of the properties of the dataset.\n\n \n\nFor any data stored within a component, the children components of that parent can utilize the data with bindings.\n\n \n\nUnderstanding a MultiModel, ModelArray, and ModelObject\n\nThese are centralized containers for data within your app, so data doesn't have to live within List or Table, or another component.\n\n\n\n\nAll three a very similar. They are called ‘neptune.mode.array’, ‘neptune.model.object’ & ‘neptune.model’, and are all underling a UI JSON component:\nhttps://openui5.hana.ondemand.com/api/sap.ui.model.json.JSONModel\n\nThe intended use is to store Arrays of data in the ModelArray, a single object at a time in the ModelObject and the MultiModel can handle nested data.\n\n \n\nInteracting with models – Model Data Object\n\n In any JavaScript editor, right-click and you will get JavaScript helpers.  \n\nFor Model Data objects all methods are documented as comments.\n\nYou can easily find read, update, and delete methods.\n \n\n\n \n\nGeneric Data Model bindings will be covered in more detail in Advanced - Bindings, Responses & Data Models"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842618-editing-updating-and-saving-data-via-a-form-api",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54842618-editing-updating-and-saving-data-via-a-form-api",
+    "sourceType": "video",
+    "content": "54842618-editing-updating-and-saving-data-via-a-form-api"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842688-connectors-in-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54842688-connectors-in-the-app-designer",
+    "sourceType": "text",
+    "content": "Connectors can be used within the App Designer too. There is a dedicated Connector component that can be assigned to a configured connector. \n\nThis blog post highlights the details of setting this up:\n\nhttps://community.neptune-software.com/topics/planet-9/blogs/neptune--d-x-p----open--edition--connectors-in-the--app-"
+  },
+  {
+    "chapterName": "App Designer Pt.2 Integrate and validate data",
+    "lessonTitle": "54842713-top-tip-looping-through-a-form",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54842713-top-tip-looping-through-a-form",
+    "sourceType": "text",
+    "content": "Looping through a form \n\nTo loop through all input fields on a form and set a specific value without specifying the input field names, you can use the following code snippet: \n\nlet simpleFormContent = simpleForm.getContent(); \nfor (let a = 0; a < simpleFormContent.length; a++) { \n    if (simpleFormContent[a].getValue) { \n        console.log(simpleFormContent[a].getValue()); \n        // simpleFormContent[a].setValue(\"new value\"); \n    } \n} \n \n\nIn this code snippet, we first retrieve the content of the simpleForm using the getContent() method. This will give us an array-like object containing all the elements within the form. \n\nWe then use a for loop to iterate over each element in the simpleFormContent array. Within the loop, we check if the current element has a getValue() method. This is to ensure that we are only considering input fields. \n\nIf the current element has a getValue() method, we can retrieve its value using getValue() and perform any necessary logic based on the value. In the example code, we simply log the value to the console using console.log(). \n\nYou can uncomment the simpleFormContent[a].setValue(\"new value\") line and replace \"new value\" with the desired value to set the input field value programmatically. \n\nBy using this approach, you can loop through all input fields on a form without explicitly specifying their names, making the solution more flexible as the input field names may change over time. \n\n "
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843138-introduction-to-the-script-editor-and-javascript",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54843138-introduction-to-the-script-editor-and-javascript",
+    "sourceType": "text",
+    "content": "\nThe Script Editor in Neptune DXP Open Edition is a powerful tool for creating server-side scripts.\nThis is a Pro-Code editor, with drag-and-drop capabilities.\n\nIt allows you to write JavaScript or TypesScript code, add resources to scripts, give direct access to tables, NPM Modules, and APIs, use automatically generated code snippets, and benefit from AI assistance. It's a handy tool for extending Neptune's functionality, with self-contained logic running on the Server, rather than within Applications on users' devices.\n\nNot familiar with JavaScript or TypeScript?\nIt is recommended at this point to spend time becoming familiar with Javascript.\n\nWhy Study JavaScript?\nJavaScript is one of the 3 languages all web developers must learn:\n\n   1. HTML to define the content of web pages\nNeptune handles the creation of the HTML structure of your Applications!\n   2. CSS to specify the layout of web pages\nNeptune allows you to write custom CSS styles on top of your Applications!\n   3. JavaScript to program the behavior of web pages\nNeptune helps you by generating automatically or providing standard code where possible.\n\nNeptune recommended resources:\nW3 Schools provides detailed comprehensive documentation for all of JavaScript functionalities - however does also focuses on how to \"traditionally\" implement them in the browser - not all of this knowledge is required, as Neptune handles the execution of Server Scripts on the server side.\nhttps://www.w3schools.com/js/\n\nOther video tutorials are available:\nhttps://www.youtube.com/watch?v=BKxLrQYQ_2I\n\nThe more confident you are with JavaScript, the more empowered you will be within the Script Editor tool. You do not need to know a lot, to do a lot. Remember Neptune has drag-and-drop capabilities and Code Snippets that enable you to create logic, without coding everything from scratch.\n\nFamiliarise yourself with the Script Editor tool Documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/script-editor.html\n\nSciprts are organised by being grouped into Projects, within the Script Editor. You can view one project at a time. It is possible to set the script to be Global, so logic can be re-used across other scripts, even in different projects. Global scripts are covered later in the course.\n\nIt is easy to trigger scripts to run as Jobs (sequences of scripts) on schedules, or on demand via API calls."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843143-server-scripts-setup",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54843143-server-scripts-setup",
+    "sourceType": "video",
+    "content": "54843143-server-scripts-setup"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843146-server-scripts-resources",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54843146-server-scripts-resources",
+    "sourceType": "video",
+    "content": "54843146-server-scripts-resources"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843452-advanced-table-functions-typeorm-integration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54843452-advanced-table-functions-typeorm-integration",
+    "sourceType": "text",
+    "content": "TypeORM integration\n\nNeptune DXP – Open Edition uses TypeORM, which is an Object-Relational Mapping (ORM) tool used to create a \"bridge\" between object-oriented programs and relational databases.  \n\nWhen Tables are added as resources to Scripts, code snippets are automatically generated to enable you to quickly interact with them via the TypeORM syntax.\n\nUnder 'entities' -> 'advanced' you can find the code snippets that utilise the TypeORM library.\n\nLink to TypeORM documentation: https://typeorm.io/\n\nYou will likely mainly be working with the QueryBuilder functionality:\nhttps://typeorm.io/select-query-builder\n\nThis then creates the structure:\n\nentities.[tableName].createQueryBuilder()\n\nfollowed by a method, such as .select or .delete\n\n\n\n\nHere we can see the similarities between an automatically generated code snippet for a table resource, compared to the code within the TypeORM documentation:\n\n\n"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843595-basic-internal-table-functions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54843595-basic-internal-table-functions",
+    "sourceType": "text",
+    "content": "Remember: 'entities' is referring to the database tables associated with the currently selected script.\n\nWithin the 'entities' -> 'basic' code snippets, you can find a range of other ways of communicating with the table resources associated with your script.\n\n\nThese code snippets provide the following structure:\n\"entities.[tableName]\" followed by the method, such as .create or .delete\n\nThis is utilizing the platform's built-in logic to complete the operation, compared to the TypeORM integration as seen previously, which utilizes the library functionality.\n\nUltimately, there is no rule as to which entity operations are best to use - have a look at what is available and choose what you are familiar with creating and maintaining!"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54843685-script-logging-to-the-system-logs",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54843685-script-logging-to-the-system-logs",
+    "sourceType": "text",
+    "content": "Understanding Logging  \n\nIt is possible to log information from a Server Script to the System Logs. This is useful for when you need to see information within the script context, but you are not running the script directly within the Script Editor where you have the console and can use console.log to see your data.\n\nExamples of this could include when the script is running as a Job or is triggered by a Workflow or API. These scenarios will be covered later in the course. (Note: Console logs are recorded when running as a job, within the Job Log tool, however, best practice is to utilize the log.XXXX statements.)\n\nSimply use \"log.\" followed by the level of log you wish to assign.\nIt is up to you to decide based on the context which level you should use.\n    log.info(\"info message\");\n    log.error(\"error message\");\n    log.warn(\"warning message\");\n    log.verbose(\"verbose message\");\n    log.debug(\"debug message\");\n    log.crit(\"critical message\");\n    log.silly(\"silly message\");\n\nRemember you can find these methods within the Code Snippets, just search for \"log\" in the cockpit.\n\n\nWithin the System Log tool, you can see the logs for each day within the \"Server Script\" menu item on the left:\n\n"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859377-use-cases-for-server-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859377-use-cases-for-server-scripts",
+    "sourceType": "text",
+    "content": "When should I use a Server Script?\nIt is common to use APIs to communicate with server scripts from applications you build. You can pass data into scripts, to effect the processing logic, and choose what information to return, along with a success or error status. Unless specified, if a script completes without error it will be \"successful\" as code 200  if there is an issue, an error will occur and will be returned via the API as code 400.\n\nServer Scripts are also excellent for sensitive data processing. For example - you can retrieve data from a number of sources, compare and/or calculate before returning a response - without any of the sensitive data being sent to the client for processing. Server Scripts run on the Server.\n\nFor user-specific operations. Scripts have a \"req.user\" property, which identifies the authenticated user attempting to communicate with the script. This can be used, for example to only access and return information for the user who is making the request to the script. This applies to scripts when being run within the Script Editor context, or when being called via API.\n\nFor process-heavy tasks. Server Scripts utilize the power of the server and can run asynchronously, meaning large complex calculations or requests can run separately from users' devices, making them more performant."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859385-find-search-and-replace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54859385-find-search-and-replace",
+    "sourceType": "video",
+    "content": "54859385-find-search-and-replace"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859420-global-search",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54859420-global-search",
+    "sourceType": "video",
+    "content": "54859420-global-search"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859426-right-click-context-menu",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859426-right-click-context-menu",
+    "sourceType": "text",
+    "content": "If we have a more detailed look at the right click context menu, there are a few other features you might find useful when using the Script Editor.\n\n\"Split Horrizontally\" and \"Split Vertically\" allow you to have multiple scripts open at the same time within your one Script Editor context.\n\n\n\nCheck the \"Command Palette\" menu item, which opens a panel with more advanced features that can be useful."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859430-naia",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859430-naia",
+    "sourceType": "text",
+    "content": "Remember to utilise Naia within the Script Editor! Here it is best to ask Naia about code - you can ask it to generate examples for your use cases, or refactor exisiting code (you need to copy and paste the code into the chat window).\n\nRemember Naia doesn't have context of your scripts within the Script Editor, nor does it know what resources are available within your instance."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859517-exercise-a-look-at-a-example-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859517-exercise-a-look-at-a-example-scripts",
+    "sourceType": "text",
+    "content": "Within the 'eLearning 2022 Demo' package available within the Marketplace, is a Script Project called 'EquipmentCheckupScripts' and a script called 'Calculate days_until_check'.\nYou can run this script and view its logs in the console. It updates data within the 'inspections' table.\n\nNow look at the 'CreateInspectionStats' script.\nNote that it performs a count on three status proeprties, and assignes \"result = inspection_ct\".\n\n\nAny data set to the 'result' key word within your script, will be returned when the script is called via API."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859520-understanding-the-result-variable",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859520-understanding-the-result-variable",
+    "sourceType": "text",
+    "content": "You can understand the 'result' vairable by reading the code snippet. You can observe other properties you can set as part of the result.\n\n \n\nresult.data = \"Server script response data\"; This line assigns a string (\"Server script response data\") to the data property of the result object. The data property is intended to hold the actual content or data you want to return to the client. In a real scenario, this might be a JSON object, HTML content, or any other data format depending on the application's requirements.\n\n \n\nThe snippet comments shows that you can also set additional properties on the result object to further customize the response. These are not explicitly set in the provided code but are mentioned as possibilities:\n\nstatusCode is typically used to set the HTTP status code of the response. Common status codes include 200 for a successful request, 404 for not found, 500 for a server error, etc.\n\ncontentType specifies the MIME type of the response data, indicating to the client how the data should be interpreted or processed. Common content types include application/json for JSON data, text/html for HTML content, etc.\n\nfilename might be used when the response is intended to prompt the client to download a file, specifying the name of the file for download.\n\nheaders would allow you to set any additional HTTP headers needed for the response, such as caching controls, content encoding, etc.\n\n \n\n \n\nNote -\n\nresult.data = XYZ; modifies or adds the data property on the existing result object without affecting its other properties.\nresult = { data: XYZ }; creates a new object with only the data property and assigns it to result, replacing any existing object and its properties.\n\nSo, the first method is used to update or add to an existing object, while the second method resets the object to only contain the data property.\n\n "
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859543-script-editor-understanding-erorrs-and-using-naia-to-fix-them",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54859543-script-editor-understanding-erorrs-and-using-naia-to-fix-them",
+    "sourceType": "video",
+    "content": "54859543-script-editor-understanding-erorrs-and-using-naia-to-fix-them"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859547-what-are-node-package-modules-npm-how-do-they-relate-to-server-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859547-what-are-node-package-modules-npm-how-do-they-relate-to-server-scripts",
+    "sourceType": "text",
+    "content": "Node Package Modules (NPM) are a collection of JavaScript libraries and tools that can be easily installed and managed using the Node Package Manager (npm). NPM modules are reusable code packages that provide specific functionality, such as date parsing, file handling, or API integration.\n\nIn the context of Server Scripts in Neptune DXP, NPM modules can be used to extend the functionality of your server-side scripts. You can import and utilize these modules within your scripts to leverage their capabilities. For example, you can use the moment.js module for date parsing or the axios module for making HTTP requests.\n\nTo use NPM modules in your Server Scripts, you need to install them first. In Neptune DXP, you can install NPM modules directly from the Cockpit within the 'NPM Modules' tool."
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859560-configure-npm-custom-setting-path",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859560-configure-npm-custom-setting-path",
+    "sourceType": "text",
+    "content": "As stated within the installation guide:\nTo be able to install and use NPM modules in the Open Edition, you have to make sure that NPM is installed\non your machine.\nhttps://www.npmjs.com/get-npm\n\nIf you attempt to install an NPM module within the 'NPM Modules' tool, without configuring the path - you will see an error:\n\n\nWithin the platforms Custom Settings, you can define the path for the NPM modules to be installed:\n\nAfter configuring the path, you need to refresh the browser.\nYou can then search for, inspect, and install NPM modules directly into the platform. These can then be referenced within Server Scripts.\n\nFor more informations see here:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/npm_add.html"
+  },
+  {
+    "chapterName": "Script Editor Introduction",
+    "lessonTitle": "54859564-npm-module-integration-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859564-npm-module-integration-example",
+    "sourceType": "text",
+    "content": "\nAs well as being able to use any custom installed NPM module, the platform ships with a set of internally installed NPM modules, ready to use.\n\nWithin the 'eLearning 2022 Demo' product package (download from the Marketplace) you can find the 'EquipmentCheckup' scripts project, which contains a script 'Calculate days_until_check' which includes one of the internal modules 'moment'. You can see how it is referrenced at the start of the script, then used further for logic."
+  },
+  {
+    "chapterName": "User, Group and Role Security Setup",
+    "lessonTitle": "54859588-foundation-user-security-and-role-knowledge",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54859588-foundation-user-security-and-role-knowledge",
+    "sourceType": "video",
+    "content": "54859588-foundation-user-security-and-role-knowledge"
+  },
+  {
+    "chapterName": "User, Group and Role Security Setup",
+    "lessonTitle": "54859598-exercise-roles-within-the-launchpad-tiles-and-tile-groups",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859598-exercise-roles-within-the-launchpad-tiles-and-tile-groups",
+    "sourceType": "text",
+    "content": "Exercise: Configure a new user with a role, that is also assigned to a tile group, and that group is assigned to a Launchpad. View the Launchpad with both the user with, and another user without the role - to observe the different perspectives.\nRemember you can open another browser, or a private session of the same browser, to login with the second account."
+  },
+  {
+    "chapterName": "User, Group and Role Security Setup",
+    "lessonTitle": "54859630-roles-within-applications",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54859630-roles-within-applications",
+    "sourceType": "video",
+    "content": "54859630-roles-within-applications"
+  },
+  {
+    "chapterName": "User, Group and Role Security Setup",
+    "lessonTitle": "54859748-authentication-and-authorization",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54859748-authentication-and-authorization",
+    "sourceType": "text",
+    "content": "Please read through this additional information for this topic area:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/overview/authentication_authorization.html"
+  },
+  {
+    "chapterName": "User, Group and Role Security Setup",
+    "lessonTitle": "54862157-23-10-3-user-tool-update",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862157-23-10-3-user-tool-update",
+    "sourceType": "text",
+    "content": "There is now (as of 23.10.3) support for adding groups to a user from the User tool. Simply open a user and then you can assign the groups to the user from there!"
+  },
+  {
+    "chapterName": "Media Library",
+    "lessonTitle": "54862336-adding-an-image-to-the-media-library-as-a-subfolder",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54862336-adding-an-image-to-the-media-library-as-a-subfolder",
+    "sourceType": "video",
+    "content": "54862336-adding-an-image-to-the-media-library-as-a-subfolder"
+  },
+  {
+    "chapterName": "Media Library",
+    "lessonTitle": "54862383-referencing-media-library-files-within-applications",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/54862383-referencing-media-library-files-within-applications",
+    "sourceType": "video",
+    "content": "54862383-referencing-media-library-files-within-applications"
+  },
+  {
+    "chapterName": "Media Library",
+    "lessonTitle": "54862502-use-case-knowledge-for-the-media-library",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862502-use-case-knowledge-for-the-media-library",
+    "sourceType": "text",
+    "content": "The Media Library is great for storing a range of files, of small to medium size. Pictures, GIFs, short videos, CSS or JavaScript libraries are great examples of when to utilise the Media Library\n\nThe Media Library is capable of storing larger files, however, the default SQLite database is not optimal for larger file storage and content delivery.\n\nIn the Expert section of this course, you can learn about the Azure Blob System Setting configuration, that enables the Media Library (along with other storage mechanisms, such as PDF Archive, to utilise the Azure service for optimal performance)."
+  },
+  {
+    "chapterName": "Media Library",
+    "lessonTitle": "54862543-upload-to-media-library-building-block",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862543-upload-to-media-library-building-block",
+    "sourceType": "text",
+    "content": "Check out this blog post, highlighting a custom component that is available to help enable you to add uploading to the Media Library capabilities to your applications:\nhttps://community.neptune-software.com/topics/planet-9/blogs/upload-to--media--library----custom--component---avail\n\nThe technical implementation of Custom Components will be covered in more detail in the Expert level of the course."
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862667-reviewing-the-change-logs-release-notes",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862667-reviewing-the-change-logs-release-notes",
+    "sourceType": "text",
+    "content": "As you become more familiar with the platform and its tooling, you should pay additional attention to the release notes available within the documentation. Here you can stay up-to-date on all of the fixes and enhancements that are implemented across the platform for each patch.\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/release-notes/overview.html"
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862671-mobile-build-service-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862671-mobile-build-service-overview",
+    "sourceType": "text",
+    "content": "The Neptune Mobile Build Service is a service provided by Neptune that allows you to build hybrid mobile applications in a fully automated and online process. It is available for both SAP Edition Neptune DXP and Open Edition Neptune DXP. It is accessed from the Portal. https://portal.neptune-software.com/launchpad/portal#mbs-build\n\nBefore you can utilize the Mobile Build Service, you must create a mobile client. More information on this topic is covered later in the expert level of this course.\n\nTo use the Mobile Build Service, you need to provide certain files depending on the platform you are targeting. For all platforms, you need to provide the source mobile client build .zip file from Neptune, which includes all the necessary files for building the application. For iOS, you also need to provide the Provisioning Profile, .p12 file, and password for the .p12 file. For Android, you need to provide the Signing Certificate and password if you want to sign the app.\n\nThe Mobile Build Service is free to use and the installation files for the built application will be ready to download as soon as the automated build process is completed. You can access the Mobile Build Service through the Neptune DXP Portal.\nPlease contact your Neptune representative if you are not assigned to your organisation's account. Once configured, you can access the service and any appropriate files for your organization.\n\nThere are multiple options for generating and deploying development and release versions of hybrid native applications for their respective platforms. Each use case may require different configurations, so it is best to assess the needs of your users to see if this option is required."
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862681-monitoring-logging-and-more",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862681-monitoring-logging-and-more",
+    "sourceType": "text",
+    "content": "Monitoring Tools in Neptune DXP\n\n \n\nIn this lesson, we will explore the various monitoring tools available in Neptune DXP Open Edition and how they can help you in application development and management.\n\nTrace/Monitor/Audit Log: The Trace/Monitor/Audit Log tools in Neptune DXP Open Edition provide valuable insights into the changes made to tables, activities in the Cockpit, and application operations. These tools enhance transparency, accountability, and troubleshooting capabilities. Let's take a closer look at each of these tools:\nTable Audit: The Table Audit tool allows you to track changes made to tables in your application. It records information such as the user who made the change, the timestamp, and the old and new values. This tool is useful for auditing purposes and tracking data modifications.\n \nThis setting is enabled for individual tables in the Table Definition tool:\n \nAudit Log: The Audit Log tool captures activities performed in the Cockpit, such as user logins, application deployments, and configuration changes. It helps you keep track of who did what and when, ensuring accountability and facilitating troubleshooting.\n \nApplication Log: The Application Log tool allows you to trace application operations and track important events. It records information such as error messages, warnings, and user actions. This tool is invaluable for troubleshooting and identifying issues in your application.\n \nJob Log: The Job Log tool in Neptune DXP Open Edition helps you monitor and track the execution of background jobs. It provides valuable insights into job performance, execution times, and any errors or warnings encountered during the process. \n \nSystem Logs: The System Logs tool in Neptune DXP Open Edition allows you to track system errors, warnings, process messages, and user locks. It provides different log levels for different types of log entries, allowing you to filter and analyse the logs based on your requirements. This tool helps you identify and resolve issues in your application effectively.\n\n\n\n\nSystem logs can be exported!\n\n \n\nNeptune DXP Open Edition Monitoring Documentation: Link"
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862705-jobs",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862705-jobs",
+    "sourceType": "text",
+    "content": "Job Manage is a tool in Neptune DXP Open Edition that allows you to create and manage background jobs that run server scripts. These jobs can be triggered by events, manually by a user, or by setting a schedule. By automating tasks behind the scenes, background jobs enhance efficiency by handling predefined actions without user interaction. They optimize resources and contribute to workflows, making processes like data processing and maintenance more efficient. You can define the scripts, order, error handling, start interval, status, and email notification for each job using the Job Manage tool.\n\nOn the other hand, Job Log is a tool in Neptune DXP Open Edition that allows you to view the history and status of background jobs. You can access the logs of all background jobs in a table format. The Job Log tool provides filters to define a time period, job, and job status to show specific logs. You can also click on the info icon in a log entry's row to get more details about that specific log.\n\nFor more information and detailed instructions on how to use Job Manage and Job Log in Neptune DXP Open Edition, you can refer to the following documentation links:\n\nJob Manage: Job Manage Documentation\nJob Log: Job Log Documentation\n\nAdditionally, if you are interested in learning more about jobs and their tools in Neptune DXP Open Edition, you can check out this blog post from the Neptune Software Developer Community: Jobs | Automate and break down tasks\n\n "
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862770-locks",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862770-locks",
+    "sourceType": "text",
+    "content": "It is good to know that Edit Mode = Locked, and the tool Lock Entries exists to facilitate the unlocking of any locked artifacts within the platform.\n\n\nUse this feature with caution - only unlock components that you know are safe to do so - as if you unlock someone else's work, and then edit and save, there can be potential for data loss.\n\nRead more about this toolset within the Documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/lock-entries.html"
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54862922-system-settings-configuration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54862922-system-settings-configuration",
+    "sourceType": "text",
+    "content": "Other useful things to configure within the System Settings tool - include the:\n\n\nGeneral\nProvide a Name, Description and Role for your instance.\n\nThe 'Role' in this context, could be \"Development\" or \"Production\" for example.\nThe System Role is like a global setting, and can be utilised with multiple definitions for single artifacts, to use the correct record for the correct system. Such as different endpoints for APIs, with running Development or Production.\nOr for different auehentications when pointing to the next system in the development landscape (Such as Dev -> QA -> Prod)\n\nSystem Timeout, and other system timing settings.\n\nLicense\nThis is a key area. It allows you to add a license key to unlock more users within your instance. For a license key, please contact your Neptune representative.\n\nCustom settings\nA place to set custom texts that display on the login page, such as Privacy Policy or Terms of Service"
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54863134-app-editor-awareness",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54863134-app-editor-awareness",
+    "sourceType": "text",
+    "content": "The App Editor is a specialized code editor in Neptune DXP that allows you to create applications using JavaScript frameworks like React.js and Vue.js. It follows a pro-code approach to application development. You can find more information about the App Editor in the Neptune DXP Open Edition documentation.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-editor.html\n\nMore information about this will be available in the expert level of this course."
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54863211-code-snippets-create-your-own-download-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54863211-code-snippets-create-your-own-download-from-the-marketplace",
+    "sourceType": "text",
+    "content": "The Marketplace offers a range of code snippets that you might find useful whilst developing. You are also encouraged to make your own ones that you find yourself using frequently. They will be available to all users with the allowed ACL permissions to the Code Snippets tool.\n\nMarketplace Product:\n\nWhen installed, they will be visible within the Code Snippet tool - and available within the right-click context menu within the App Designer or Script Editor:\n"
+  },
+  {
+    "chapterName": "Other Cockpit, Platform and ecosystem information",
+    "lessonTitle": "54863213-odata-knowledge",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54863213-odata-knowledge",
+    "sourceType": "text",
+    "content": "OData is a protocol that builds on core protocols like HTTP and commonly accepted methodologies like REST. It provides a standardized way to expose full-featured data APIs. Neptune DXP supports both OData v2 and v4 versions.\n\nIn Neptune DXP, you can consume data from an OData service using the OData Source component. This component allows you to add OData services and define parameters for authentication and communication with endpoints. You can find more information about using OData sources in the Neptune DXP Open Edition documentation here\n\nWithin the App Designer OData sources work in a similar way to API sources. You can call them with get[ODataComponentName] - tables and lists bind their sources to the OData (via the metadata), and the wizard can be used to generate the components and bindings.\n\n\n\n\nIf you want to simulate the behavior of real data in a controlled way, you can use OData Mock Data in Neptune DXP. With OData Mock Data, you can add mock metadata and datasets to test certain features of your application or use mock data while the OData resource is not set up yet. You can find more information about OData Mock Data in the Neptune DXP Open Edition documentation here.\n\nOnce you have created the mock data artifact, you can add metadata and datasets to it by following the steps outlined here.\n\nAn OData component is available within the App Designer and operates in a very similar way to an API component."
+  }
+]

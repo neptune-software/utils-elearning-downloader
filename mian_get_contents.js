@@ -1,8 +1,8 @@
 import puppeteer, { executablePath } from "puppeteer";
 import { exec } from "child_process";
 import * as fs from "fs";
+import { parse } from "json2csv";
 
-// Define a request listener function for video downloading
 const requestListener = (interceptedRequest) => {
   // Get the requested URL
   const requestUrl = interceptedRequest.url();
@@ -23,10 +23,9 @@ const requestListener = (interceptedRequest) => {
       .substring(currentUrl.lastIndexOf("/lessons/") + "/lessons/".length)
       .replace(/[^a-zA-Z0-9-]/g, "_");
 
-    // ffmpeg command to execute
-    const command = `ffmpeg -i "${requestUrl}" -codec copy ./data/${fileName}.mkv`;
+    // Call Python script to transcribe audio
+    const command = `ffmpeg -i "${requestUrl}" -codec copy ./data/${fileName}.mkv && python transcribe_video.py ./data/${fileName}.mkv`;
 
-    // Execute ffmpeg command using exec function
     exec(command, (error, stdout, stderr) => {
       if (error) {
         console.error(`Error executing command: ${error}`);
@@ -43,9 +42,7 @@ const requestListener = (interceptedRequest) => {
   interceptedRequest.continue();
 };
 
-// Define the scraper function
 const scraper = async (target) => {
-  // Ensure the 'data' directory exists
   if (!fs.existsSync("./data")) {
     fs.mkdirSync("./data");
   }
@@ -56,117 +53,182 @@ const scraper = async (target) => {
   });
 
   const page = await browser.newPage();
-
   await page.goto("https://neptune.thinkific.com/users/sign_in", {
     waitUntil: "networkidle0",
   });
 
   await page.type(target.username.selector, target.username.value);
-
   await page.type(target.password.selector, target.password.value);
-
   await page.click(target.buttonSelector);
 
-  await page.goto(target.url, { waitUntil: "networkidle0" });
+  await page.goto(target.url, { timeout: 120000, waitUntil: "networkidle0" });
 
-  const html = await page.content();
-
-  // Use page.evaluate method to execute JavaScript code and extract href attribute values
-  const hrefs = await page.evaluate(() => {
-    const hrefsArray = [];
-    // Selector specifies the elements whose href attributes are to be extracted
-    const elements = document.querySelectorAll(
-      ".course-player__left-drawer._left-drawer_n1vbpj a"
+  const chaptersData = await page.evaluate(() => {
+    const chapters = [];
+    const chapterElements = document.querySelectorAll(
+      "div.course-player__chapters-item._chapters-item_1tqvoe.ember-view.ui-accordion.ui-widget.ui-helper-reset"
     );
-    elements.forEach((element) => {
-      // Add the href attribute value of each element to the array
-      hrefsArray.push(element.href);
+    chapterElements.forEach((chapterElement) => {
+      const chapterName = chapterElement.querySelector(
+        "h2._chapter-item__title_d57kmg"
+      ).innerText;
+      const lessons = [];
+      const lessonElements = chapterElement.querySelectorAll(
+        "a.course-player__content-item__link._content-item__link_nffvg8.ember-view"
+        // "li.course-player__content-item.released.content-item__progress--viewed._content-item_nffvg8 a.course-player__content-item__link._content-item__link_nffvg8.ember-view"
+      );
+      lessonElements.forEach((lessonElement) => {
+        const lessonName = lessonElement.innerText;
+        const lessonUrl = lessonElement.href;
+        lessons.push({ lessonName, lessonUrl });
+      });
+      chapters.push({ chapterName, lessons });
     });
-    return hrefsArray;
+    return chapters;
   });
 
-  console.log(hrefs); // Output the extracted href values array
-  fs.writeFileSync("hrefs.txt", JSON.stringify(hrefs));
+  console.log("chaptersData", chaptersData);
 
-  // Iterate over the obtained links
-  for (const href of hrefs) {
-    // Check if the link contains a specific format of substring
-    if (
-      href.includes(
-        "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/"
-      )
-    ) {
-      // Visit the page corresponding to the link and extract HTML content
-      const newPage = await browser.newPage();
-      await newPage.goto(href, { waitUntil: "networkidle0" });
-      const htmlContent = await newPage.evaluate(() => {
-        // Return the HTML content of the page with div class fr-view
-        const divContent = document.querySelector("div.fr-view");
-        return divContent ? divContent.innerHTML : null;
-      });
+  const records = [];
 
-      if (htmlContent) {
-        // Extract the filename from the link
-        const fileName = href
-          .substring(href.lastIndexOf("/texts/") + "/texts/".length)
-          .replace(/[^a-zA-Z0-9-]/g, "_");
+  for (const chapter of chaptersData) {
+    for (const lesson of chapter.lessons) {
+      const href = lesson.lessonUrl;
+      let sourceType = "text";
 
-        // Write HTML content to a text file
-        fs.writeFileSync(`./data/${fileName}.txt`, htmlContent);
+      if (href.includes("/texts/")) {
+        const newPage = await browser.newPage();
+        await newPage.goto(href, {
+          timeout: 120000,
+          waitUntil: "networkidle0",
+        });
+        const htmlContent = await newPage.evaluate(() => {
+          const divContent = document.querySelector("div.fr-view");
+          // return divContent ? divContent.innerHTML : null;
+          return divContent ? divContent.innerText : null;
+        });
 
-        console.log(`HTML content saved to ${fileName}.txt`);
-      } else {
-        console.log(`No HTML content found for ${href}`);
+        if (htmlContent) {
+          const fileName = href
+            .substring(href.lastIndexOf("/texts/") + "/texts/".length)
+            .replace(/[^a-zA-Z0-9-]/g, "_");
+
+          fs.writeFileSync(`./data/${fileName}.txt`, htmlContent);
+          records.push({
+            chapterName: chapter.chapterName,
+            lessonTitle: fileName,
+            sourceUrl: href,
+            sourceType: "text",
+            content: htmlContent,
+          });
+        }
+
+        await newPage.close();
       }
 
-      // Save HTML content to file or elsewhere here
-      // Just simple output here, you can modify as needed
-      console.log(href);
-      console.log(htmlContent);
-
-      await newPage.close(); // Close the new page
-    }
-
-    if (
-      href.includes(
-        "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/lessons/"
-      )
-    ) {
-      // Enable request interception
-      await page.setRequestInterception(true);
-
-      // Listen for request events
-      page.on("request", requestListener);
-
-      // Open the page
-      await page.goto(href, { waitUntil: "networkidle0" });
-
-      // Remove listener at some point
-      page.off("request", requestListener);
+      if (href.includes("/lessons/")) {
+        console.log(href);
+        await page.setRequestInterception(true);
+        page.on("request", requestListener);
+        await page.goto(href, { timeout: 120000, waitUntil: "networkidle0" });
+        page.off("request", requestListener);
+        sourceType = "video";
+        const fileName = href
+          .substring(href.lastIndexOf("/lessons/") + "/lessons/".length)
+          .replace(/[^a-zA-Z0-9-]/g, "_");
+        records.push({
+          chapterName: chapter.chapterName,
+          lessonTitle: fileName,
+          sourceUrl: href,
+          sourceType: "video",
+          content: fileName, // Save the transcribed text
+        });
+      }
     }
   }
 
   await browser.close();
+
+  const jsonContent = JSON.stringify(records, null, 2);
+  fs.writeFileSync("./data/records.json", jsonContent);
+
+  const csvContent = parse(records);
+  fs.writeFileSync("./data/records.csv", csvContent);
+
+  console.log("Scraping completed and data saved.");
 };
 
-const TARGET = {
-  url: "https://neptune.thinkific.com/courses/take/open-edition-developer-training-foundation-2024/texts/54722583-introduction",
+function updaterTranscriptonRecords() {
+  // Read the records.json file
+  fs.readFile("./data/records.json", "utf8", (err, data) => {
+    if (err) {
+      console.error("Error reading records.json:", err);
+      return;
+    }
 
+    try {
+      const records = JSON.parse(data);
+
+      // Iterate over the records array
+      records.forEach((record) => {
+        // If sourceType is video
+        if (record.sourceType === "video") {
+          // Construct the corresponding txt file path
+          const txtFilePath = `./data/${record.lessonTitle}.txt`;
+
+          // Read the content of the corresponding txt file
+          fs.readFile(txtFilePath, "utf8", (err, txtContent) => {
+            if (err) {
+              console.error(`Error reading ${txtFilePath}:`, err);
+              return;
+            }
+
+            // Replace content with the content of the txt file
+            record.content = txtContent;
+
+            // Print the replaced content for the record
+            console.log("Replaced content for:", record.lessonTitle);
+          });
+        }
+      });
+
+      // Write the modified records back to records.json file
+      fs.writeFile(
+        "./data/records.json",
+        JSON.stringify(records, null, 2),
+        "utf8",
+        (err) => {
+          if (err) {
+            console.error("Error writing records.json:", err);
+            return;
+          }
+
+          console.log("Content replacement completed.");
+        }
+      );
+
+      const csvContent = parse(records);
+      fs.writeFileSync("./data/records.csv", csvContent);
+    } catch (error) {
+      console.error("Error parsing records.json:", error);
+    }
+  });
+}
+
+const TARGET = {
+  url: "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922574-creating-your-own-templates-and-building-blocks",
   username: {
     selector: 'input[id="user[email]"]',
-
     value: "",
   },
-
   password: {
     selector: 'input[id="user[password]"]',
-
     value: "",
   },
-
   buttonSelector: 'input[id="sign-in"]',
 };
 
 fs.appendFileSync("log.txt", `Start Time: ${new Date().toLocaleString()}\n`);
 await scraper(TARGET);
+updaterTranscriptonRecords();
 fs.appendFileSync("log.txt", `End Time: ${new Date().toLocaleString()}\n`);

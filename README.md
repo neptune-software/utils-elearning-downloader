@@ -10,6 +10,12 @@ To install Puppeteer and its dependencies, follow these steps:
 2. Run the `npm install` command to install the required dependencies.
 3. You may also need to install ffmpeg if it's not already installed on your system. Visit [FFmpeg website](https://ffmpeg.org/download.html) for installation instructions.
 
+To incorporate a Python script for video transcription, here's how to set it up:
+
+1. Make sure you have Python installed on your system.
+2. Install the necessary Python packages by running `pip install moviepy SpeechRecognition`.
+
+
 ## Usage
 After installation, you can use this script as follows:
 

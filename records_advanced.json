@@ -1,0 +1,884 @@
+[
+  {
+    "chapterName": "Advanced App Builder",
+    "lessonTitle": "54922574-creating-your-own-templates-and-building-blocks",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922574-creating-your-own-templates-and-building-blocks",
+    "sourceType": "video",
+    "content": "54922574-creating-your-own-templates-and-building-blocks"
+  },
+  {
+    "chapterName": "Advanced App Builder",
+    "lessonTitle": "54922600-sharing-a-live-preview-of-your-app",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922600-sharing-a-live-preview-of-your-app",
+    "sourceType": "text",
+    "content": "Note: the difference between the two share links, one for the live preview, another for the direct link to the App Builder App"
+  },
+  {
+    "chapterName": "Advanced App Builder",
+    "lessonTitle": "54922740-feedback-functionality-for-your-apps-and-for-the-app-builder",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922740-feedback-functionality-for-your-apps-and-for-the-app-builder",
+    "sourceType": "text",
+    "content": "Advanced App Builder – Feedback functionality\n\n \n\nThis document describes the Feedback functionality of the App Builder. \n\nTo demonstrate the feedback functionality of the App Builder, a demo application composed of multiple building blocks has been utilized. You have the option to select an existing application from your account or create a new application using just a few building blocks.\n\nDemoApplication\n\nWithin the App Builder, there are two feedback options available. One allows users to provide feedback on the tool itself, while the other enables feedback specifically on an application.\n\n \n\nApp Builder Feedback\n\nIn the footer of the App Builder you'll discover a \"Give us your Feedback\" button. This feature is designed to collect feedback on the tool itself, aiding in its continual improvement based on user input.\n\nGive us your Feedback button\n\n \n\nUpon clicking, the user feedback dialog will open, allowing you to input your thoughts on the tool. Additionally, you can also utilize the speech-to-text functionality for convenience. Once your thoughts are expressed, simply press the “Send feedback” button. We welcome any suggestions to help us enhance the App Builder.\n\nUser Feedback dialog\n\nAlongside text feedback, you can utilize annotations to visually express your thoughts and suggestions directly on the current screen.\n\nAnnotations example\n\n \n\n\n\n\nYour own App Feedback\n\nAfter sharing the prototype application using the QR code functionality, when the app is opened on the user’s device, a feedback button appears in the bottom right corner of the screen. Upon clicking it, a user feedback dialog will open, allowing you to share your thoughts on each screen of the application.\n\n \n\nApp feedback \n\n \n\nOnce the feedback is sent, you can access the user’s feedback from the App Builder. \n\nUser Feedback\n\nIn the Usage Feedback dialog, you can access all the feedback collected across all screens of the application.\n\nUsage Feedback dialog\n\n \n\nThe App Feedback functionality enables developers to gather feedback on the prototype application and analyze it to enhance the overall quality of the app."
+  },
+  {
+    "chapterName": "Advanced App Builder",
+    "lessonTitle": "54922914-heatmaps-functionality",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922914-heatmaps-functionality",
+    "sourceType": "text",
+    "content": "Advanced App Builder – Heatmaps functionality \n\nThis document describes the Heatmaps functionality of the App Builder. \n\nTo demonstrate the heatmaps functionality of the App Builder, a demo application composed of multiple building blocks has been utilized. You have the option to select an existing application from your account or create a new application using just a few building blocks.\n\nDemoApplication\n\n \n\n \n\nHeatmaps\n\nHeatmaps are visual representations of data where values are depicted using color gradients. In the context of user interface design or user behavior analysis, heatmaps display areas of high and low activity or interaction on a digital interface. They provide valuable insights into how users engage with apps, or prototypes by highlighting areas of interest, clicks, scrolls, or other interactions, helping developers optimize user experience and interface design.\n\nIn the App Builder, to generate heatmaps for your prototype application, simply share your application using the QR code functionality. The interactions of users with the application will be automatically captured and represented in the heatmaps.\n\n \n\nUser interaction with the prototype application\n\n \n\nIn the App Builder, you can access the Heatmaps from the “share” context menu. \n\nHeatmaps from share context menu\n\n\n\n\nIn the Usage Heatmaps dialog, you can observe how users have interacted with your application. The left panel displays the screens of the application, the middle panel presents a list of all interactions of the selected screen, and the right panel provides a visual representation of the selected screen with heatmaps. These heatmaps highlight all the areas of the screen that users have interacted with.\n\nUsage Heatmaps dialog\n\n "
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922228-foreword",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922228-foreword",
+    "sourceType": "text",
+    "content": "This chapter of the eLearning integrates an existing course dedicated to the Adaptive Framework - released in 2023.\nhttps://community.neptune-software.com/topics/planet-9/blogs/adaptive-framework-add-on\n\nThe interface in the videos may be using an older theme, but the same underlying functionality is available."
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922240-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922240-introduction",
+    "sourceType": "text",
+    "content": "This chapter continues to build on the Adaptive Framework example seen in the Foundation course.\n\nPlease ensure you have downloaded both of the Marketplace products which are the examples used in this chapter.\n\n\nThis course builds on the existing no-code adaptive framework, developer course."
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922243-1-status-formatting-and-lookups",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922243-1-status-formatting-and-lookups",
+    "sourceType": "video",
+    "content": "54922243-1-status-formatting-and-lookups"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922247-2-system-variables-sorting-and-grouping",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922247-2-system-variables-sorting-and-grouping",
+    "sourceType": "video",
+    "content": "54922247-2-system-variables-sorting-and-grouping"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922251-3-employee-edit-app-attachments-and-load-adaptive-app-in-a-tab",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922251-3-employee-edit-app-attachments-and-load-adaptive-app-in-a-tab",
+    "sourceType": "video",
+    "content": "54922251-3-employee-edit-app-attachments-and-load-adaptive-app-in-a-tab"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922256-4-chart-styling",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922256-4-chart-styling",
+    "sourceType": "video",
+    "content": "54922256-4-chart-styling"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922434-5-creating-and-using-variants",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922434-5-creating-and-using-variants",
+    "sourceType": "video",
+    "content": "54922434-5-creating-and-using-variants"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922435-6-adaptive-business-intelligence-bi",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922435-6-adaptive-business-intelligence-bi",
+    "sourceType": "video",
+    "content": "54922435-6-adaptive-business-intelligence-bi"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922440-7-splitter-template",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922440-7-splitter-template",
+    "sourceType": "video",
+    "content": "54922440-7-splitter-template"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922443-8-open-adaptive-app-from-another-adaptive-app",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922443-8-open-adaptive-app-from-another-adaptive-app",
+    "sourceType": "video",
+    "content": "54922443-8-open-adaptive-app-from-another-adaptive-app"
+  },
+  {
+    "chapterName": "Advanced Adaptive Framework",
+    "lessonTitle": "54922483-full-example-crm-sales-operation-portal",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922483-full-example-crm-sales-operation-portal",
+    "sourceType": "text",
+    "content": "You can download the CRM Sales Operation Portal from the Marketplace to try this out with a set of sample Adaptive Applications and data!"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923121-exercise-creating-a-search-functionality-live-change-event",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54923121-exercise-creating-a-search-functionality-live-change-event",
+    "sourceType": "video",
+    "content": "54923121-exercise-creating-a-search-functionality-live-change-event"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923189-filter-functionalities-on-a-singleselect-button-similar-to-search",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54923189-filter-functionalities-on-a-singleselect-button-similar-to-search",
+    "sourceType": "video",
+    "content": "54923189-filter-functionalities-on-a-singleselect-button-similar-to-search"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923383-wcag-compliance",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54923383-wcag-compliance",
+    "sourceType": "text",
+    "content": "Knowing about WCAG compliance is important for several reasons:\n\n    Accessibility for all users: WCAG compliance ensures that websites and web applications are accessible to people with disabilities. By following WCAG guidelines, designers, developers, and content creators can make their content more accessible to a wider range of users, including those with visual, auditory, cognitive, and motor disabilities. This promotes inclusivity and ensures that everyone can access and interact with digital content.\n\n    Legal requirements: In many countries, there are legal requirements and regulations that mandate WCAG compliance for public sector websites and applications. By adhering to WCAG standards, organizations can avoid legal issues and ensure that their digital properties are accessible to all users.\n\n    Improved user experience: WCAG compliance goes beyond accessibility requirements. It also promotes good design practices that enhance the overall user experience. For example, providing clear and meaningful structure to web pages through semantic HTML tags not only benefits users with disabilities but also improves navigation and readability for all users.\n\n    Reputation and brand image: Demonstrating a commitment to accessibility and WCAG compliance can enhance an organization's reputation and brand image. It shows that the organization values inclusivity and cares about providing equal access to its digital products and services.\n\nIn the context of Neptune DXP, WCAG compliance is supported through the integration with SAP UI5. The UI5 framework provides features and tools that help developers create accessible web applications that comply with WCAG 2.1 standards. By leveraging these features, developers can ensure that their applications are accessible to all users, regardless of their abilities.\n\nFor more information on WCAG compliance and how Neptune DXP supports it, you can refer to this blog post: \n\nWCAG 2.1 and the Neptune DXP\n\nAdditionally, you can watch the video WCAG Overview and Demo to learn more about WCAG, its importance, and how to test applications built with Neptune DXP."
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923674-marketplace-example-barcode-scanning-quagga",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54923674-marketplace-example-barcode-scanning-quagga",
+    "sourceType": "video",
+    "content": "54923674-marketplace-example-barcode-scanning-quagga"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923809-marketplace-example-mapping",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54923809-marketplace-example-mapping",
+    "sourceType": "video",
+    "content": "54923809-marketplace-example-mapping"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923836-marketplace-example-upload-to-media-library",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54923836-marketplace-example-upload-to-media-library",
+    "sourceType": "text",
+    "content": "Check out this informative blog post about how to easily utilize the Media Library with a handy custom component to use within your apps:\n\nhttps://community.neptune-software.com/topics/planet-9/blogs/upload-to--media--library----custom--component---avail\n\nThe article discusses different approaches for saving and using images in an application, such as storing them as base64 in a table or uploading them to a blob storage and referencing them using URLs. It introduces the Media Library Upload - Custom Component, available in the Neptune DXP Marketplace, which allows users to upload, store, and reference media using the Media Library.\n\nTo use the custom component, users can install it from the Neptune DXP Marketplace, drag and drop it into their application, and then click on \"Import image to Media Library\" to select a media file from their device. The selected file will be displayed within the application and imported into the Root folder of the Media Library. The custom component also includes a delete button for removing the file from the Media Library and a \"Get Image Link\" button for retrieving the link to the file, which can be used within the application's logic to store it in a table.\n\nAdditionally, the article explains how to customize the custom component to upload media files to a specific custom folder instead of the Root folder. This can be done by modifying the \"sap.ui.unified.FileUploader\" within the custom component in the App Designer.\n\nThe Media Library Upload - Custom Component simplifies the process of uploading media files directly to the Media Library, providing convenient access and maintenance while improving the performance of the application when loading media files."
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54993614-custom-code-snippets-installing-code-snippets-from-the-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54993614-custom-code-snippets-installing-code-snippets-from-the-marketplace",
+    "sourceType": "text",
+    "content": "A dedicated Code Snippet tool is available within the Cockpit. Here you can define sections of code you would like to use frequently within your development processes. Within both the App Designer and Script Editor. They will be available within the right-click context menu, alongside the platform-provided code snippets. Any code snippets installed from the Marketplace utilise this same process. They will just install under their own category name \"Marketplace\":"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54993585-using-the-programatic-messagebox-confirmation-dialog",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54993585-using-the-programatic-messagebox-confirmation-dialog",
+    "sourceType": "video",
+    "content": "54993585-using-the-programatic-messagebox-confirmation-dialog"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923856-comparing-the-application-structure-with-the-generated-html-structure",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54923856-comparing-the-application-structure-with-the-generated-html-structure",
+    "sourceType": "video",
+    "content": "54923856-comparing-the-application-structure-with-the-generated-html-structure"
+  },
+  {
+    "chapterName": "Advanced App Designer",
+    "lessonTitle": "54923874-explaining-sap-n",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54923874-explaining-sap-n",
+    "sourceType": "text",
+    "content": "Advanced App Designer – sap.n namespace\n\nThis document describes the “sap.n” namespace and how to use it. \n\n“sap.n” is an internal Neptune namespace that developers often use within applications to check if the application is running within the context of a launchpad. This allows to write code that behaves differently depending on whether the application is standalone or running within a launchpad environment.\n\nWhen coding launchpad-specific functionality, always check first if the sap.n namespace is available to prevent errors when apps are running standalone.\n\nLaunchpad specific code\n\n \n\nFor example, in the app “3FIELDWORKERINSPECT” from the eLearning 2022 Demo package, the “sap.n” namespace is used to append the localViewID to the Leaflet map container.\n\nsap.n example\n\nThis code is checking whether the “sap.n” namespace is available. If it is, it creates a reference variable by appending localViewID + \"--jobLocationMap\". If “sap.n” is not available, it simply sets reference to \"jobLocationMap\". This logic is used when applications need to handle differences between running in standalone versus within a launchpad environment. The reference variable is then used as the target container for the Leaflet map initialization.\n\n\n\n\nIn addition, “sap.n” can also be used in combination with the AppCache to leverage additional data and functionalities that applications can benefit from when running within a launchpad environment (e.g.: AppCache.userInfo). Further details on the AppCache can be found in the eLearning Expert course.\n\nSap.n and AppCache example\n\n \n\nFeel free to experiment within the application!"
+  },
+  {
+    "chapterName": "Bindings, Responses & Data Models",
+    "lessonTitle": "54997370-custom-expression-bindings",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54997370-custom-expression-bindings",
+    "sourceType": "video",
+    "content": "54997370-custom-expression-bindings"
+  },
+  {
+    "chapterName": "Bindings, Responses & Data Models",
+    "lessonTitle": "55001604-working-with-nested-data-comparing-generic-arrray-to-model-path",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/55001604-working-with-nested-data-comparing-generic-arrray-to-model-path",
+    "sourceType": "video",
+    "content": "55001604-working-with-nested-data-comparing-generic-arrray-to-model-path"
+  },
+  {
+    "chapterName": "Bindings, Responses & Data Models",
+    "lessonTitle": "55001627-considerations-of-manual-data-handling-client-side",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55001627-considerations-of-manual-data-handling-client-side",
+    "sourceType": "text",
+    "content": "Adding an additional logic step to your data process flow, by manipulating the 'XHR.response' can be beneficial if you want to perform additional manipulation on the data before it is sent to the model. It is generally recommended to avoid this process unless explicitly required.\n\nThere are a number of considerations:\n\nFor example, you can choose to filter out data during this step, to only return a subset of the data to the interface - however, the entire dataset is still visible in the network response.\n\nYou can apply additional formatting to the data, however, formatters are built into the App Designer for assigned bindings on properties. This enables you to adjust the data for a specific property within its own contextual function.\n\nYou can programmatically set your API response data to a number of different components, or set individual sub-arrays to other components that require a flat array, however, the Model Path is designed for this purpose, as it allows you to \"point\" to the sub-array within a nested response, stored in a MultiModel."
+  },
+  {
+    "chapterName": "Highcharts",
+    "lessonTitle": "54867350-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867350-introduction",
+    "sourceType": "text",
+    "content": "Highcharts is a JavaScript charting library that allows developers to create interactive and visually appealing charts and graphs on web pages. It provides a wide range of chart types, including line charts, bar charts, pie charts, area charts, scatter plots, and more. Highcharts offers a simple and intuitive API for configuring and customizing charts, allowing developers to easily add features like tooltips, legends, data labels, and zooming. It also supports real-time updates and dynamic data loading.\nNeptune comes integrated with the Highcharts library.\n\nHighcharts are SVG-based.\nHighcharts can receive data from APIs, by simply passing the response to the code that generates the highchart, into the respective component.\n\nRemember the Adaptive Framework offers the Business intelligence template that specializes in generating Highcharts, based on table data.\nCreating visualizations from well-formatted data is easier. Often it can be useful to process data with a server script, into a separate table, in a different format, that is more flexible with the framework.\n\nIt is also useful to understand how Highcharts are generated within the App Designer, as then you can deploy with manually within your low-code applications. It is possible to load Adaptive Applications into the App Designer apps. This is covered in the Expert course."
+  },
+  {
+    "chapterName": "Highcharts",
+    "lessonTitle": "54922061-learn-how-to-congiure-highcharts-by-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54922061-learn-how-to-congiure-highcharts-by-example",
+    "sourceType": "text",
+    "content": "By following this example, you can access and re-use code to generate the most common highchart types. You can then easily integrate your own data.\n\nDownload the “Highcharts” example from the Marketplace:\n\n\n\n\nIt contains an application “P9_TRAINING_HIGHCHARTS” application, where we can find some logic to display almost all examples of the library, within a single 2 pages. \n\nThe first page contains the tabs with all the types. The second page contains a single Highchart component that is programmatically set with the relevant highchart code, when a cell is selected on the first page.\n\nHere you can see the Highchart component within the second page.\n\nWhen you make a selection via pressing the ‘link’ component on the first screen:\n\n\nA press event is triggered which calls this function:\n \n\nThis passes the information about the selected component (the link component name) to the function.\n\nA case switch then assigns the variable with the relevant name of the chart to render:\n\n\n\n\n\nThe end of the JavaScript then changes to the second page, calls “chartFunction()” to render the highchart. All the reusable code for each chart type are within their respective folders in the application resources:\n\nHere you can see how the chart metadata is configured, and how the “series” of data is passed into it, for it to render.\n\n "
+  },
+  {
+    "chapterName": "Highcharts",
+    "lessonTitle": "54922216-naia-highchart-generation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54922216-naia-highchart-generation",
+    "sourceType": "video",
+    "content": "54922216-naia-highchart-generation"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867450-launchpad-vs-application-script-headers",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867450-launchpad-vs-application-script-headers",
+    "sourceType": "text",
+    "content": "This lesson highlights how the ‘Header’ data for the application and the launchpad, are different. Scripts included within the Application will enable functionality for that app, when it is running stand alone. Scripts included in the launchpad will apply to all applications running within the launchpad.\n\nThis example shows running an application first standalone, missing a library in the header, then within the launchpad with the included library in the header.\n\n \n\nIf you have not already, install the “eLearning 2022 Demo” from the Marketplace:\n \n\nThis package contains an application ‘3fieldworkerinspect’ which contains a set of libraries within the Application Header:\n\n\n\n\n\n\n\nOpen the application, you can use the shortcut , and open the application Header:\n\n\n\n\n \n\nIf you run the application standalone: (/app/3fieldworkerinspect)\n\n\n\n\n\nSelect an inspection:\n\n \n\nAnd observe the mapping and barcode scanning functionality work as intended:\n\n\n\n However, the signature pad is not accepting any input. When attempting to draw in the square, no line appears:\n\n\nNote this is because the Signature pad library is missing from the application header.\n\nOpening the developer tools reveals the missing library error:\n\n\n \n\nCompare this to the ‘eLearning Launchpad’ header:\n \n\nHere you can see all 4 libraries are included.\n\n \n\nIf you ‘Run’ the launchpad to open it (/launchpad/eLearning Launchpad):\n\n\n\n\nOpen the Inspection Portal tile – which is assigned the action of opening the application ‘3fieldworkerinspect’:\n\n\n\n\n \n\nOpen one of the inspection items and then navigate to the Signature pad:\n \n\nObserve the functionality working as expected.\n\n "
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867479-explaining-the-capbility-of-storing-scripts-in-the-media-library",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867479-explaining-the-capbility-of-storing-scripts-in-the-media-library",
+    "sourceType": "text",
+    "content": "When including scripts within your application or launchpad header via the script tag:\n\nEG: For Barcode scanning: <script src=\"https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js\"></script>\n\nYou can observe the way the library is loaded. In this example, a CDN (Content Delivery Network) is hosting the library, which is then called and loaded from the provider when the application is started. This behavior is fine, however, you should note if you are running a specific version (0.12.1 in this example) or using the latest, as functionality can change and affect your application logic.\n\n\nThere is also the risk of the provider not being able to serve the file anymore for several reasons.\nTo increase the stability of your developments, we recommend storing the library within the Media Library, which provides a system-level copy of the library that will always be available when the system/application is available.\n\nIn this example, visiting the script source URL and saving the file (quagga.min.js), allows you to upload it to the media library and use the URL provided for the file within the script tag.\nIn this example: [myDomain]/media/root/Libs/quagga.min.js"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867496-launchpad-login-options",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867496-launchpad-login-options",
+    "sourceType": "text",
+    "content": "In Neptune DXP, the login method can be configured within the System Settings.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/settings-authentication.html\n\nBy default, when you log in as the admin while hosting the Open Edition locally, you are logging in with a local user. The Neptune Portal also uses the local login process as the default login method.\n\nHowever, Neptune DXP also provides the flexibility to integrate with various service providers to facilitate an easier login process for end users. This means that you can integrate with external authentication sources such as LDAP, SAML, and Microsoft Entra ID, or even enable self-registration for users to create their own accounts.\n\nTo configure these alternative login methods, you can refer to the documentation provided by Neptune Software. Here is the link to the documentation on user authentication in Neptune DXP Open Edition: User Authentication Documentation: https://docs.neptune-software.com/neptune-dxp-open-edition/23/overview/user-authentication.html\n\nIn the documentation, you will find detailed instructions on how to configure each authentication method, including LDAP, SAML, Microsoft Entra ID, and self-registration. This will allow you to customize the login process and provide a seamless experience for your end users."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867501-launchpad-login-vs-cockpit-login",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867501-launchpad-login-vs-cockpit-login",
+    "sourceType": "text",
+    "content": "The Launchpad login and Cockpit login are two different login processes within Neptune DXP.\n\nThe Launchpad login is used to access the Launchpad, which is the entry point for users to access their applications. The Launchpad login page can be customized and assigned to a Launchpad. You can configure policies to restrict access to the Launchpad using the Cockpit. You can find more information on how to configure the Launchpad login page and policies in the Neptune Software documentation for SAP Edition here and for Open Edition here.\n\nOn the other hand, the Cockpit login is used to access the Cockpit itself, which is the main control element for creating and managing applications in Neptune DXP. The Cockpit login is separate from the Launchpad login and requires administrative access, with correct ACL permissions.\n\nDevelopers access the Cockpit for tooling and configuration purposes, while end users access the Launchpad to use the applications.\n\nThe Launchpad has additional login configurations such as PIN and the ability to use custom login applications. This allows for more flexibility in the authentication process for end users.\n\nLater, in this chapter, you will learn more about the PWA capabilities of the launchpad, which can enable it with even more functionality for your own users, such as Face ID and fingerprint login.\n\nRemember, you can always log in with another browser or in a private session with another user in the same system to test access to different roles and configurations."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867506-single-app-launchpad",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867506-single-app-launchpad",
+    "sourceType": "text",
+    "content": "You can use the Single App Launchpad feature in Neptune DXP for a Simplified User Experience: it allows you to create a launchpad with only one app visible to the users. This helps to provide a focused and streamlined user experience, eliminating any distractions from other apps or tiles.\n\nIf the application is assigned within the Launchpad general settings, then it will replace any other configured tile groups with a single application."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867524-other-launchpad-customisations-enhancements",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867524-other-launchpad-customisations-enhancements",
+    "sourceType": "text",
+    "content": "Other customizations are available for your launchpads:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/launchpad-optional.html\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/launchpad-layout.html\n\nIn the Customization tab, under the Settings section, you can change general settings regarding the behavior of your launchpad. Such as:\n\nHide Launchpad Header,\nDisable Customizations,\nConfigure customizations for each individual device e.g. Mobile, Tablet, and Desktop separately,\nFixed Launchpad Width,\nEnable Launchpad & Tile Trace,\nor Enable Push Notifications, etc.\n\nEnhancement Spots are an available functionality to perform more custom logic within aspects of the Launchpad - without requiring changes to the underlying application\nit is not recommended to adjust the provided Launchpad application.\n\nThese are explained in more detail within the Expert level of this course."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867543-launchpad-translations-translation-tool",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867543-launchpad-translations-translation-tool",
+    "sourceType": "text",
+    "content": "Launchpad translations in Neptune DXP allow you to translate different parts of tiles and tile groups within your launchpad. You can manually translate components or use the integrated Google Translator.\n\nTo configure launchpad translations, you need to go to the Translation tool in the Cockpit. From there, you can select the language(s) you want to translate into and then translate the artifacts accordingly. You can enter translations manually or use the Google Translate feature to generate automatic translations.\n\nPlease note that using the Google Translate feature requires a Google API Key, which needs to be configured in the Cockpit Settings.\n\nOnce you have added your translations, you can switch languages in the launchpad settings to see the translated components. For more detailed information and step-by-step instructions, you can refer to the Neptune Software documentation on Launchpad Translations: Launchpad Translations Documentation\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/translation.html\n\nNote that translations for your applications, including all the label titles et cetera, are maintained separately within the applications themselves, via the App Designer."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54867551-launchpad-deployment-options-launchpad-as-a-pwa-or-a-mobile-client",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54867551-launchpad-deployment-options-launchpad-as-a-pwa-or-a-mobile-client",
+    "sourceType": "text",
+    "content": "The Neptune Launchpad is a responsive, web-based platform designed for Neptune applications, functioning as a centralized dashboard that provides users with navigation, personalization, and role-based access control. Accessible through any browser and device via its URL, the Launchpad ensures users only see applications permissible by their roles.\n\nIn Neptune DXP, you have the option to choose between a Progressive Web App (PWA) or a Mobile Client for your launchpad.\n\nThe Launchpad serves as the basis for creating either a Progressive Web App (PWA) or a Hybrid Mobile Client. The PWA option wraps the Launchpad in a browser layer that allows for offline functionality and home-screen installation, enhancing user experience with device-like features.\nA PWA is a web application that can be installed on desktops, tablets, and mobile phones. It offers a consistent user experience across all devices and behaves like any installed mobile client. PWAs support offline data, similar to real mobile clients, making them a powerful choice. However, it's important to note that PWAs require HTTPS for launchpad authentication. You need to have a certificate installed, and only basic authentication (SAP username and password) is possible with PWAs. External Identity Providers are not supported with PWAs.\n\nPWAs leverage modern web APIs to interact seamlessly with the device hardware, offering functionalities close to native apps. On the other hand, Hybrid Mobile Clients built with tools like Apache Cordova integrate directly with mobile operating systems, allowing for more extensive customization and integration with native device features.\n\nOn the other hand, a Mobile Client is the mobile version of a launchpad. It uses Apache Cordova plugins to create mobile applications. These plugins allow you to access device hardware and provide native-like functionality. However, not all device hardware can be accessed through PWAs, and Cordova plugins cannot be used with PWAs. If you have advanced requirements that require specific device hardware access or Cordova plugins, a Mobile Client would be a better choice,  but offering more native functionalities and requiring distribution through app stores or similar channels as it requires installation.\n\nIn essence, choosing between a Launchpad, PWA, or Hybrid Mobile Client depends on the required functionalities, distribution methods, and desired user experience. For simpler needs, the Launchpad alone suffices, while PWAs or Hybrid Mobile Clients are better for more complex requirements or specific device integrations.\n\nHere is a fantastic example website of what PWA can do today:\nhttps://whatpwacando.today/"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883444-launchpad-pwa-and-mobile-client-explainer-video-11-minutes",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54883444-launchpad-pwa-and-mobile-client-explainer-video-11-minutes",
+    "sourceType": "video",
+    "content": "54883444-launchpad-pwa-and-mobile-client-explainer-video-11-minutes"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883455-launchpad-pwa-web-authentication-faceid-fingerprint-capbility",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54883455-launchpad-pwa-web-authentication-faceid-fingerprint-capbility",
+    "sourceType": "text",
+    "content": "To use the web authentication key (FaceID, Fingerprint capability) in the Launchpad PWA configuration, you can enable the \"Enable Web Authentication\" option in the PWA tab of the Launchpad settings in Neptune DXP Cockpit.\n\nEnabling this option allows you to enhance the authentication process for your web applications by utilizing Public Key Infrastructure (PKI) technology. It secures encrypted HTTP communications and provides a more secure way for users to authenticate using biometric features such as FaceID or Fingerprint capability.\n\nPlease note that the availability of FaceID or Fingerprint capability depends on the device and browser being used. Additionally, make sure you have a valid SSL certificate installed on your server to ensure secure communication."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883774-install-pwa-on-ios-and-android",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54883774-install-pwa-on-ios-and-android",
+    "sourceType": "text",
+    "content": "Here is a diagram highlighting the steps to install a PWA on an iPhone (iOS):\n\n\n\n\n\n\nAnd on Android:\n\n"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883515-pwa-install-on-desktop",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54883515-pwa-install-on-desktop",
+    "sourceType": "text",
+    "content": "PWA's can be installed on mobile and desktop.\n\nTo install it when using a laptop/desktop - open the user panel, and choose \"Install Application\":\n\n\n"
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883799-launchpad-chatbot-integration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54883799-launchpad-chatbot-integration",
+    "sourceType": "text",
+    "content": "To integrate a chatbot into your Neptune DXP - Open Edition launchpad, you can follow these steps:\n\n    Set up an account with either SAP Conversation AI or IBM Watson Assistant, depending on the chatbot you want to use.\n\n    Generate a token from your SAP or IBM account to connect your chatbot with Neptune DXP - Open Edition.\n\n    In the Neptune DXP Cockpit, go to the Administration section and click on Launchpad.\n\n    Click on Add to create a new launchpad or select an existing launchpad.\n\n    In the Chatbot tab of the launchpad settings, enable the chatbot integration.\n\n    Enter the token and necessary IDs for your chatbot.\n\nBy integrating a chatbot into your launchpad, it will appear in the bottom right corner, floating above the tiles.\n\nIntegrating a chatbot into your Neptune DXP - Open Edition launchpad offers benefits such as improved user experience, 24/7 availability, increased efficiency, cost savings, scalability, data collection and analysis, and integration with backend systems. These benefits contribute to enhanced user support and engagement."
+  },
+  {
+    "chapterName": "Advanced Launchpad and Tiles",
+    "lessonTitle": "54883865-best-practice-tile-navigation-using-the-url-semantic-objects-and-actions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54883865-best-practice-tile-navigation-using-the-url-semantic-objects-and-actions",
+    "sourceType": "text",
+    "content": "Semantic object and action explanation:\n\nWhen you downloaded the product, you will have clicked a tile in the portal, which would have opened this page:\nhttps://portal.neptune-software.com/launchpad/portal#product-download\nNotice the hash followed by two keywords at the end of the URL\n\nThis is the [Semantic Object] + [Action] as configured within the Tile -> Navigation tab.\n\nIt is recommended to configure these for all your tiles, to allow for better user experience when navigating between applications.\n\nAn error is thrown when saving a launchpad that has tiles connected via tile groups that use duplicate semantic and action names.\n\n"
+  },
+  {
+    "chapterName": "Styling Applications, Tiles and Launchpads",
+    "lessonTitle": "55001922-advanced-css-selector-knowledge",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55001922-advanced-css-selector-knowledge",
+    "sourceType": "text",
+    "content": "It is possible to customise all aspects of your applications, utilising the UI5 framework, by understanding more about the opportunities of CSS selectors:\nhttps://www.w3schools.com/cssref/css_selectors.php"
+  },
+  {
+    "chapterName": "Styling Applications, Tiles and Launchpads",
+    "lessonTitle": "55002287-sass-syntactically-awesome-style-sheets",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55002287-sass-syntactically-awesome-style-sheets",
+    "sourceType": "text",
+    "content": "When implementing custom CSS in Apps, there is the opportunity to utilise SASS syntax.\n\nYou can read about it in this informative blog post:\nhttps://community.neptune-software.com/topics/planet-9/blogs/style-your-applications-with--s-a-s-s\n\n\n"
+  },
+  {
+    "chapterName": "Styling Applications, Tiles and Launchpads",
+    "lessonTitle": "55002341-ui5-button-styling-tip-unstyled",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55002341-ui5-button-styling-tip-unstyled",
+    "sourceType": "text",
+    "content": "Some UI5 components have more complex structures.\n\n\n\n\nObserve this example:\n\nWhen attempting to apply a blue background against a button:\n\nThis visual issue occurs.\n\nBy setting the button type to \"Unstyled\":\n\n\nYou can work with a more \"basic\" button, which is easier to style:\n"
+  },
+  {
+    "chapterName": "Styling Applications, Tiles and Launchpads",
+    "lessonTitle": "55002390-other-css-top-tips-media-hover",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55002390-other-css-top-tips-media-hover",
+    "sourceType": "text",
+    "content": "@media\n\nThe @media rule in CSS is used to apply different styles based on different media types or conditions. It allows you to create responsive designs by targeting specific screen sizes, devices, or other media features.\n\nHere's an example of using @media to apply different styles for different screen sizes:\n\n@media screen and (max-width: 600px) {\n  /* Styles for screens with a maximum width of 600px */\n  body {\n    background-color: lightblue;\n  }\n}\n\n@media screen and (min-width: 601px) and (max-width: 1200px) {\n  /* Styles for screens with a width between 601px and 1200px */\n  body {\n    background-color: lightgreen;\n  }\n}\n\n@media screen and (min-width: 1201px) {\n  /* Styles for screens with a minimum width of 1201px */\n  body {\n    background-color: lightpink;\n  }\n}\n\n\nIn this example, the background color of the body element will change based on the screen width. When the screen width is less than or equal to 600px, the background color will be lightblue. When the screen width is between 601px and 1200px, the background color will be lightgreen. And when the screen width is greater than or equal to 1201px, the background color will be lightpink.\n\nhttps://www.w3schools.com/cssref/css3_pr_mediaquery.php\n\n:hover\n\nThe :hover pseudo-class in CSS is used to apply styles to an element when it is being hovered over by the user. It is commonly used to create interactive effects or highlight elements on a webpage.\n\nHere's an example of using :hover to change the background color of a button when it is being hovered over:\n\nbutton {\n  background-color: blue;\n  color: white;\n  padding: 10px;\n  border: none;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: red;\n}\n\n\nIn this example, the button element has a blue background color by default. When the user hovers over the button, the :hover selector is activated and the background color changes to red. This provides visual feedback to the user that the button is interactive.\n\nYou can apply various styles to elements using :hover, such as changing the font color, adding animations, or modifying other properties to create engaging user experiences."
+  },
+  {
+    "chapterName": "Advanced Tables / Database",
+    "lessonTitle": "54921539-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54921539-introduction",
+    "sourceType": "text",
+    "content": "The platform is capable of being a comprehensive solution for managing productive databases. This is achieved through the tool's native integration with the database connected to the platform. You will perform the majority of table data manipulations either via API or via Server Scripts.\n\nYou can read more about setting up a database to power the platform, in the installation guide, available to download in the Portal:\n\nhttps://stneptuneportal.blob.core.windows.net/downloads/Neptune%20DX%20Platform%20-%20Open%20Edition/Installation%20Guide%20Open%20Edition.pdf\n\nYou can then configure your database connection in the platform system settings:\n\n\nNote: It is best to perform this action with a fresh installation."
+  },
+  {
+    "chapterName": "Advanced Tables / Database",
+    "lessonTitle": "54921546-data-modeller-add-on-utilisation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54921546-data-modeller-add-on-utilisation",
+    "sourceType": "text",
+    "content": "Managing many tables, all with their own set of properties can be limited by only viewing one table at a time.\n\nNeptune offers the Data Modeller Add-On, which can be downloaded from the Marketplace.\n\n\nYou can read about how to set up and utilise this Add-On here:\n\nhttps://docs.neptune-software.com/neptune-dxp-portal/marketplace-content/datamodeller/index.html\n\nRead the blog post about it here:\nhttps://community.neptune-software.com/topics/planet-9/blogs/introducing-the--new--data--modeller--add--on"
+  },
+  {
+    "chapterName": "Advanced Tables / Database",
+    "lessonTitle": "54921559-why-foreign-keys-are-important",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54921559-why-foreign-keys-are-important",
+    "sourceType": "text",
+    "content": "Foreign keys are an essential component of database design in Neptune DXP. They establish relationships between tables and ensure data integrity and consistency. Here are a few reasons why you should create foreign keys:\n\n    Data Integrity: Foreign keys enforce referential integrity, which means that the values in the foreign key column must match the values in the primary key column of the referenced table. This prevents the creation of orphaned records and ensures that the data remains consistent and accurate.\n\n    Relationship Mapping: Foreign keys help establish relationships between tables. By defining foreign keys, you can easily map relationships between tables and navigate through related data using joins. This is particularly useful when querying data or performing complex data analysis.\n\n    Cascading Actions: Foreign keys can be configured to perform cascading actions when the referenced record is updated or deleted. For example, you can set up cascading deletes to automatically delete related records when the referenced record is deleted. This simplifies data maintenance and ensures data integrity across multiple tables.\n\n    Query Optimization: Foreign keys can improve query performance by allowing the database engine to optimize join operations. With properly defined foreign keys, the database engine can use indexes more efficiently and execute queries faster.\n\n    Documentation and Understanding: Foreign keys serve as documentation for the relationships between tables. By examining the foreign keys, developers and database administrators can gain a better understanding of the database structure and the intended relationships between tables.\n\nOverall, creating foreign keys in Neptune DXP is crucial for maintaining data integrity, establishing relationships between tables, optimizing queries, and providing documentation. It is considered a best practice in database design and contributes to the overall efficiency and reliability of your application."
+  },
+  {
+    "chapterName": "Advanced Tables / Database",
+    "lessonTitle": "54921893-how-to-configure-foreign-keys-with-the-data-modeller",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54921893-how-to-configure-foreign-keys-with-the-data-modeller",
+    "sourceType": "text",
+    "content": "Consider this UML diagram, showing three tables.\n(Source: https://cloud.google.com/spanner/docs/foreign-keys/how-to)\n\n\nFigure 1. Diagram of an order processing database schema\n\nThere are three tables in the schema shown in Figure 1:\n\nThe Customers table records the names of each customer.\nThe Orders tables keeps track of all orders made.\nThe Products table stores the product information for every product.\n\nThere are two foreign key relationships between these tables:\n\nA foreign key relationship is defined between the Orders table and the Customers table to ensure that an order can't be created unless there is a corresponding customer.\nA foreign key relationship between the Orders table and the Products table ensures that an order can't be created for a product that doesn't exist.\n\n \n\nWe can recreate this within the Data Modeller, by simply creating the three tables in the table definition tool – then click and dragging to assign the foreign key relations.\n\nSimple click and drag from the ‘id’ of one table, to a property in another table, of type UUID and set to unique.\n\nPackage available to import here: https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-tableKeyExample \n\n \n\nObserve the ‘orders’ table, now with its two foreign key connections to the ‘customer’ and ‘products’ table:\n\n\nSelecting each foreign key reveals the referenced colum and table on the right:\n\n\n "
+  },
+  {
+    "chapterName": "Advanced Tables / Database",
+    "lessonTitle": "54921971-understanding-on-delete-property-cascading-actions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54921971-understanding-on-delete-property-cascading-actions",
+    "sourceType": "text",
+    "content": "Cascading actions in Neptune DXP allow you to define automatic actions that should be performed on related records when a referenced record is updated or deleted. This feature simplifies data maintenance and ensures data integrity across multiple tables.    \n\nDefault: This is often a placeholder to indicate that no specific referential action has been chosen, and the system's default behavior will take place when a referenced row in the parent table is deleted or updated. The default behavior can vary based on the database system in use.\n\nNo Action: When the parent table's row is updated or deleted, the \"No Action\" rule tells the database system not to take any immediate action. However, it will prevent the operation if it would result in an orphaned row in the child table.\n\n    Set Null: If a referenced row in the parent table is deleted or updated, the foreign key columns in the child table will be set to NULL. This is assuming that the columns can accept NULL values. It's a way to maintain referential integrity by explicitly acknowledging that the relationship has been severed.\n\n    Cascade: This option means that whatever happens to the row in the parent table should also happen to the corresponding rows in the child table. If a parent row is deleted, for instance, then all related child rows will be deleted as well, which helps maintain referential integrity.\n\n    Restrict: With this rule, if there is an attempt to delete or update a row in the parent table and there are related rows in the child table, the action will be denied. This ensures that no orphaned rows are left in the child table.\n\nYou can configure this property when maintaining the foreign keys."
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54919223-handling-communication-key-words",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54919223-handling-communication-key-words",
+    "sourceType": "text",
+    "content": "The Script Editor contains a set of Key Words:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/script-editor-key-words.html \n \nReq - Useful for handling Request data when the script is being used as an API endpoint. For example: Use req.body to get the body of the request, being sent to the script.\nreq.params\n\nThis is particularly useful for this use case:\nReq.user to make specific lookups for only records for that user\n\n\nHow this differs from a client-side (application) API call with a where clause on the Username:\nIf you make a request to a server script, or directly to a table, utilising a where clause to get only records relevant to a given user - there is the opportunity for a malicious attempt to get data outside of this context. In this case, changing the name of the user to another within the request could trick your logic to return sensitive data.\nTo avoid this scenario, utilise the req.user parameter within server scripts, for the server to handle the authentication associated with the request, which provides the user details of the person logged in, and making the request.\n\nwf.data (Will be within the Workflow Chapter)\n\n\n\n"
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54919236-calling-apis-within-server-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54919236-calling-apis-within-server-scripts",
+    "sourceType": "text",
+    "content": "APIs in server scripts\n\nWithin the script editor, you can execute API calls in multiple ways. One option is to employ an NPM module such as AXIOS or HTTPS. However, the script editor provides code snippets that automatically generate code for your existing APIs within the platform, when they are assigned to your script as a resource.\n\nHow to add an API in your script\n\nIn the resources panel, you will see the list of all existing APIs within the system.\n\nTo incorporate an operation into your script, drag and drop the operation onto the script you are working on. The script must be in edit mode for you to place the operation within it. You'll then be prompted to provide a name for the operation.\n\nOnce you have completed this step, right-click and open the code snippets and search for your operation. Alternatively, you can expand the API section to locate it.\n\nThe Script Editor will generate the code snippet with all the parameters, headers, and body definitions exactly as you have defined the API within the API Designer.\n\n \n\nNow, this script can be utilized to execute tasks based on your requirements. For instance, you can manually trigger this script to call an external endpoint, connect it to a job for executing a sequence of tasks, integrate it with an external API, and more."
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54920321-global-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54920321-global-scripts",
+    "sourceType": "text",
+    "content": "Using a global script in Neptune DXP allows you to define reusable functions and variables that can be accessed and used across multiple pages or components within your application. This helps promote code reusability, reducing duplication, and improving the maintainability of your application.\n\nGlobal scripts can be used to define common utility functions, perform data manipulation or validation tasks, or even integrate with external systems. By centralizing these functionalities in a global script, you can ensure consistency and efficiency in your application development.\n\nAdditionally, global scripts can be easily shared and reused across different projects, making it easier to standardize and scale your development efforts. This can save you time and effort in writing and maintaining code, as well as facilitate collaboration among developers working on the same project.\n\nYou can read more about them here:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/script-editor-getting-started.html#_globals\n\nYou must export functions within the 'complete' statement of a global script to make them available to use within other scripts.\n\nA boilerplate code example, featuring two script projects, one with a global script, and another with a script consuming the functions by referencing the global script,  is available to download from the Marketplace \"Global Script Boilerplate Example\":\n\n\nGlobal scripts can be seen running the System Processes tool:"
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54920510-internal-functions-p9-functions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54920510-internal-functions-p9-functions",
+    "sourceType": "text",
+    "content": "‘P9’ functions | Script Editor\n\nThe Script Editor enables you to utilize 'core' functions capable of triggering events, workflows, locating user roles, and much more. When searching for 'p9', you'll discover a variety of functions in the code snippets.\n\nIn each code snippet, an example and a description of the function along with its purpose are provided. Moreover, within the editor, you'll have visibility into each function's parameters, return values, and available operations.\n\n \n\n "
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54920587-perform-advanced-queries-within-a-script-to-manipulate-data-left-join",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54920587-perform-advanced-queries-within-a-script-to-manipulate-data-left-join",
+    "sourceType": "text",
+    "content": "Understanding advanced database queries with TypeORM: Left Join example\n\nTypeORM allows for sophisticated queries to be developed and executed. For example, a Left Join example can be seen in the eLearning 2022 example script project \"EQUIPMENTCHECKUPSCRIPTS\" -> \"Get Field Worker Tasks\":\n\n\nYou can learn more about the general concept of table joins, here:\nhttps://www.w3schools.com/sql/sql_join_left.asp\n\nYou can view additional technical documentation around the TypeORM left join (without select) used in the example, here: https://orkhan.gitbook.io/typeorm/docs/select-query-builder#join-without-selection\n\nFeel free to read more and experiment with other complex table queries to understand how to better develop and work with your data sources."
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54920811-operators",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54920811-operators",
+    "sourceType": "text",
+    "content": "Operators in scripts\n\nSQL operators are symbols or keywords used in SQL to perform operations on data in a database. They are used in conjunction with SQL statements to filter, manipulate, and compare data.\n\nHere are some basic operators and their descriptions that you can use with TypeORM:\n\n \n\nNote: The operators must be declared as a variable before they are referenced within an entity's operation.\n\n \n\nBetween: This is used to return all entities that are between two numerical values.\n\nMoreThan: This is used to retrieve entities from a table where a specific property is strictly greater than the provided value.\n\nRaw: This is used to execute a custom raw SQL query for filtering entities based on a dynamic condition.\n\n \n\n \n\nYou can find more operators and their descriptions with examples in code snippets by searching for ‘operators’\n\n \n\nExample: The following code block will retrieve all entities where the value in the updatedAt column is greater than the value in the inspectedAt variable using the Raw operator.\n\nconst {\n\n    Raw,\n\n} = operators;\n\n \n\nconst data = await entities.entityName.find({ \n\n    inspectedAt: Raw((updatedAt) => `${updatedAt} > ${inspectedAt}`),\n\n});\n\n \n\nNote: These operators are not only used within the Script Editor but can also be used in other tools such as the API Client, Table Browser, and the App Designer."
+  },
+  {
+    "chapterName": "Advanced Server Scripts",
+    "lessonTitle": "54920894-folders-in-the-script-editor",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54920894-folders-in-the-script-editor",
+    "sourceType": "video",
+    "content": "54920894-folders-in-the-script-editor"
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892324-neptune-email-capabilities",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892324-neptune-email-capabilities",
+    "sourceType": "text",
+    "content": "Neptune DXP Open Edition provides email capabilities through the Email Template feature. With Email Template, you can create customized email templates and use them to send email notifications from server scripts.\n\nIt is possible to include custom variables in the templates, to personalize them for each recipient. This means you can pass your own data into specific parts of the template. It is also possible to add attachments if required.\n\nEmails can be triggered from Server Scripts (code snippet available) and directly from Applications via API (Marketplace item available).\n\n\nAn SMTP host must be available and configuration must be made in the System Settings to enable email capabilities."
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892331-email-smtp-configuration-required",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892331-email-smtp-configuration-required",
+    "sourceType": "text",
+    "content": "How to setup an SMTP connection\n\nPrerequisites\n\nTo utilize all email capabilities, you must have an SMTP server to establish a connection between Neptune DXP – Open Edition and your server. If you do not possess one, there are various providers available for you to choose from.\n\n \n\nSteps\n\nIn the System Settings tool, navigate to the Emailing tab.\nIn Provider, choose your provider or select Custom.\nEnter the SMTP Host for example, smtp.sendgrid.net.\nEnter the Port and, enable the following depending on your SMTP requirements:\nUse pool.\nSecure (only for port 465).\nAllow self-signed certificates. \nEnter the email address from which you want your emails to be sent.\nChoose your Authentication. You can either authenticate with your username and password or with OpenID Connect.\nSave\nFinally, test the connection.\n \n\nIMPORTANT: Make sure to click Restart in the System Settings after you enter your SMTP information to apply the changes you made on the server.\n\n.                                               \n\n \n\nIf no errors occurred, you should see the following message:\n\nOtherwise, an error message will be displayed. To troubleshoot, navigate to the System Logs and locate the corresponding log files under the 'System' category. Open these files to identify and understand the issue.\n\n "
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892338-creating-an-email-template",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54892338-creating-an-email-template",
+    "sourceType": "video",
+    "content": "54892338-creating-an-email-template"
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892441-calling-an-email-template-from-a-server-script-with-attachments-custom-data-and-more",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54892441-calling-an-email-template-from-a-server-script-with-attachments-custom-data-and-more",
+    "sourceType": "video",
+    "content": "54892441-calling-an-email-template-from-a-server-script-with-attachments-custom-data-and-more"
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892447-naia",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892447-naia",
+    "sourceType": "text",
+    "content": "Naia has email template generation capabilities. Simply visit the Email Template tool, create a new template - then open Naia and choose the 'Email Generation' automation.\nYou can then simply describe the email content you wish to have, along with defining any variables to include.\nHere is an example:\n"
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892458-triggering-sending-from-the-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892458-triggering-sending-from-the-app-designer",
+    "sourceType": "text",
+    "content": "Sending emails from applications\n\n \n\nThe DXP Marketplace offers products to streamline processes and save time for developers. Instead of developing a script to send emails and an API to trigger that script, you can download the Simplify Email Sending product from the Marketplace, to utilise a pre-configured framework.\n\n \n\nPrerequisites\n\nYou must have an SMTP connection configured in the System Settings.\n\n \n\nSteps\n\nDownload the ‘Simplify Email Sending ‘product from the DXP Marketplace.\n\nCreate an application in the App Designer and, drop a RestAPI component in your Resources.\nSelect the API that came with the development package.\nIn a JavaScript file, right click and select code snippets. Select the API code snippet associated with the product’s API.\n\n\n\n\nEnsure to read the product's description and the API's settings to understand the necessary fields required for the operation to function properly.\n\n \n\nNote that this API calls the included server script, which calls the await sendEmail() function with the data passed via the API."
+  },
+  {
+    "chapterName": "Email Template",
+    "lessonTitle": "54892491-smtp-log",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892491-smtp-log",
+    "sourceType": "text",
+    "content": "Neptune DXP Open Edition also allows you to monitor and show the status of all emails sent by the platform within a defined time frame using the SMTP Log feature. You can view the details of SMTP Log entries and check the content of an email by clicking on the log entry. More information about monitoring SMTP can be found in the documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/monitoring-smtp.html\n\nThis tool is useful to check which emails have been sent, or failed to send."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54917795-api-vs-connector",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917795-api-vs-connector",
+    "sourceType": "text",
+    "content": "Both Connectors and APIs defined using the API Designer, have types.\nBoth share the Table and Server Scripts as types as a data source.\n\nConnectors are optimised to work with the Adaptive Designer applications.\nAPIs are optimised to work with App Designer applications.\nConnectors can be used within both Designers.\nAPIs can only be used within the App Designer.\n\nAPIs can have the 'External' type set, allowing them to communicate with other endpoints outside of the Neptune DXP. A Connector can also be configured as an API type, allowing you to select API Defintions (created within the API Designer) for its operations.\n\nAPI Designer definitions can utilise the 'Import' functionality to automatically populate their fields, for a number of items:\n\nAPI Discovery Service (Connect to remote system and fetch API definition, such as SAP APIs. This requires a Remote System to be configured)\nSAP API (Imports directly from https://api.sap.com/)\nOpen API 3.0\nPlanet 9 File (other API definitions exported from the Open Edition)\n\nConnectors also have the unique 'SAP API Factory' type - allowing you to select a configured SAP Remote system, an Artefact Type, and Entity Key which can trigger the API within the SAP Edition.\n\nMore information about the SAP API Factory, can be found within the SAP Edition course."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54917842-script-type-api-101-apis-to-call-a-server-script-return-data-logging-req-passing-parameters-queries",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54917842-script-type-api-101-apis-to-call-a-server-script-return-data-logging-req-passing-parameters-queries",
+    "sourceType": "video",
+    "content": "54917842-script-type-api-101-apis-to-call-a-server-script-return-data-logging-req-passing-parameters-queries"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918034-script-type-api-101-email-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54918034-script-type-api-101-email-example",
+    "sourceType": "video",
+    "content": "54918034-script-type-api-101-email-example"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918466-in-path-api-parameters-url-path-part-1",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54918466-in-path-api-parameters-url-path-part-1",
+    "sourceType": "video",
+    "content": "54918466-in-path-api-parameters-url-path-part-1"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918477-in-path-api-parameters-url-path-part-2-to-server-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/lessons/54918477-in-path-api-parameters-url-path-part-2-to-server-scripts",
+    "sourceType": "video",
+    "content": "54918477-in-path-api-parameters-url-path-part-2-to-server-scripts"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918628-exercise-returning-the-id-of-a-newly-created-entry-via-post-method-parameter",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918628-exercise-returning-the-id-of-a-newly-created-entry-via-post-method-parameter",
+    "sourceType": "text",
+    "content": "Create entities and retrieve ID via API\n\nFor table definition type APIs, the /PUT operation will create a new record whereas the /POST will update a record based on the provided parameters, EG: “where” parameter.\n\nWhen creating a new entry, the /PUT operation will only return the status of the API operation (successful or failed). Sometimes it's useful to obtain information about the newly created entry. \n \nInstead of the developer first creating the new entry and then using the /GET operation to fetch the specific record, you can utilize a /POST operation to create the new entry and receive the ID of that entry as a response in one round trip. This reduces the number of API calls from two to one.\n\nTo achieve this, use the /POST operation of your table definition API. Provide the required request body similar to a /PUT operation, and include the following parameter:\n\n“fetch : true”\n\n \n\n \n\nThe corresponding code snippet would look like:\n\nlet apiOptions = {\n\nparameters: {\n\nfetch: true\n\n},\n\ndata: {\n\nname: \"\",\n\nage: \"\",\n\n// all required fields \n\n},\n\n};\n\napiRestAPI(apiOptions);\n\n \n\n \n\nAn example response for a different table type API, with this “fetch” parameter set to true:\n\n\n \n\nYou can retrieve this data within your App Designer API AjaxSuccess event.\n EG:\n xhr.responseJSON.identifiers\n\n \n\n \n\nNote: Remember this only applies to the /POST operation.\n\n "
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918653-authentication-the-concept-and-the-tools-available-proxy-authentication",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918653-authentication-the-concept-and-the-tools-available-proxy-authentication",
+    "sourceType": "text",
+    "content": "API Authentication\n\n \n\nWhat is API authentication?\n\nTo begin with, why would you need to authenticate with your API in the first place?  Authentication can be required since it ensures security and access control. It verifies users' identities, preventing unauthorized access and malicious activities.\n\n \n\nWhen do I know authentication is required?\n\nWhen configuring an external API, you'll typically find authentication requirements outlined in the API documentation. Look for instructions specifying the need for an API key, OAuth token, or other authentication method. Sometimes, an API key is placed as a parameter of the URL, or the documentation might outline a different authentication process, such as using headers or request bodies.\n\nWhat do I do in Open Edition if authentication is required?\n\nDepending on the API, different steps will be taken in order to add authentication in your API.\n\nExample 1:\n\nBelow, is the definition of a weather API that takes an API key in its path.\n\nIf we wanted to use this API then, the API would look like such in the API Designer:\n\nEndpoint: https://api.openweathermap.org\n\n \n\nOperation:\n\n\n\n\n\nRequest:\n\n\n\n\n\nSince we added the parameters in the path of the operation, we are required to check the ‘In Path’ checkbox.\n\n \n\nIn this way, when you make the API call, you will just need to pass the necessary values in each parameter.\n\n \n\nExample 2:\n\nIn the example below, an API key is required to be placed in the header of the operation.\n\nIn this case, we have two options.\n\nDefining a header in the request tab of the operation:\n\n\n\n\n     2.   Defining a proxy authentication with the Proxy Authentication tool:\n\nFirst, create a new Proxy Authentication and give it a name. Since we are only required to add a value in the header of the operation, we just leave the ‘type’ as it is and, in the header tab, we add the header as if we were adding in the API Designer.\n\nFinally, in the API Designer, you can either add the proxy authentication we just defined in the Authentication tab or in the Authentication tab of a specific operation. This will place all the configurations of the proxy authentication in all operations of the API. Alternatively, if we place it in the operation, then it will only affect that specific operation.\n\nAffects all operations:\n\nAffects specific operations:\n\nDepending on the settings and requirements of an API, various methods might be required for you to access the API. The proxy authentication tool can create the following types of authentication:\n\nBasic (username, password)\nClient Certificate (where a client presents a certificate to authenticate itself to the server)\nOAuth2\nJWT (JSON Web Token)\nSAP Principal Propagation"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918747-endpoint-system-role-configuration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918747-endpoint-system-role-configuration",
+    "sourceType": "text",
+    "content": "API Designer - Endpoint override (External APIs)\n\nFor external type APIs, you can override the default endpoint displayed in the General tab within the API Designer to suit your requirements. For instance, you can replace the endpoint based on the system role of the instance where the API is being consumed, or you can override the entire endpoint for a specific operation.\n\nEndpoint override based on the system role and URL\n\nSuppose you have configured an API on the instance www.development-neptune.com and deployed this API to multiple Neptune DXP instances, such as www.testing-neptune.com and www.sandbox-neptune.com, using Deployment tools.\nEG: Your external endpoint https://www.my-dev-logic.com/\n\nWhen the API Definition is deployed to other systems, the endpoint remains as “my-dev-logic.com” instead of adapting to the corresponding URL of the other system.\n\nEG: For www.testing-neptune.com you want the endpoint to reflect https://www.my-test-logic.com/\n\nThis would require manual endpoint adjustments for each system. \nBy incorporating an additional Role based endpoint configuration, this issue can be avoided. The system will determine the origin of the API trigger and replace the endpoint accordingly, streamlining the process.\n\nEndpoint tab:\n\nHere you can see this API definition has a specific endpoint URL set for when the system role is “Local”:\n\nDefault endpoint:\n\nNotes:\n\nThe appropriate system role must be included in the endpoint. You can find this information in the System Settings of the instance where the API will be consumed.\nThis adjustment will affect all operations within the API. If you prefer to make this change on a per-operation basis, you can add the endpoint within the Endpoint tab of the selected operation.\n\n \n\nEndpoint override for any API type, independent to the system URL and role\n\nSuppose you have configured an API with the endpoint www.weatherAPI.com, and for specific operations, you want to override the default endpoint regardless of the system's URL and role for certain reasons. In such cases, within the selected operation, navigate to the General tab, where you can input an Endpoint Override that will replace the one displayed in the API's General tab.\n\nHere you can see this operation is overridden with www.new.weatherAPI.com for this endpoint only:\n\nAdditional information about the System Settings - Configuration can be found in the Foundation course, chapter ‘Other Cockpit, Platform and ecosystem information’."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918756-coreapis-core-apis",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918756-coreapis-core-apis",
+    "sourceType": "text",
+    "content": "     This blog aims to guide you on how to get started with the internal APIs offered by Neptune DXP - Open Edition, using the Core APIs application building block available in the DXP Marketplace.\n\nhttps://community.neptune-software.com/topics/tips--tricks/blogs/core--a-p-is---getting-started-with-internal--a-p-is\n\nIf you complete any action within the Cockpit, you can inspect the network log to see how the call is structured. The entire platform is API-driven, so you can see the individual CRUD methods that have been configured for all the tools, along with their payloads. Here for example, when refreshing the list of APIs, you can see the request:\n\n\nNote: CoreAPIs require authentication to run. In the same way, your user needs ACL permissions to access the tool, these are the same permissions that allow you to use the endpoints the tools are calling. To use the endpoints outside of the tool contexts, the correct authorization has to apply against the user making the call.\n\n\n\n\nNote: The \"Core API Definition Example\" product in the Marketplace, is not an exhaustive list of the internal endpoints.\n\n\n\nThe “Core API Definition Examples” – are exactly that. Examples. They show you how to utilise a range of the internal endpoints, however since there are 100+ and their request/response bodies vary and can change between patches – since these API examples are not maintained programmatically, we opted to provide them as just boilerplate examples. So this product is not an exhaustive list of all internal endpoints.\n\n \n\nNote the description of the product:\n\n“Note these are examples of what is already available core functionality. No new core logic is applied with this package. The tools available within the cockpit utilise these endpoints.”\n\nEach endpoint requires manual configuration to point to the correct endpoint(s) of the relevant system(s) it is to be deployed in.\n\nThe user making a request to the core endpoint, needs the correct ACL permissions to use the same relevant tool in the cockpit."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918821-api-headers",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918821-api-headers",
+    "sourceType": "text",
+    "content": "Headers in a REST API\n\nHeaders provide additional information about the API request and response. They are used to carry information such as the request method (GET, POST, etc.), the content type of the request payload, authentication information, and other metadata. \n\nHeaders are included in the HTTP request and response messages, separate from the actual request and response payloads.\n\nLet’s use the API Client to inspect an HTTP response and explain some of the automatically generated headers:\n\nWhen a server includes the \"Access-Control-Allow-Origin: *\" header in its response, it effectively indicates to the browser that it allows requests from any origin to access the resource.\n\n“X-Content-Type-Options: nosniff\" is a security header that helps enforce the declared Content-Type and prevents browsers from attempting to guess or interpret the content type based on the response body. For instance, if a server sends a response with a Content-Type of \"text/html\", but the content of the response looks like JavaScript, some browsers might try to interpret it as JavaScript, potentially leading to security vulnerabilities like Cross-Site Scripting (XSS) attacks.\n\nThe “connection” general header controls whether the network connection stays open after the current transaction finishes. If the value sent is keep-alive, the connection is persistent and not closed, allowing for subsequent requests to the same server to be done.\n\nWhen do I need to add a header?\n\nAdding headers to your HTTP requests is essential in various scenarios, especially when interacting with APIs or web services that require authentication, authorization, or specific data formats. \n\nFor example, let’s say you are configuring an external API, and you are required to include an API key or authentication token in your request headers. Then, you would have to add in the request headers of the operation, the header ‘Authorization’ and the value depending on if it is a token or API key.\n\nFor example:\n\nYou should exercise caution when modifying HTTP headers and their values, especially those related to standards, security, authentication, and CORS. Always refer to the relevant specifications, standards, and best practices when configuring headers in your applications or APIs to ensure proper functionality and security."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918852-api-trace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918852-api-trace",
+    "sourceType": "text",
+    "content": "With the API Trace tool, you can view and analyze an API’s performance and usage.\n\n \n\nConfigure the filters to view the data relevant to your use case. The default view is ‘Analytic’, however, you can swap the ‘List’ table to see a different view of the records.\n\nViewing and analyzing an API's performance and usage is essential for optimization, ensuring scalability and reliability, managing costs, troubleshooting, and improving the overall user experience.\n\nTo enable tracking of these metrics, you need to activate \"Enable Trace\" from the General tab in the API's settings. This option allows you to monitor all operations within the API.\n\nIf you only want to track a specific operation, navigate to the General tab of the chosen operation and activate \"Trace Operation\".\n\n\n"
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918878-query-functions-operators-typeorm-built-in-functions-to-query-data-within-api-calls",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918878-query-functions-operators-typeorm-built-in-functions-to-query-data-within-api-calls",
+    "sourceType": "text",
+    "content": "Query functions (Operators)\n\nNeptune DXP – Open Edition uses TypeORM, which is an Object-Relational Mapping (ORM) tool used to create a \"bridge\" between object-oriented programs and relational databases. \nFor that reason, tools like the API Client, Script Editor, App Designer, etc., can benefit from the use of operators that can help you perform more complex queries.\n\nTypeORM is introduced in the Foundation – Script Editor chapter, as scripts can utilise tables as resources. In comparison, the APIs that interact with tables can use some of the same capabilities.\n\nLink to TypeORM documentation: https://typeorm.io/\n\nThese functions can be passed as values in the parameters of an API. For example, the following parameter in a GET operation for a table definition API:\n\nwill trigger the following SQL command:\n\nSELECT * FROM \"entityName\" WHERE \"age\" BETWEEN 30 AND 40\n\nIn natural language, this means \"fetch all entries from the table where the age is between 30 and 40.\"\n\n \n\nList of functions\n\nThe available operators that can be used are:\n\n\n\nAny\n\nDefinition: The operator helps comparison against multiple values within a single expression, clarify queries by negating the need for numerous OR conditions.\n\nInput type: The operator accepts an array of values, where the elements within the array should correspond to the data type of the column being compared.\n\nExample: In([“John”,”Terry”])\n\n \n\n \n\nBetween\n\nDefinition: The operator selects values within a given range.\n\nInput type: The operator accepts numbers, text, or dates.\n\nExample: Between(20,30)\n\n \n\nIn\n\nDefinition: The operator is used to compare a value against a list of specified values. It simplifies queries by checking if a value matches any value in a specified list.\n\nInput type: The operator accepts a list of values enclosed within parentheses. These values can be of any compatible data type with the column being compared.\n\nExample: In([“John”,”Terry”])\n\n \n\nIsNull\n\nDefinition: The operator is used to check if a column contains a NULL value. \n\nInput type: The operator does not require any input value.\n\n \n\nLessThan\n\nDefinition: The operator is used to compare if a value is less than another value.\n\nInput type: The operator accepts a single value for comparison, which should be compatible with the data type of the column being compared.\n\nExample: LessThan(30)\n\n \n\nLessThanOrEqual\n\nDefinition: The operator is used to compare if a value is less or equal than another value.\n\nInput type: The operator accepts a single value for comparison, which should be compatible with the data type of the column being compared.\n\nExample: LessThanOrEqual(30)\n\n \n\nLike\n\nDefinition: The operator is used for pattern matching within string columns.\n\nInput type: The operator accepts a pattern string containing wildcard characters, such as % for matching any sequence of characters and _ for matching any single character.\n\nExample: Like(“%test%”)\n\n \n\nFor more information about other operators please access the following:\n\nhttps://orkhan.gitbook.io/typeorm/docs/find-options#advanced-options\n\n \n\nMore preconfigured examples:\n\nEqual to a value: { \"fieldName\": \"value\" }\nNot equal to a value: { \"fieldName\": \"Not(value)\" }\nBetween a range of values: { \"fieldName\": \"Between(1,10)\" }\nIn a list of values: { \"fieldName\": \"In([\\\"value1\\\", \\\"value2\\\"])\" }\nLess than a value: { \"fieldName\": \"LessThan(value)\" }\nLess than or equal to a value: { \"fieldName\": \"LessThanOrEqual(value)\" }\nMore than a value: { \"fieldName\": \"MoreThan(value)\" }\nMore than or equal to a value: { \"fieldName\": \"MoreThanOrEqual(value)\" }\nLike a value (pattern matching): { \"fieldName\": \"Like(value)\" }\nAny value (exists): { \"fieldName\": \"Any(value)\" }\nIs null (empty): { \"fieldName\": \"IsNull(value)\" }\nRaw value (direct comparison): { \"fieldName\": \"Raw(value)\" }\n\n "
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918884-adding-roles-in-an-api",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918884-adding-roles-in-an-api",
+    "sourceType": "text",
+    "content": "Roles within APIs\n\nTo restrict access to an API, you can easily assign a role to it. Doing so will deny access (via applications, API Client etc) to the endpoint for users who do not have that role assigned to their user (either directly, or via group association).\n\nNote: Table type APIs can’t have a role assigned:\n\n\nInstead, you can define the role within the table itself, for read and write access:\n\n\n \n\nScript and External type APIs can have the role assigned directly the API definition & operations.\n\n \n\nThe steps for adding a role to an API\n\nTo add a role to an API, begin by creating a role using the Role tool. Then, assign this role to the users who require access to the API. Finally, add the role to the API within the Role tab. This will apply restrictions to all operations of the API.\n\nIf you attempt to query the API without a user with the correct authentication, you will receive this error in response:\n\n\"status\": \"No access to resource\",\n\n \n\nIf you need to apply restrictions to a specific operation, navigate to the General tab of the operation and select the roles from the dropdown menu. Ensure all necessary roles are added in the Role tab to populate the dropdown. \n\nThis enables you to specify within a larger group of operations, which should be accessible by which role."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918907-where-used-within-the-api-defintion",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918907-where-used-within-the-api-defintion",
+    "sourceType": "text",
+    "content": "When you begin utilizing your APIs across different platforms (within applications, scripts, etc.), you need a means to track where your operations are being used before making changes to them. Within the API Designer, you can find the \"Where Used\" tab, which displays where your operations are being consumed.\n\nYou can see within which Applications, Scripts, and WebApps (App Editor) the APIs are assigned, and open them directly via shortcut."
+  },
+  {
+    "chapterName": "Advanced APIs & Authentication",
+    "lessonTitle": "54918928-refining-your-searches-show-operations",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54918928-refining-your-searches-show-operations",
+    "sourceType": "text",
+    "content": "There is a built-in filter that allows you to select more properties to search by:\n\n\nAlso note the \"Show operations\" toggle, which will display the operation names grouped by the API definition parents. If enabled this makes it easier to find specific operations that you have defined.\n\n\n"
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917279-documentation-read-through",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917279-documentation-read-through",
+    "sourceType": "text",
+    "content": "The Workflow tool group has a dedicated Getting Started guide within the Documentation:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/workflow-getting-started.html\n\nThis introduction will guide you through setting up a workflow, starting with a simple start node, navigating through user tasks for approvals or rejections, and leveraging script tasks for logic handling. You'll learn how to configure user tasks, set approver determinations, and embed applications within the workflow for a seamless operational flow. Whether approving or rejecting tasks, you'll understand how to direct workflows using script actions based on server scripts.\n\nPlease read it through."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917286-workflow-tooling-recap",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917286-workflow-tooling-recap",
+    "sourceType": "text",
+    "content": "\n    Overview: The Overview tool allows you to monitor workflows. You can start a new workflow or rerun the approver determination for an active workflow.\n\n    Definition: The Definition tool is used to define the details of a workflow. It includes tasks, actions, and events that make up the workflow.\n\n    Task Actions: Task Actions specify the details of a task in a workflow. They can be assigned to user tasks when defining a workflow.\n\n    Approvers: Approvers are the individuals or groups responsible for approving tasks in a workflow. The Approvers tool allows you to create a list of approvers for a workflow.\n\n    Substitutions: Substitutions are used when an approver of a workflow is temporarily unavailable.\n\n"
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917542-exploring-workflow-definition",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917542-exploring-workflow-definition",
+    "sourceType": "text",
+    "content": "In Neptune DXP's workflow editor - Workflow Defintion, there are several components that you can use to build your workflow. Here is an explanation of each component:\n\nScript tasks: Script tasks are used when you want the system to execute a server script. You can define the name, description, and server script to be executed during the workflow. Script tasks are useful for processing inputs from the workflow context and storing the output as a variable.\n\nUser tasks: User tasks are used when you want a user to perform a certain activity in the workflow. For example, you can use a user task to approve or reject an order or invoice. User tasks have various properties such as the task name, description, max processing time, inbox application, approver determination, task action, and more.\n\nTrue/False node: The True/False node is a script action that represents the result of a server script during a script task. It can be used to direct the workflow based on the success or failure of the script.\n\nApprove: The Approve user action is used when a user wants to approve a task in the workflow.\n\nReject: The Reject user action is used when a user wants to reject a task in the workflow.\n\nSave: The Save user action is used when a user wants to save the state of the workflow. It behaves similarly to the Approve and Reject nodes, but it also renders an additional button in the workflow inbox app.\n\nEvents:\n\nCancelled event: The Cancelled event is used to cancel the workflow if it has failed. It marks the end of the workflow and closes it.\n\nCompleted event: The Completed event is used to complete and close the workflow if it has succeeded. It marks the end of the workflow.\n\nThese workflow components can be added to the workflow editor by dragging and dropping them from the reusable component pane on the left. You can connect the components by clicking and dragging from a bottom port to a top port. To edit the properties of each component, click on the component and modify the data in the component properties pane on the right."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917549-user-tasks-exploring-task-actions",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917549-user-tasks-exploring-task-actions",
+    "sourceType": "text",
+    "content": "Explaining how Task Actions work with Approver groups and User Tasks within definitions:\n\nTask Actions: A Task Action is a flag or attribute associated with a User Task in a workflow. It determines the kind of action a user can take on a workflow item when it reaches the User Task. Task Actions are defined and managed in the Cockpit within the Task Action tool. You can add, edit, or delete Task Actions as needed.\n\nApprover Groups: An Approver Group is a mechanism to specify which group of users or roles can act on a particular User Task in a workflow. It points to a group of approvers, which can be individual users, groups or roles within the system. Approver Groups are defined and managed in the Cockpit within the Approvers tool.\n\nCombining Task Actions and Approver Groups: When a workflow reaches a User Task, the system checks the Approver Determination to identify the group of users who can act on it. Within this group, only those users who have the specified Task Action will see the workflow item and be able to act on it. For example, if a User Task has an Approver Determination set to a \"managers\" group and a Task Action set to \"approve inspection,\" only managers with the \"approve inspection\" action will see and be able to approve the inspection.\n\n"
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917568-script-tasks-wfdata-true-and-false-nodes",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917568-script-tasks-wfdata-true-and-false-nodes",
+    "sourceType": "text",
+    "content": "Remember that any script included within a workflow process has access to the wfData object, containing all the metadata assigned to that individual workflow item. It is available to reference anywhere within your scripts and also is returned when the script is completed.\n\nUnderstanding the Script Actions (True & False)\n\nWithin a server script that is being used within a workflow process (assigned within a script task), you can set:\nwfData.result = 'False';\nor\nwfData.result = 'True';\nTo influence the path to be taken from that script node, depending on the logic within your script.\n\nFor example, if the script should continue to process data, or direct to another user task, or just cancel, can all be influenced with these nodes and these keywords."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917580-administrating-workflows-exploring-workflow-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917580-administrating-workflows-exploring-workflow-overview",
+    "sourceType": "text",
+    "content": "This tool gives a full administrators overview of all workflows, active, errored and completed, and is essential to keep track of workflows.\n\nYou can use this tool to validate and monitor workflows are running as you expect, without having to assign yourself to a particular approver group or role to view it as an end user.\n\nA workflow can exist in any of these states:\n\n\n\n\nCanceled and Completed are the two end-state nodes that can be defined within your workflow.\n\nWithin each workflow item, you can view the log detailing all the steps it has taken so far.\n\n For example – if you trigger a workflow and you notice it is not behaving as it is designed, you may find it in an error state:\n\nIf you inspect the workflow item, using the button on the far right of the line item, you can view the log of its path so far:\n\nIt is also possible to view more details around the determination strategy that has been used on the user task:\n\n\n\n\nIn this case we can observe a lack of a username being assigned to the determination strategy group. By assigning the admin to the group, and triggering the workflow again, we can see the difference:\n\n\n\n\n\n\n\n\n\n\n\nIt is also possible to trigger workflows to start directly from this tool. Simply click “Add”: \n\n\n\n\n\n\n\n\nWithin this tool you can re-run approver determination, for any number of selected workflows. This is covered in more detail in the \"Substitutions and rerunning approver determination\" lesson in this chapter.\n\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917685-the-universal-workflow-inbox",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917685-the-universal-workflow-inbox",
+    "sourceType": "text",
+    "content": "The Universal Workflow Inbox is available to download from the Neptune Marketplace. It is the end user's access point to view and act on workflow items assigned to them. It automatically displays any workflow items assigned to the currently logged-in user. Workflow items are grouped on the first screen by their Name, and then within each group, users can see the individual workflows to review.\n\nIt is updated separately from the platform version since it is installed via the Marketplace.\n\nThe package contains two applications.\n\n\"planet9_inbox\" - This is the main Inbox application. It is designed to be set as the Action for a tile, opening full screen. It runs in the Launchpad and is mobile responsive.\n\n\n\"planet9_inbox_tile\" - This application is designed to be run on top of a tile. (This is possible when the type of a tile is set to Application). It is a simple application that displays the number of workflow items assigned to the currently logged-in user."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917714-inbox-application-property-configuration-in-user-tasks",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917714-inbox-application-property-configuration-in-user-tasks",
+    "sourceType": "text",
+    "content": "Workflows can utilise User Tasks. These nodes in a workflow, wait for the action of a User. The actions are depicted by the nodes connected to the user task (Accept, Reject or Save).\n\nThe \"Inbox Application\" property configuration of a User Task enables you to have your own custom application, running within the Workflow Inbox, for that workflow process.\n\n\n\nWithin the 'eLearning 2022 Demo' product package, there is an example application used within the inbox. \"WF_DETAILS_EMBEDDED_APP\"\n\nInspecting this application we can view its simple logic.\n\nThis application can primarily utilise:\n sap.n.Shell.attachInit(function (data) ... Followed by your own custom logic, to utilise data from the workflow item.\nIn this example, the data.objectKey is used as a where parameter in an API call, to retrieve more details relating to the workflow item before displaying them in a form."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917737-workflow-attachments-files",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917737-workflow-attachments-files",
+    "sourceType": "text",
+    "content": "Attaching files to Workflow Inbox items is easy. End users can simply select the three dots in the top right of any workflow item to use the add attachment feature. This utilizes built-in platform storage, like the media library.\n\nAny file can be attached to a workflow item, you can view and download attachments within its respective tab within the workflow item. The attachments will be visible to any user that is assigned to the workflow. You can also remove attachments by clicking the cross on the right-hand side."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917762-use-case-best-practice-for-associating-large-data-sets-with-workflow-items",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917762-use-case-best-practice-for-associating-large-data-sets-with-workflow-items",
+    "sourceType": "text",
+    "content": "It is a common scenario to include more data within the context of a single workflow. For example, if you create an inspection (data) you might want to pass this data into the workflow so that when a user reviews it at a later stage, they can see the relevant data to make their decision.\n\nIn his example, rather than use one of the workflow key-value pairs to pass a large amount of data, eg in a stringified form, you can pass the ID of a table row entry and use this to pull the data dynamically wherever it's required, adjusting and saving back to the table afterward."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "54917770-substitutions-and-rerunning-approver-determination",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917770-substitutions-and-rerunning-approver-determination",
+    "sourceType": "text",
+    "content": "This concept allows you to define other approvers to \"stand in\" for other users during specific time periods. This can apply to newly created workflows, or against existing workflows that are pending user interactions/approval.\n\nUser substitutions are configured within the substitutions tool.\n\nYou can find the button to re-run the approver determination within the workflow overview tool."
+  },
+  {
+    "chapterName": "Workflow Automation",
+    "lessonTitle": "55139164-worklow-status-codes",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55139164-worklow-status-codes",
+    "sourceType": "text",
+    "content": "You can utilise these status codes to programmatically list your workflows, within server scripts, with their different statuses:\n\n\n"
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917117-application-launchpad-and-data-secuirty-considerations-pt-1",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917117-application-launchpad-and-data-secuirty-considerations-pt-1",
+    "sourceType": "text",
+    "content": "It's important to include both serverside securities, via APIs, implementing validations within server scripts communicating with tables, as well as client-side with code-based validation before sending it via API.\n\nYou can consider the most malicious user attempting to access all the resources, and you must protect against this wherever possible. This is especially important when considering what might be exposed publicly as endpoints. it is important to understand the security implications of storing data within the Platform. You should consider the worst-case scenario and add roles to protect information at every stage of development.\n\nThe launchpad allows you to configure tiles and tile groups with role-based access control, but there is an additional responsibility to restrict table access and ensure correct validation when processing data.\n\nFrom an application perspective, by default, they will be available via the [yourdomain]/app/[nameofapp] endpoint (This is the URL used when you click \"Run\" within the App Designer).  You can configure which roles should be able to access an app directly, within the app settings. By default no roles are assigned, to the app is accessible to any authenticated user.\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917140-application-launchpad-and-data-secuirty-considerations-pt-2",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917140-application-launchpad-and-data-secuirty-considerations-pt-2",
+    "sourceType": "text",
+    "content": "Within applications running within a launchpad, you can utilize AppCache.userInfo.role function within your applications. For example, console.log(AppCache.userInfo.rol) on init:\n\n\nThe AppCache.userInfo.role property is typically used to determine the permissions and access levels of the user within the application. It allows developers to implement role-based functionality, such as showing or hiding certain features or content based on the user's role."
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917166-application-launchpad-and-data-secuirty-considerations-pt-3",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917166-application-launchpad-and-data-secuirty-considerations-pt-3",
+    "sourceType": "text",
+    "content": "Tables require a similar level of protection. The Table Definition tool allows you to assign Read and Write roles against the table.\nBy default, tables without this role will be accessible with the standard CRUD endpoints (/GET, /POST, /PUT, /DELETE) from any authenticated user.\n\nIf you are storing sensitive information within a table - assign a role against the Read and Write processes within the Table Definition tool. This ensures only users with that role can view and adjust the data within the table.\nIf you want to enable individual users to access specific records within a table - you can create a Server Script that utilises the 'req' keyword to see which user is making the request, and then perform a lookup on the table to retreieve and return only the chosen data from the table.    \n\nClient-side validation within the application should be used in combination with a server script, to prevent API direct API communication to workaround client-side validation."
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917177-public-anonmyous-access-for-launchpads-apps-and-apis",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917177-public-anonmyous-access-for-launchpads-apps-and-apis",
+    "sourceType": "text",
+    "content": "It is possible to set applications and launchpads to be Anonymous Access. This means it is possible to access them without needing to log in to the platform. This setting can only be enabled if the platform is licensed to allow this setting.\n\nA anonymous access launchpad and app have a different URL structure.\n...yourdomain.com/public/app/[appName]\n...yourdomain.com/public/launchpad/[launchpadName]\n\nApps assigned to tiles (or directly to the launchpad as a single app launchpad) when the launchpad is set to anonymous access, will also need this anonymous access setting enabled to be used in that context.\n\nNote that since non-authenticated users can access these artifacts, it is important to consider what data is available within them.\nAPIs can be set to anonymous access too. These can only be Script types. This enables you to add communication with the rest of your platform within the server side scripts - returning only relevant data publically.\n\nAPIs used within public applications, on public launchpads, also need to be configured as anonymous access to successfully return without authentication."
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917203-public-access-example-marketplace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917203-public-access-example-marketplace",
+    "sourceType": "text",
+    "content": "The Neptune Marketplace is an example of a Public app - it is hosted within the Neptune Portal, but you can open it within your own instance, without being authenticated within the Portal.\n\nOne of the APIs powering the homepage of the Marketplace is this:\nhttps://portal.neptune-software.com/public/serverscript/publicmarketplacescripts/getTypesAndCounts\nNote you can open this within a private browser and still see the result. This API is communicating directly with a dedicated server script, that only returns public product information.\n\nYou can also log in via the Marketplace, which involves authenticating your browser by querying the login endpoint of the Portal. If successful, the authentication token is used for the rest of the session to enable you to access the authenticated endpoints - your private catalog access.\nThe APIs run a pre-request script that checks if the user is authenticated, and adjusts the URL of the request to include or exclude .../public/..."
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917209-table-definition-enable-audit",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917209-table-definition-enable-audit",
+    "sourceType": "text",
+    "content": "Tables can have audit logs generated automatically. Read here to learn how:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/security-tableaudit.html\n\nNOTE: Data adjusted via the Table Browser tool is not tracked via this tool. The Audit Log serves this purpose, as it is a cockpit tool activity."
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917219-server-script-audit-operations",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917219-server-script-audit-operations",
+    "sourceType": "text",
+    "content": "Within the Script Editor – when you have table resources associated with your script, you can utilise the automatically generated functions for managing your entities (data).\n\nThe ‘audit’ operations:\nFor example the ‘saveAudit’\n\n This code snippet creates a record in table_audit with the entity name, the operation(in this case Save), the payload and the user that initiated it.\n\n \n\n\nIn this example script – instead of using the regular .save method, we can use the .saveAudit:\n\n\n\n \n\nThe Table Audit tool then displays these logs:\n\n\n\nYou can inspect each payload:\n\n"
+  },
+  {
+    "chapterName": "Security, Auditing and Data Integrity",
+    "lessonTitle": "54917236-cockpit-audit-log",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54917236-cockpit-audit-log",
+    "sourceType": "text",
+    "content": "When actions are performed in the Cockpit, a log is kept within the Audit Log tool:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/security-auditlog.html"
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892568-deployment-create-approve-transfer-routes-log-tools",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892568-deployment-create-approve-transfer-routes-log-tools",
+    "sourceType": "text",
+    "content": "The platform comes with a set of tools designed to give you complete control over the deployment (copying) of artifacts from one source system to another other system(s).\n\n The deployment tools gives you the ability to transfer individual artifacts, entire packages, or a number of packages simultaneously.\n\nIt is possible to deploy between systems directly over the network - when other Open Edition Remote Systems are configured, or via file (.planet9) that can be downloaded and imported into other systems.\n\nIt is also possible to deploy a package via GitHub with CI/CD integration. (Covered in more detail in its own lesson)\n\nThis diagram highlights the process of moving artifacts from one system, Development, to another, Production.\n\nThe Deployment Tools allow you to manage the entire process of creating, approving and transferring the artifacts between systems.\n\nYou can read all the documentation around the deployment tools here:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/deployment.html\n\n \n\nNOTE:\n\nThe GitHub CI/CD works within the Development Package tool itself, and enables you to utilise GitHub’s features for branching, merging and reviewing – before “pulling” into the target system.\n\n \n\nCreate\n\nDeployment -> Create, tool is used to create the deployment package. It contains the master data for creating the deployment package, where you can select what you want to deploy from one system to another.\n\n\n Approve\n\nDeployment -> Approve tool allows the developer to approve the package to the transfer component(s).\n\n\n Transfer\n\nDeployment -> Transfer tool allows the developer to approve and transfer the package to other System, this tool shows the list of all requests, Errors generated in transfers, approved requests and Declined requests.\n\nHere you can trace the logs for a transfer package like\n\nStatus of the Package\nAny note for the package\nDate and time of the package creation\nUsername created the package\nPackage modification date\nUsername who modified the package\nDeployment Status\n\n#\n Log\n\nAllows importing a deployment file that has been exported, and maintains the log generated from transfers, this log tool allows understanding:\n\nWhen does the import happen?\nWho has performed the log?\nWhat was the object type?\nWhat was the object name?\nWhat was the version?\nWho has done change to import package?\n\n "
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892579-remote-system-configuration",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892579-remote-system-configuration",
+    "sourceType": "text",
+    "content": "What are remote systems?\n\nRemote Systems allow your system to establish a connection with a remote server system. With this capability, you can integrate instances of Neptune DXP - Open Edition with other Open Edition instances and also SAP Edition instances for configuration within a number of tools.\n\nThis integration enables you to utilize the Deployment tools for the deployment of artifacts and packages between the Open Edition modules.\n\nA remote system configuration is available at the platform level for all developers with the correct access to the tool, to use. The credentials for a remote system are stored securely within the platform.\n\nYou can either provide common authentication details for the configured remote system within the Remote System tool, General tab, or you can set system role-based authentications and endpoints within their respective tabs.\nSimilar to the API Designer, the system role can be used to automatically select the correct authentication and endpoint. The system role is configured within the System Settings and generally reflects Development or Production for example. This means within each of those environments, the same configuration can be deployed, but the respective properties for that system will be used.\n\n\n"
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892607-deploying-between-systems-with-manual-export-and-import-of-file",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892607-deploying-between-systems-with-manual-export-and-import-of-file",
+    "sourceType": "text",
+    "content": "The deployment tools allow you to configure exporting and importing packages (or a specific selection of artifacts) from one system to another via a deployment file that is downloaded and imported.\n\nThis is achieved by following the standard deployment process - however, you don't select a remote system to deploy to.\nNote: All approved deployments are available to export, even when a remote system is configured for that deployment.\n\nWhen you have exported the selection, you can import it into another Open Edition instance via the:\nDeployment Log > Import - tool."
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892676-explaining-the-artifact-versioning",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892676-explaining-the-artifact-versioning",
+    "sourceType": "text",
+    "content": "All artifacts within the platform have a built-in version. You can see the versions when you create a deployment to another remote system.\n\nIn this example, we see the version of the current system on the left (23.1.23.1058) compared to the version within the target system in red, on the right (22.9.15.1625)\n\n\n\nThis is the date time stamp, in format YY.MM.DD.HHMM.\nThis is updated automatically for each artifact when they are created/saved.\n\nNote: These versions can be seen for artifacts when they are exported and decoded from Base64 into their JSON format.\n\nArtifact versions differ from other version processes within the platform. For example, both Application and Scripts have their own versioning within their artifact, allowing you to compare and roll back to previous versions within the tool."
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892682-github-ci-cd-integration-the-deployment-lifecycle",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892682-github-ci-cd-integration-the-deployment-lifecycle",
+    "sourceType": "text",
+    "content": "GitHub CI/CD integration is available within the Neptune DXP - Open Edition version 22+.\nIt works in much the same way compared to the built-in deployment tools, but with even more features and functionalities mainly offered by GitHub, such as branching, pull request and review, and merging.\n\nFrom the platform perspective, an additional capability is that table data can be included with Tables when deploying via GitHub CI/CD.\n\nDocumentation for this process can be found within the Development Package pages:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/development-package.html\n\nWhen working with Neptune DXP and Git for CI/CD, it is important to follow a proper branching, review, and merging process. Here is an explanation of the benefits of GitHub branching, review, and merging process for development projects:\n\nBranching: GitHub provides a powerful branching system that allows developers to work on different features or bug fixes in parallel. Each branch represents a separate line of development, enabling developers to isolate their changes and work independently without interfering with each other's work. This promotes collaboration and reduces conflicts when merging changes back into the main branch.\n\nReview: GitHub's pull request feature allows developers to submit their changes for review before merging them into the main branch.\n\n    Merging: GitHub provides various merging strategies, such as merge commits, squash merging, and rebase merging. These strategies allow developers to choose the most appropriate way to integrate their changes into the main branch. Merging changes in a controlled manner ensures that the codebase remains stable and functional. It also provides a clear history of changes, making it easier to track and understand the evolution of the project.\n\n\n\n"
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892685-working-with-development-package-and-git-pt1-setup-and-pushing",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892685-working-with-development-package-and-git-pt1-setup-and-pushing",
+    "sourceType": "text",
+    "content": "Working with Development Packages and GIT\n\n \n\nDevelopment packages are meant to contain all artifacts for a solution built on Neptune DXP Open Edition. When artifacts are assigned to a package the artifact data can be pushed to a remote git repository and subsequently imported to any DXP server installation. This also enables collaborative development across DXP server installations. To work together on a development package some prior knowledge of GIT is required.\n\nStart by creating a development package in the cockpit.\n\nAfter the package has been created it must be connected to a GIT repository to enable GIT integration for the package.\n\n \n\nCreate an empty repository in your preferred GIT hosting solution. In this document we will be using GitHub. When you have created an empty repository grab the URL to the repository and add it to the development package. A repository URL to GitHub will look something like the below URL.\n\nhttps://github.com/sveingunnarlarsen/com.neptune.testpackage.git\n\n  \n\n \n\nFor private repositories and when pushing to a public repository authentication must be added, use “Configure Authentication” to add authentication. When using GitHub authentication tokens can be generated by going to Profile > Settings > Development settings > Personal access tokens > Tokens (classic) when logged in to GitHub. \n\n \n\nIncluded in the template code pushed to the repository, as part of the development package, is a GitHub workflow script. When using GitHub make sure you include “workflow” as a scope for the authentication token. If this scope is not added the commit will fail when pushing to GitHub.\n\n \n\nAfter pressing “OK” Neptune DXP tries to connect to the remote repository. If a successful connection can be made a new tab called “GIT” will become visible. If this tab is not visible Neptune DXP failed to connect to the remote repository. In the new tab information about the remote repository is displayed.\n\n \n\n \n\nWhen connecting to an empty repository no branch information is displayed as the repository does not contain any branches. Using “Commit changes and push to remote repository” before any artifacts have been added to the package will push template code to the remote repository. When using this button, a dialog will be displayed with all files that can be added to the repository.\n\n \n\n \n\nSelect all files, add a commit message (“Commit Message”) and push to the repository. When the added files have been successfully pushed to the repository the dialog will close and some new information will be displayed. The branch dropdown should now at least contain a branch called “master” and next to the repository URL there should be a label with the SHA (commit tag) the database is synced with.\n\n \n\nWhen working with Development Packages the Neptune DXP database acts as the working tree. “View modified files” will display changes between the selected branch and the database. When all added/modified/deleted files have been pushed to the repository the database/working tree should be clean. “View modified files” should show no changes.\n\n \n\nWhen artifacts are assigned to the package they should show up as “added” files when pressing “View modified files”. Below an application have been assigned to the package “com.neptune.testpackage”. Applications are added as multiple files, one file for the application definition and one file for each script in the application. Only applications and server scripts are added as multiple files, all other artifacts are only a single definition file.\n\n \n\n \n\nClicking added/modified/deleted files in this dialog will show the diff between the database and the selected branch.\n\n \n\nArtifact data can now easily be pushed to the repository. However, when working on the same repository from different application servers/databases merging changes must be done outside of Neptune DXP."
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54892693-working-with-development-package-and-git-pt2-merging",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54892693-working-with-development-package-and-git-pt2-merging",
+    "sourceType": "text",
+    "content": "Working on the same repository and merging changes\n\n \n\nWhen several developers are working on the same repository from different application servers all commits should be made to a development/feature branch. Each developer should push changes to their own development/feature branch. Commits can be made to the master/main branch but should only be done so when the database has been synced with the most recent commit on the main/master branch. In general, a commit should not be pushed to a branch when the database is not synced with the most recent commit for that branch. Trying to commit to a branch when the database is not synced with the most recent commit for that branch will display a warning.\n\n \n\n \n\nIf the repository doesn’t contain a branch which is in sync with the database, you can create a new branch and base the branch of the last commit the database was synced with.\n\n \n\nChanges can then safely be pushed to the new branch.\n\n \n\nMerging\n\n \n\nWhen it is time to merge changes from a feature or development branch (referred to as dev/gunnar) with the master/main or other branch (referred to as master), it must be done outside of Neptune DXP using git. \n\nThis document will use git command line. First GIT must be installed (https://github.com/git-guides/install-git). You can also use other tools, such as the GitHub UI or other 3rd party tools.\n\n \n\nWhen git is installed open the command line and navigate to a folder where the project can be downloaded. Use “git clone” to download the contents of the repository, like below.\n\n \n\nThe repository has now been downloaded to a folder with the same name as the repository, navigate to that folder.\n\n \n\nAs the repository was just cloned everything should be up to date. However, the next time it is time to merge branches the repository must be updated. First update the master branch which the dev/gunnar branch should be merged with. To update the branch first use “git checkout master” and then “git pull –rebase”. This will update the branch with all commits from the remote repository.\n\n \n\nNow switch to dev/gunnar (git checkout dev/gunnar) and update that as well (git pull –rebase).\n\n \n\n \n\nThe next step is where we merge the two branches. Use “git rebase master”, this will add all commits from master then add all commits specific to the dev/gunnar branch on top of those commits. Here there might be conflicts if the same artifact has been changed in different branches.\n\n \n\n \n\nIn the above example there are conflicts with the application “testpackageapp”. There are conflicts with the definition file and the typescript object “oTypescript”. The conflicts must be resolved before we can continue. Open the two files in a text editor.\n\n \n\n \n\nThe only conflict in the definition file in this example is related to the “ver” property. This is a system generated version which is updated on each save. There will always be merge conflicts with the “ver” property when the same artifact has been changed in different branches, but this is easy to solve. Keep the most recent version, bump the number by plus one, and delete the rest. \n\n \n\nThe version number is bumped because when updating a development package from a repository branch the system checks the artifact version number. If the version number is the same as the version number for the artifact already in the system, the artifact will not be updated.\n\n \n\nMerge conflicts with “ver” is the most common merge conflict. If feature/development branches diverge significantly from the branch it will be merged with conflicts might be harder to solve as there might be conflicts in the application object tree definition. We recommend always keeping development/feature branches up to date with the branch they will eventually be merged with to avoid merge conflicts that are hard to solve.\n\n \n\nThe other merge conflict was in a script object, these are typically easy to solve.\n\n \n\nWhen all merge conflicts have been resolved and all files have been saved go back to the command line. To check that all merge conflicts have been resolved view the diff by using “git diff”.\n\n \n\nUse “git add .” to mark all merge conflicts as resolved. Then use “git rebase --continue” to continue merging. After resolving a merge conflict, a prompt to update the commit message is shown, update the message or leave it as is. There might be additional merge conflicts or rebasing will complete. \n\n \n\nAfter the dev/gunnar branch has been rebased on the master branch the remote branch and the local branch have diverged. Update the remote branch with the local branch by using “git push –force”.\n\n \n\nOptionally, the master branch must be updated with the changes from the dev/gunnar branch. Switch to the master branch using “git checkout master” and merge the changes from the dev/gunnar branch to the master branch using “git merge dev/gunnar”. Then use “git push” to update the remote branch.\n\n \n\nNow that all remote repository branches have been updated the database should be synced with the master or dev/gunnar before more changes are added. Use “Update database from repository” and check “Force update”.\n\n \n\n \n\nThe database should now be synced with the most recent commit for the selected branch and new commits can be added.\n\n \n\n "
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54916950-generating-a-github-authentication-token",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54916950-generating-a-github-authentication-token",
+    "sourceType": "text",
+    "content": "You will need to generate a GitHub authentication token to push data to a public or private repository - or to pull data from a private repository.\nThe key represents your user, and you can define the scope of the key permissions.\n\n\nHere is the full guide on how to complete this process within GitHub\nhttps://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic\n\nYou can read more information about the process, including generating the GitHub token here:\nhttps://community.neptune-software.com/topics/planet-9/blogs/using-development-package\n\nThis token can then be added within the \"Authentication\" configuration within the Development Package tool, when importing a private package from Git, or when comparing or committing changes via the CI/CD tab of the Development Package tool to public or private repositories."
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "54916959-github-initial-setup-error-check",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54916959-github-initial-setup-error-check",
+    "sourceType": "text",
+    "content": "If you are seeing this error - this is likely because you are logged in with the 'admin' user, which by default won't have an email configured for their user.\n\nTo resolve this issue, simply visit the User tool, search for and select the 'admin' user, edit, add an email, and then save.\n\nRefresh the browser and visit the Package tool again."
+  },
+  {
+    "chapterName": "Deployment Mastery",
+    "lessonTitle": "55261077-additional-deployment-knowledge-system-specific-configurations-npm",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55261077-additional-deployment-knowledge-system-specific-configurations-npm",
+    "sourceType": "text",
+    "content": "Imagine the scenario where you have developed a Server Script that utilises a module you have installed via the NPM tool.\n\nSince each instance of the platform requires the NPM path to be configured, before you can run the same script within another target system - you will need to configure it this property.\n\nIn the case NPM modules, due to their size, they are not included in development packages and thus can't be deployed between systems.\n\nTo enable your script to run within the target system, the NPM module(s) will also need to be installed within that system."
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891349-read-through-the-comprehensive-documentation-for-this-tool",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891349-read-through-the-comprehensive-documentation-for-this-tool",
+    "sourceType": "text",
+    "content": "Read through the comprehensive PDF Designer documentation:\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/pdf-designer.html\n\nIt is important to note, that a PDF Template, which is made with the PDF Designer - is also an API endpoint that you can send data to, which will return the generated PDF."
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891517-example-within-the-documentation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891517-example-within-the-documentation",
+    "sourceType": "text",
+    "content": "The \"Creating a PDF from scratch\" final section (https://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/pdf-designer-example.html) provides a comprehensive guide for creating a fully featured PDF template, which will contain test data, tables, images and a QR code, plus styling!\n\n Please follow this guide to gain a better understanding of how to setup a comprehensive PDF template."
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891581-look-around-an-example-in-the-pdf-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891581-look-around-an-example-in-the-pdf-designer",
+    "sourceType": "text",
+    "content": "Install the Sales Order with PDF Generation product from the Marketplace:\n\n\nIt contains a PDF Designer template:\n\n \n\nOpen the template in the PDF Designer:\n\n\n\n\n \n\nObserve the table “tabItems”:\n\n \n\nIt has a comprehensive set of properties.\n\nOpen the test data to see how the table is populated:\n\n\n \n\nHere we can see the bindings match the data, just like in the App Designer:\n\n \n\nObserve the interface within the settings:\n \n\nIt has a root level object ”data” which contains the properties.\n\nObserve the Neptune logo in the top right corner:\n\n\n\n\nIt is utilizing a style class component:\n \n \n\nWhich has the property: alignment: right.\n\n\n\n\nMultiple style properties are referenced within this design.\n\n\n\n\nScroll down to view the QR Code which is generated:\n\n \n\nNote it is generated automatically based on the provided property ”qr” - which can be static or bound to data.\n\n \n\nObserve a text property in the footer at the bottom of the page, which is bound to the ‘currentPage’ attribute:\n\n\n\nThis component also has its own styles defined.\n\nYou have now learnt about a number of the key features of the PDF Designer!"
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891679-exercise-generate-ui-using-the-wizard",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891679-exercise-generate-ui-using-the-wizard",
+    "sourceType": "text",
+    "content": "If you have not already - Install the Sales Order with PDF Generation product from the Marketplace:\n\n\nIt contains a PDF Designer template:\n\n \n\nOpen the template in the PDF Designer:\n\n\n\n\n \n\n\n Toggle edit mode:\n\n\n->\n\n\n \n\n\nDelete the table “tabItems”:\n\n\nActivate the PDF template:\n\n\nObserve the table is gone.\n\nFeel free to adjust the Test Data and Interface at this step.\n\nIf you choose to, simple use the JSON import feature in the Settings > Interface:\n\n\n\n \n\nAnd then also paste in the data set, in the test data tab:\n\n\n \n\nSearch in the component tree for table:\n\n\n \n\nDrag and drop the table into the main “Content” section:\n \n\n\nNow set the model path of the table:\n \n\n\nIn this case, we will pick the root object as defined in our interface:\n\n\nObserve the table now is bound to the data:\n\n \n\nYou can now use the wizard to generate the table:\n\n\n \n\nSelect the fields you wish to create:\n\n\nPress “Create” - then activate:\n \n\nObserve the table generated with the Wizard!\n\n "
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891770-video-chapter-generate-a-pdf-report-from-application-data-then-fetch-the-pdf-and-display-it-within-an-application",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891770-video-chapter-generate-a-pdf-report-from-application-data-then-fetch-the-pdf-and-display-it-within-an-application",
+    "sourceType": "text",
+    "content": "Timestamped link to relevant information:\n\nhttps://youtu.be/1zdwr_JhJ2E?t=127\n\nNote: Feel free to watch the start of the video, which covers the previous exercises.\n\nThe code snippets used are provided here:\n\n// --- PDF Handling ---\n//To display the pdf we need to represent it as a data URL.\nfunction createDataURL(pdf){\n    //Register BLOBs on the application.\n    jQuery.sap.addUrlWhitelist(\"blob\");\n    //convert the base64 to binary and insert it in a byte array.\n    var decodedPdfContent = atob(pdf);\n    var byteArray = new Uint8Array(decodedPdfContent.length)\n    for(var i=0; i<decodedPdfContent.length; i++){\n        byteArray[i] = decodedPdfContent.charCodeAt(i);\n    }\n    //create a BLOB and a URL\n    var blob = new Blob([byteArray.buffer], { type: 'application/pdf' });\n    var pdfurl = URL.createObjectURL(blob);\n\n    return pdfurl;\n}\n\n----\n\n$.ajax({\n    type: \"POST\",\n    url: \"/pdf/elearning_pdf_demo\",\n    data: PDFData,\n    success: function (data) {\n        // elem.src = \"data:application/pdf;base64,\" + data;\n        // Show PDF after decode into base 64\n        console.log(\"data:application/pdf;base64,\" + data)\n        var pdfurl = createDataURL(temp);\n        console.log(pdfurl)\n        oPDFViewer.setSource(pdfurl);\n    },\n    error: function (result, status) {\n        if (result.responseJSON && result.responseJSON.status)\n            console.error(result.responseJSON.status);\n    }\n});"
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891778-pdf-archive-tool",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891778-pdf-archive-tool",
+    "sourceType": "text",
+    "content": "Learn about the PDF Archive tool:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/monitoring-pdf-archive.html\n\nWith the PDF Archive, you can view all pdf documents generated in Neptune DXP - Open Edition."
+  },
+  {
+    "chapterName": "PDF Designer & PDF in App Integration",
+    "lessonTitle": "54891837-pdf-marketplace-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/54891837-pdf-marketplace-example",
+    "sourceType": "text",
+    "content": "\n\n\nData to PDF & Attachment to Email is available within the Marketplace.\n\nThis building block includes an App that enables the user to generate a PDF file with data that is displayed in a form and a table. This data is sent to a PDF template (created in the PDF Designer tool) and it can be viewed/downloaded.\n\nWhen viewing the generated PDF file, the user can then provide the email address and send the PDF file via Email as an attachment.\n\n\n\n\n\n\n\nSMTP Server must be configured for the instance, for the email sending functionality to work."
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55002437-ecosystem-mobile-build-service",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55002437-ecosystem-mobile-build-service",
+    "sourceType": "text",
+    "content": "Now is a good time to revisit the Mobile Build Service that was mentioned during the introduction of the Foundation level of this course.\n\nThe Mobile Build service is within the Neptune Portal - https://portal.neptune-software.com/launchpad/portal#mbs-build and is free for customers and partners to utilise.\n\nYou will be required to generate a Mobile Client within the platform, to provide to the MBS, in order to generate the build(s) for the respective platforms.\n\nThe Mobile Build service can generate both .aab (Android application bundle) and .apk (android package kit) files.\nThe Mobile Build service supports the generation of .ipa (iOS package App Store) files.\nThe Mobile Build service supports the generation of mobile clients for the following platforms: Android, Windows and iOS.\n\nYou would utilise this service when you are looking to deploy your launchpad to be installed on end users' devices. The app can be distributed onto the Google Play Store or Apple App Store.\n\nUsing your knowledge of your application's intended deployments, it is up to you to establish if a hybrid native mobile client, generated using the MBS, is suitable for your business needs."
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55003085-housekeeping",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55003085-housekeeping",
+    "sourceType": "text",
+    "content": "With Housekeeping, you can delete logs from Neptune DXP - Open Edition that are no longer needed.\n\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/monitoring-housekeeping.html\n\nBe careful, as this process can not be undone."
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55003091-system-reports",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55003091-system-reports",
+    "sourceType": "text",
+    "content": "With System Reports, you can view the roles, groups, and users in the system.\n\nAn 'Extended Audits' is available to download from the Marketplace.\nhttps://community.neptune-software.com/topics/planet-9/blogs/extended--audits----add--on\nInformation on how the value this Add-On delivers is available within the blog post, and Marketplace product description.\nMore information about how to configure and setup Add-Ons are covered in more detail in the Expert level of this course.\n\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/monitoring-system-reports.html"
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55003098-launchpad-trace",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55003098-launchpad-trace",
+    "sourceType": "text",
+    "content": "With the Launchpad Trace, you can analyze the usage of your launchpads and tiles. You can filter the entries by date, tile, and launchpad. You need to manually enable 'Enable Launchpad & Tile Trace' within each Launchpad, for it to generate data to view within this tool."
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55003507-app-editor-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55003507-app-editor-overview",
+    "sourceType": "text",
+    "content": "The App Editor is a specialized code editor in Neptune DXP Open Edition that allows you to create applications using JavaScript frameworks like React.js and Vue.js. It provides a pro-code approach to application development.\n\nTo learn more about the App Editor and its features, you can refer to the documentation available in the Neptune DXP Open Edition Cockpit.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-editor.html\n\nAdditionally, there is a Visual Studio Code extension available for the App Editor that allows you to create React applications locally while leveraging Neptune DXP tools.\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-editor-VS-code-extension.html"
+  },
+  {
+    "chapterName": "Top Tips / Other topics",
+    "lessonTitle": "55003520-upgrading-the-platform-version",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-advanced-2024/texts/55003520-upgrading-the-platform-version",
+    "sourceType": "text",
+    "content": "Here are some general steps to consider when upgrading the platform version:\n\nReview the release notes: Before upgrading, it is important to review the release notes for the new version of Neptune DXP Open Edition. The release notes will provide information about new features, bug fixes, and any breaking changes that may affect your existing applications.\n\nBackup your data: Before performing any upgrade, it is recommended to backup your data and configurations to ensure that you can restore them in case of any issues during the upgrade process.\n\nUpgrade process: Follow the specific upgrade instructions provided by Neptune Software. These are available within the installation guide, available to download alongside the product, in the DXP Portal.\n\nTest and validate: After the upgrade, thoroughly test your applications to ensure that they are functioning correctly in the new version of Neptune DXP Open Edition. Validate that all customizations, integrations, and configurations are working as expected.\n\nRollback plan: It is always a good practice to have a rollback plan in case the upgrade process encounters any issues. This may involve taking additional backups or having a plan to revert to the previous version if necessary.\n\n\n\n\nMore information can be found in the documentation, here:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/23/installation-guide/installation-guide.html\n\n\n"
+  }
+]
