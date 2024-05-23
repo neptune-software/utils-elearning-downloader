@@ -45,3 +45,15 @@ Option: Uncommenting that code snippet will indeed allow users to observe the sc
 > Ensure you have the necessary permissions to download eLearning texts and videos from the specified URL.
 > Customize the code according to your specific requirements and target website structure.
 > By following these steps, you can easily automate the process of downloading videos from web pages using Puppeteer.
+
+> [!NOTE]  
+> The documentation and PDF information for the eLearning module are processed separately. Please refer to the `utils_doc2txt.ipynb` file for details. To use the provided script, follow these steps:
+1. Download the [Foundation](https://neptunesoftware.sharepoint.com/:f:/r/sites/GTM/Delte%20dokumenter/e-learning/DXP23%20eLearning/Expert?csf=1&web=1&e=duTrHH) folder or the [Advanced](https://neptunesoftware.sharepoint.com/:f:/r/sites/GTM/Delte%20dokumenter/e-learning/DXP23%20eLearning/Advanced?csf=1&web=1&e=OLMEHe) folder from the Product Division OneDrive.
+2. Install the necessary Python package:
+```sh
+pip install python-docx
+```
+3. Run the conversion script:
+```sh
+python convert_docx_to_txt.py /path/to/your/folder
+```
