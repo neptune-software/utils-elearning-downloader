@@ -1,0 +1,352 @@
+[
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235643-foreword",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235643-foreword",
+    "sourceType": "text",
+    "content": "This chapter of the eLearning integrates an existing course dedicated to the Adaptive Framework - released in 2023.\nhttps://community.neptune-software.com/topics/planet-9/blogs/adaptive-framework-add-on\n\nThe interface in the videos may be using an older theme, but the same underlying functionality is available."
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235662-1-server-scripts-as-connector",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55235662-1-server-scripts-as-connector",
+    "sourceType": "video",
+    "content": "hello and welcome to the expert no code E-Learning in this session I will show you how to use a service script as a connector for adapted applications let's jump in the cockpit and open the Script editor we create a new project let's give it a name HR adaptive script and inside this project we right click on script and we will add to new scripts a setup script and an hr employees script first in the setup script we defined the field catalogue and push the name label and type of Edgefield and this will be the result data that we will be using in the second script with the E-Learning HR demo employees table into the second script where we have a switch statement with multiple cases get delete save and list and if we scroll down we have the functions used in each case process list is used for the multicellular lookup as well as for the counter in the header process get is fetching the employees data process delete is deleting an entry and process save is used in saving a modified entry and for saving a new entry no let's create a connector based on the scripts research for connector qlik add let's call it E-Learning HR demonstrate connector under data source we select service script and for the set-up we will use our setup script where we define the field catalogue with all the fields and for run we will use the HR employee script received display and let's open the adaptive designer and create a simple list app give it a name a learning HR employee list script select planet adaptive list template and we will use the Script connector that we have just created we track the first name last name email address and nationality into the table from settings we give it a name employee list from properties enable create delete Runner start run it Focus and then save as you can see we now have a list of employees with data coming from a service script let's now create an edit app using the planet nine adaptive edit template with drag the same Fields into the form we give it a name that it details and from the form layout we set the label span l and M to 12 we save and we jump back into the list app from settings we will target the Edit app for both create an item press events press save and now we can add the new employee or edit the employee details using the service script that we have built"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235680-setup-script-code-snippet",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235680-setup-script-code-snippet",
+    "sourceType": "text",
+    "content": "\n\n\nlet fieldCatalog = [];\n\n\n\n\nfieldCatalog.push({ name: \"firstName\", label: \"First Name\", type: \"text\"});\n\nfieldCatalog.push({ name: \"lastName\", label: \"Last Name\", type: \"text\" });\n\nfieldCatalog.push({ name: \"emailAddress\", label: \"Email Address\", type: \"text\" });\n\nfieldCatalog.push({ name: \"phoneNumber\", label: \"Phone Number\", type: \"text\" });\n\nfieldCatalog.push({ name: \"streetAddress\", label: \"Street Address\", type: \"text\" });\n\nfieldCatalog.push({ name: \"nationality\", label: \"Nationality\", type: \"text\" });\n\nfieldCatalog.push({ name: \"salary\", label: \"Salary\", type: \"text\" });\n\nfieldCatalog.push({ name: \"city\", label: \"City\", type: \"text\" });\n\nfieldCatalog.push({ name: \"postCode\", label: \"Post Code\", type: \"text\" });\n\nfieldCatalog.push({ name: \"department\", label: \"Department\", type: \"text\" });\n\nfieldCatalog.push({ name: \"role\", label: \"Role\", type: \"text\" });\n\nfieldCatalog.push({ name: \"hireDate\", label: \"Hire Date\", type: \"Timestamp Without Time Zone\" });\n\nfieldCatalog.push({ name: \"employmentType\", label: \"Employment Type\", type: \"text\" });\n\nfieldCatalog.push({ name: \"employeeReferenceNo\", label: \"Reference Number\", type: \"text\" });\n\nfieldCatalog.push({ name: \"employmentTime\", label: \"Employment Time\", type: \"text\" });\n\n\n\n\nresult.data = fieldCatalog;\n\ncomplete();\n\n\n"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235694-hr-employees-script-code-snippet",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235694-hr-employees-script-code-snippet",
+    "sourceType": "text",
+    "content": "const { Like, In } = operators;\n\n\n\n\nswitch (req.query.method) {\n\n\n\n\n    case \"Get\":\n\n        result.data = await processGet();  // fetches data\n\n        break;\n\n\n\n\n    case \"Delete\":\n\n        result.data = await processDelete(); // deletes selected entry\n\n        break;\n\n\n\n\n    case \"Save\":\n\n        result.data = await processSave();   // this is for saving the modified/new entry\n\n        break;\n\n\n\n\n    case \"List\":\n\n        result.data = await processList(); // this is for the multiselect lookup and the counter in the header\n\n        break;\n\n\n\n\n    default:\n\n        break;\n\n}\n\n\n\n\ncomplete();\n\n\n\n\nasync function processList() {\n\n\n\n\n    let options = {\n\n        where: {}\n\n    };\n\n\n\n\n    // Where\n\n    req.body._settings.fieldsSel.forEach(function (field) {\n\n\n\n\n        if (req.body[field.name]) {\n\n\n\n\n            switch (field.type) {\n\n\n\n\n                case \"MultiSelectLookup\":\n\n                    options.where[field.name] = In(req.body[field.name]);\n\n                    break;\n\n\n\n\n                default:\n\n                    options.where[field.name] = Like(\"%\" + req.body[field.name] + \"%\");\n\n                    break\n\n            }\n\n\n\n\n        }\n\n\n\n\n    })\n\n\n\n\n    // Count total number of records\n\n    const count = await entities.elearning_hr_demo_employees.count(options);\n\n\n\n\n    // Pagination\n\n    if (req.body._pagination) {\n\n        options.take = req.body._pagination.take;\n\n        options.skip = req.body._pagination.skip;\n\n    }\n\n\n\n\n    // Sorting\n\n    if (req.body._order) {\n\n        options.order = req.body._order\n\n    }\n\n\n\n\n    const accounts = await entities.elearning_hr_demo_employees.find(options);\n\n\n\n\n    return {\n\n        result: accounts,\n\n        count: count,\n\n        debug: {\n\n            query: req.query,\n\n            body: req.body,\n\n            options\n\n        }\n\n    };\n\n\n\n\n}\n\n\n\n\nasync function processGet() {\n\n    return await entities.elearning_hr_demo_employees.findOne({ id: req.body.id });;\n\n}\n\n\n\n\nasync function processDelete() {\n\n\n\n\n    await entities.elearning_hr_demo_employees.delete(req.body.id);\n\n\n\n\n    return {\n\n        status: \"OK\"\n\n    };\n\n}\n\n\n\n\nasync function processSave(id) {\n\n\n\n\n    await entities.elearning_hr_demo_employees.save(req.body);\n\n\n\n\n    return {\n\n        status: \"OK\"\n\n    };\n\n\n\n\n}"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235710-setup-script-docs-alternative-code-snippet",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235710-setup-script-docs-alternative-code-snippet",
+    "sourceType": "text",
+    "content": "You can find additional documentation around this script setup here:\n\nSetup script:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/adaptive-designer-create-scripts.html\n\nAn alternative way of creating the setup script, based on an existing table structure - is to utilize this code snippet:\n\nRun script:\n\nhttps://docs.neptune-software.com/neptune-dxp-open-edition/latest/cockpit-overview/adaptive-designer-advance-run-script.html\n\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235713-2-calculate-employment-time-using-script",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55235713-2-calculate-employment-time-using-script",
+    "sourceType": "video",
+    "content": "hi in this session we will adjust the service script that we have built in the previous video to calculate the employment time of each employee and then we will display the results in the employee list adaptive app to achieve this we need to add a new property to the table we open the table the finishing tool select the E-Learning HR demo and please table and under properties we click edit and we add a new property called employment time we set the type text and we allow this field to be nullable save display and remove into the Script editor in the setup script we will push a new field to the field catalogue which is the employment time field that we have just added to the table to calculate the dates of employment we will need the current date and to get the current date we will use the moment JS npm module therefore we expand modules from the resources and track the moment module into the HR employee script now before complete we will add the logic which is using the moment npm module to get the current date this logic gets older records from the table Loops through them calculate the difference in number of days it is formatting the result and then it updates each record based on its unique ID we put the Script in display mode and let's have a look at the field in the table browser open the table select all the fields and press run as you can see the employment time filled is empty because script was not rung yet no let's open the employee list app from the adaptive designer and in this moment descript is running let's refresh the most data so the new employment time field will be available with drag it into the table and we have the employment time of each employee displayed in the list let's check the table browser we click update and now each record has data in the employment time field because when we open the app the script was triggered it applied logic AND populated the fields with data"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235720-calculate-employment-time-code-snippet",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235720-calculate-employment-time-code-snippet",
+    "sourceType": "text",
+    "content": "//Calculate employment Time\n\n\n\n\n// Import Moment\n\nvar moment = modules.moment;\n\n\n\n\n// Use moment to get current day:\n\nvar currentDate = moment(new Date(), \"YYYY-MM-DD\");\n\n\n\n\n\n// Get all the records from the employee database\n\nconst employeeTable = await entities.elearning_hr_demo_employees.createQueryBuilder(\"alias\").getMany();\n\n\n\n\n// For each record in the employee database\n\nfor (i = 0; i < employeeTable.length; i++) {\n\n\n\n\n    var hireDate = moment(employeeTable[i].hireDate, \"YYYY-MM-DD\");\n\n\n\n\n    //Difference in number of days\n\n    var duration = moment.duration(currentDate.diff(hireDate));\n\n    var years = duration.years();\n\n    var months = duration.months();\n\n    var days = duration.days();\n\n    var hire_days = years + \"y \" + months + \"m \" + days + \"d\";\n\n\n\n\n    await entities.elearning_hr_demo_employees.update({id: employeeTable[i].id}, {employmentTime: hire_days});\n\n\n\n\n}\n\n\n"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235723-3-open-low-code-app-in-no-code-app",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55235723-3-open-low-code-app-in-no-code-app",
+    "sourceType": "video",
+    "content": "hi in this session I will show you how to open a local application in an adaptive application this is the result that we want to achieve on the left we have the adaptive app and whenever the asset row action is clicked we want a logo that to load in a panel which will display the list of assets and also assign assets to an employee in the adaptive designer we open the E-Learning HR employee list enable edit mode and under table properties enable row action 1 we scroll down give the rule action a name assets under pressure settings we change the type to application and the target will be a low code app for assigning assets to an employee this is a simple logo app formed of two tabs which gets the employee assets into a table and also assigns assets to an employee going back to the press event select the app let's open it in a side panel and give the side panel a title as well click save and let's run the Launchpad no the row action is available will we access the assets of an employee the low code app is loaded and displays all the assets of the selected employee and of course we can assign assets to an employee as well press refresh and now the newly assigned asset is available in the list of assets"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235725-note-on-the-application-used-in-video-3",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235725-note-on-the-application-used-in-video-3",
+    "sourceType": "text",
+    "content": "The application \"elearning_assign_assets\" that is connected to the Adaptive Application, is downloaded within the \"eLearning HR Demo Tables\" product in the Marketplace."
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235732-4-open-no-code-app-in-a-low-code",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55235732-4-open-no-code-app-in-a-low-code",
+    "sourceType": "video",
+    "content": "hi in this session I will show you how to open an adaptive app from a local app from the cockpit open the adaptive designer we create a new app from template select the full screen template give the upper name E-Learning load adaptive and save we activate the app and run it in the preview from the page properties we change the title to adaptive app and we drag a button component from the resources into the middle content of the footer let's give the button a text and in the press event we will add the logic to open the adaptive application we right click access the code snippets and we search for adaptive from start adaptive app you copy the first code snippet into the press event of the bottom now let's open the E-Learning HR employee list app in the adaptive designer from the app settings we copy the app ID and paste it into the code snippet in the parent object we need to specify where the adaptive app will be loaded in our case it will be the Old page we save activate and now let's create a new tile where this app will be open from search for tile click add we give the Dial a name a title a description and from tile action we will select the E-Learning load adaptive app that we have just built save display and now let's add the tile to the Launchpad open the tile group click add and then select the E-Learning HR load adaptive tile save display and now will refresh the Launchpad any tile is available it opens the local app and when the load button is clicked the employee list adaptive app is loaded into the page"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235740-5-neptune-form-in-adaptive-application",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55235740-5-neptune-form-in-adaptive-application",
+    "sourceType": "video",
+    "content": "hi in this session I will show you how to load Neptune forms internet adapted application in the following minutes will build three adaptive applications a formally stop a form details app and the form fill up where the form will be loaded first thing that we need to do is to install the Neptune forms add-on from the marketplace click install and then you need to assign the Neptune form role to your user save display refresh the page and now the Neptune forms tools are available in the cockpit let's open the forms designer to create our first form click add give the form a name my first form enable reporting so we can see the form data later and under designer tab we can build the form you can select from the two layouts available but for now we will use the form layout on the left side we have the components tree in the middle is the preview and on the right we can edit the settings for each component add it to the form let's build our form now right click on the form add element and select from the components list I will add an input field a rating a segmented button and a text area we save display and now we go to the table definition tool to create a table where the forms will be stored give it a name you learning forms data we add 5 properties titled description for ID form data and form status reset the form data type as Jason and the rest of the fields as text and we also enable nullable for all the fields save and now press generate connector to create a connector based on this table now we open the adaptive designer and create a list app called E-Learning forms list using the planet 9 adaptive list template and the connector that we have generated drug the title and description into the table from settings we set the title to Forbes list we enable create delete runa start and run it Focus save display and now we create a second app E-Learning forms edit using the planet line adaptive edit template and the same connector track the title description for my d and form status into the form from settings we set the title from details then we select for my d and change the type to single select lock up under data source we select the forms design table where all the forms created in the forms designer or stored and then we map the key field to the id the text field to the name and we hide the key value from the form status field we unpick editable save and now when we click on the form I'd we can select any form created in the forms designer we click on display and we will build the third app let's call it E-Learning form fill we select the Planets 9 adaptive forms template and we use the same connector with drag all the fields except for from data into the form we set a title form fill the title field enabled start new form and we will call this section form details then we select the updated app field we do the same configuration then we will call this section request details we also change the updated apps and created that field type to date picker because this Fields are displaying a date we antique editable for this to Fields as well as for the following two updated by and created by now from settings we enable forms and we map for ID to form ID from data to form data and form status to form status save display and now we open the E-Learning forms list to connect the apps from settings we will target the learning forms edit app on both create an item press events then we enable row action 1 from the table properties give it a text feel form set the type to accept and from the press event settings we will target the E-Learning form fill up save and now let's create a new form we give it a title a description and select the form that we have created in the designer for save we click on the film form action where the form details are displayed and under the form tab we can fill in our form you can save it or save it as draft either of this actions will be reflected in the reports where you can view the forms submitted reports in our case the form that we have filled in the adaptive application"
+  },
+  {
+    "chapterName": "Expert Adaptive Framework",
+    "lessonTitle": "55235761-configure-a-singleselect-script-type-input",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55235761-configure-a-singleselect-script-type-input",
+    "sourceType": "text",
+    "content": "When you configure a SingleSelect Script type input, the syntax to provide within the configured script should follow:\n\n\nresult.data =\n    [{\"key\":\"key1\",\n    \"text\":\"Test1\"},\n    {\"key\":\"key2\",\n    \"text\":\"Test2\"}]\n \ncomplete();\n\n\n\n\nEG: Here a SingleSelect Script type input is used:\n\n\n"
+  },
+  {
+    "chapterName": "Mobile Client / MBS",
+    "lessonTitle": "55893412-differences-between-mobile-client-and-pwa-in-neptune-dxp",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55893412-differences-between-mobile-client-and-pwa-in-neptune-dxp",
+    "sourceType": "text",
+    "content": " Neptune DXP offers two distinct approaches for creating mobile applications: Mobile Client and Progressive Web Applications (PWA). Here are the key differences between them:\n\nTechnology and Deployment:\nMobile Client: Uses Apache Cordova plugins to create native-like mobile applications. These apps can leverage device-specific features and are deployed as standard mobile applications (.apk for Android, .ipa for iOS). This allows for deep integration with device hardware, providing a more seamless and powerful user experience on mobile devices.\nPWA: Utilizes web technologies (HTML5, CSS3, JavaScript) to create applications that run in a web browser. PWAs are not platform-specific and can be accessed via a URL. They can be \"installed\" on a device by pinning them to the home screen, making them accessible like native apps without going through app stores. \nInstallation and Accessibility:\nMobile Client: Requires downloading and installing from an app store or an enterprise distribution method. This ensures that the application is packaged and version-controlled, offering a more traditional app experience.\nPWA: Can be accessed instantly from a web browser and pinned to the home screen for quick access. This reduces friction in deployment but may lack some of the capabilities of native apps.\nFeatures and Capabilities:\nMobile Client: Supports extensive use of device features such as camera, GPS, contacts, and notifications through Cordova plugins. It provides better performance and can operate offline more robustly due to deeper integration with the device.\nPWA: While PWAs can work offline and send push notifications, their access to device hardware and functionalities is more limited compared to native apps created with the Mobile Client. PWAs rely on browser capabilities and may not fully utilize all device features.\nDevelopment and Maintenance:\nMobile Client: Requires maintaining and updating the app through standard mobile development practices. Updates need to be managed through app stores or an MDM solution, which can add to the maintenance overhead. For example, changing the application’s icon will require re-building the mobile client.\nPWA: Easier to update and maintain since changes can be deployed directly on the server and users receive updates the next time they access the application. This can significantly reduce the time and effort needed for maintenance. For example, changing the Tile Group configuration will be reflected next time the app is accessed.\nUser Experience:\nMobile Client: Provides a more consistent and high-performance user experience akin to native mobile apps. Suitable for applications requiring intensive interaction with device hardware.\nPWA: Offers flexibility and ease of access with a user experience that is improving as browser capabilities advance. Ideal for applications where cross-platform accessibility and ease of updates are priorities.\n\nIn summary, the choice between Mobile Client and PWA depends on the specific needs of the application, the desired user experience, and the resources available for development and maintenance."
+  },
+  {
+    "chapterName": "Mobile Client / MBS",
+    "lessonTitle": "56042481-expert-mobile-client-rebuild-and-republish",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/56042481-expert-mobile-client-rebuild-and-republish",
+    "sourceType": "text",
+    "content": "Expert Mobile Client – Rebuild and Republish\n\n \n\nBalancing the flexibility of a mobile client presents a significant challenge. On one hand, you want the ability to make changes without rebuilding the entire mobile client and going through the entire distribution process. On the other hand, you need to be able to prepare and deploy updates without disrupting existing mobile clients.\n\nIn Neptune DXP Open-Edition, artifacts are loaded at runtime, so everything hosted within the launchpad will be loaded live.\n\n \n\n \n\nAs illustrated in the diagram, all artifacts below the Launchpad level are loaded at runtime, allowing changes without the need for a rebuild and republish. For example, modifying the Tile action, icon/image, or making changes to the applications does not require a rebuild and republish of the mobile client.\n\nHowever, changes outside the scope of the Launchpad, such as Mobile Client configurations, do require a rebuild and republish. This includes adding new plugins, changing the media (app icon or splash screen), or enabling features like fingerprint or FaceID.\n\nUnderstanding this process is crucial as it saves time and ensures you avoid unnecessary rebuilds of the mobile client. By understanding which changes can be made at runtime and which require a full rebuild, you can update your app more efficiently. This helps to manage updates effectively, keeping your app available to users without unnecessary delays."
+  },
+  {
+    "chapterName": "Mobile Client / MBS",
+    "lessonTitle": "56042477-mobile-build-service-debug-release",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/56042477-mobile-build-service-debug-release",
+    "sourceType": "text",
+    "content": "Mobile Build Service – Debug release\n\n \n\nWhen developing a mobile application, it is advisable to start with a debug release. This enables debugging, and helps to ensure that the application is free of errors and bugs, and that its functionality is not affected.\n\nTo accomplish this, create a \"New Build\" and select your account. In the \"Build Environment,\" choose \"Debug,\" then upload your Mobile Client .zip file. Finally, select the platform and the appropriate certificates, and press “Save & Build”.\n\n \n\n\n\n\nOnce the build is completed, you can download the application's source file—IPA for iOS or APK for Android. Import the file into an IDE and start debugging using an emulator.\n\n\n\n\n \n\nYou can also referece to this resource on Debugging Cordova Applications - https://www.appknox.com/blog/debugging-cordova-applications\n\n\n\n\nOnce the application is free of bugs and errors, you can rebuild it by selecting the \"Release\" option in the \"Build Environment.\" Afterward, you can distribute it internally or publish it on the app stores."
+  },
+  {
+    "chapterName": "Expert API, OData & Authentication",
+    "lessonTitle": "55983143-introduction-to-api-synchronization-api-discovery-service",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55983143-introduction-to-api-synchronization-api-discovery-service",
+    "sourceType": "text",
+    "content": "Welcome to this lesson on using the API Designer Sync feature in Neptune DXP. \n\nThis tool allows you to synchronize your API definitions with a specified Swagger 2.0 or OpenAPI 3.0 URL, ensuring your API remains up-to-date with the latest specifications. \n\nYou'll learn how to create a new API, set it as external, and synchronize it with a provided API URI. This process helps in managing API updates efficiently.\n\nFor detailed steps and more information, visit the Neptune DXP API Designer Sync documentation."
+  },
+  {
+    "chapterName": "Expert API, OData & Authentication",
+    "lessonTitle": "55983279-introduction-to-pre-request-hook-scripts",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55983279-introduction-to-pre-request-hook-scripts",
+    "sourceType": "text",
+    "content": "In this lesson, you will learn about the pre-request hook scripts in Neptune DXP, which allow you to modify the request options before an API call is made. \n\nThis feature is essential for customizing API requests, such as adding query parameters or headers. \n\nPre-request hooks ensure that your API requests are tailored to your specific needs, enhancing the flexibility and functionality of your applications.\n\nNote this functionality can be implemented within the API Designer, or within the App Designer for a specific implementation/instance of an API. This is covered in the next lesson.\n\nFor detailed steps and more information, visit the Neptune DXP Pre-Request Hook documentation."
+  },
+  {
+    "chapterName": "Expert API, OData & Authentication",
+    "lessonTitle": "55984480-sap-api-swagger-import",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55984480-sap-api-swagger-import",
+    "sourceType": "text",
+    "content": "Within the API Designer, you can 'Import' SAP API Swagger definitions:\n\n\nSelecting an API will load its respective swagger definition:\n\nYou can then use 'Import' to automatically create the definition, with its respective operations and definitions assigned.\n\nThis is the same as importing a Swagger 2.0 file.\n\nEG:\n"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55896658-enhancements-knowledge",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55896658-enhancements-knowledge",
+    "sourceType": "text",
+    "content": "To learn about Enhancements, we recommend you read through this blog post. They are an essential piece of Launchpad functionality that allows you to develop custom logic to run on top of the Launchpad.\n\nBlog:\n https://community.neptune-software.com/topics/planet-9/blogs/e-learning--neptune--d-x-p----open--edition--developer--ex"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55897665-launchpad-enhancements-introduction",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55897665-launchpad-enhancements-introduction",
+    "sourceType": "video",
+    "content": "hi my name is Cesar and today I'm going to introduce to you Launchpad enhancement first of all let's understand what Launchpad enhancements are enhancements are the tool to add your customised code to the Neptune standard Launchpad under define enhancement spots instead of modifying the core planet line standard Launchpad which might cause unexpected and unwanted errors you can use the launch pad enhancement to fulfill your requirements Neptune has defined the number of enhancement spots where you can modify Neptune standard code in a non-destructive way or add extra code to fulfill your requirements the enhancement spots are grouped into Five categories authentication common events mobile and PWA and push notifications you can use the core planet 9 Launchpad to understand what do you want to change and then implement the changes in the appropriate enhancement spots during this video I'll present to you three examples of launch by being huntsmans first moving the tile titles on the right side of the infant Heather second replacing the account icon with the initials of the user that is logged in and third accessing a specific part of an application when the launch by the is open"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55897675-launchpad-enhancements-example-1-moving-the-header-tile-group-position",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55897675-launchpad-enhancements-example-1-moving-the-header-tile-group-position",
+    "sourceType": "video",
+    "content": "let's begin with the first example moving the tile groups titles on the right side of the Launchpad header there are two ways in approaching this we can modify the planet nine launch but standard code and then use it in our Launchpad although this approach is not recommended because the chances of unwanted errors will increase modifying the core launch pad code should be avoided and used only in isolated situations therefore the second approach is suitable for our requirement which is utilising the before startup enhancement spot this spot is triggering our custom logic before the Launchpad is loaded and showed on the device so how do we do this let's run our lunch pad and go to the inspector let's find our container this is it it's called upcash Button so we need to move this on the right side of the header so let's find the other container which is called the top layout right so we have our naming our components let's write the logic go to the Edit mode and it's just a simple as one line of code stop layout right dot insert item and our App Cache at bottom return be before startup enhancement on we save and now if refresh you can see that we have moved the tile group titles to the right without interfering with the core code of the Launchpad"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55897790-launchpad-enhancements-example-2-reaplcing-the-profile-with-initals-of-user",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55897790-launchpad-enhancements-example-2-reaplcing-the-profile-with-initals-of-user",
+    "sourceType": "video",
+    "content": "for the second example will replace the user cycle with users initials to achieve this we will be using the set user info enhancement spot which triggers when we set the username in the Launchpad in here we will build our logic so I have the logic ready form of two functions get initials text for Avatar which is taking the name of the user from the App Cache it splits it counts the number of names and then subtract the initial of the first name and the initial of the last name the second function is setting the initials to the application user so let's have a look at this component on our Launchpad let's inspect it nsbc the bottom ID is called application user so it is a button let's have a look at this component on the planet nine launch but standard so we have the button in here now we have to add some styling to it in order to look better we will add the CSS into the Launchpad layout so I have a CSS ready which is setting a background colour the border radius it makes everything look better now let's turn the enhancement On Let's save let's close the inspector and now when we refresh we can see that instead of the user icon we have our initials again we have made this change without affecting or modifying the Planetary launch at the standard code"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55897847-launchpad-enhancements-example-3-read-data-from-url-to-application-when-opened",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55897847-launchpad-enhancements-example-3-read-data-from-url-to-application-when-opened",
+    "sourceType": "video",
+    "content": "now let's move on to the last example which is opening a specific part of an application when the Launchpad is accessed to achieve this we will use the after update enhancement spot where we will build our logic these code is splitting up the URL based on the key attributes hashtag and an equals and we end up just with the app name and the ID that we want to pass in no I have a website application ready and we just need to add some extra functionality the safe statement is taking the order ID from the URL it inserts it in the search bar and it fires the search event let's activate and now let's turn on the after update enhancement let's grab the URL which contains the order I'd called Google in our case Let's save and now let's paste the URL in our Launchpad when I hit enter we should see the workshop application opened displaying the products with the name Google as you can see it works we have the products with the name Google displayed same with me if we change it to Samsung as you can see it works seamlessly again another change without affecting the planet nine launch that standard code the advantage of having an enhancement setup like this is that you can send one URL which will open the app and showing just a specific order rather than leaving the user to open the app and search for that order from this common enhancement examples you can see how easy it is to make both functional and cosmetic changes to the Launchpad without changing the core Launchpad code and when you upgrade the Neptune platform all the enhancements you have created will not be touched they will continue to do what they did before the upgrade this should give you all the tools you need to adapt the standard Neptune Launchpad to the specific requirements for your organisation"
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55895373-ui5-versioning-launchpad-app-designer",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55895373-ui5-versioning-launchpad-app-designer",
+    "sourceType": "text",
+    "content": "Expert Launchpad – UI5 Versioning\n\nUI5 versioning is designed to ensure the stability and compatibility of applications. It provides a structured approach in managing updates, enabling developers to leverage new features and enhancements while maintaining the integrity of existing applications.\n\nIn Neptune DXP Open-Edition, UI5 versioning can be managed at both the application level using the App Designer and at the Launchpad level within the Launchpad settings.\n\n \n\n \n\nTo avoid version compatibility issues and ensure the integrity of the app, it is best practice to align the UI5 versions used in the App Designer and the Launchpad."
+  },
+  {
+    "chapterName": "Expert Launchpad",
+    "lessonTitle": "55895797-understanding-enhancements-with-a-use-case",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55895797-understanding-enhancements-with-a-use-case",
+    "sourceType": "text",
+    "content": "There are often a lot of situations you face whilst developing that can benefit from utilizing enhancement spots in the launchpad, specifically if your adjustment requires configuring the launchpad itself. It is best practice to always keep the launchpad as standard and to build functionality on top of it using the enhancements.\n\nExample: Using the language switch functionality implemented in the Launchpad Enhancement:\n\nhttps://community.neptune-software.com/topics/tips--tricks/blogs/language--switch--button--implementation--using--launch\n\nNote that you will need to have configured the launchpad with the respective languages and the correct translations should be applied within the launchpad and applications."
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55946183-offline-examples-download",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55946183-offline-examples-download",
+    "sourceType": "text",
+    "content": "The Application Building Block (Package) containing the offline applications that are shown in the following videos - can be found within this product: \"Offline Examples\" available to download from the Marketplace:\n"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55946184-qr-code-image-example",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55946184-qr-code-image-example",
+    "sourceType": "video",
+    "content": "55946184-qr-code-image-example"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55946186-offline-code-snippets",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55946186-offline-code-snippets",
+    "sourceType": "text",
+    "content": "Javascript Resource File - Event Listeners for Browser Online / Offline detection:\n\nwindow.addEventListener(\"offline\", onOffline, false);\n\nwindow.addEventListener(\"online\", onOnline, false);\n\nfunction onOffline(){\n\n    sap.m.MessageToast.show(\"Offline!\");\n\n    oButtonCallAPI.setVisible(false);\n\n}\n\nfunction onOnline(){\n\n    sap.m.MessageToast.show(\"Online!\");\n\n    oButtonCallAPI.setVisible(true);\n\n}\n\n\n\n\n\n\n\nModelArrayStorage - \n\nif (!AppCache.isOffline) {\n\n    console.log(\"Online\");\n\n    oButtonCallAPI.setVisible(true);\n\n} else {\n\n    console.log(\"Offline\");\n\n    var offlineData = modeloModelArrayStorage.getData();\n\n    console.log(offlineData);\n\n    QRCode.setSrc(offlineData[0].base64);\n\n}\n\n\n\n\n\n\n\n Button Press Event -\n\nvar modelData = modeloModelArrayStorage.getData();\n\nfor (let i = 0; i < modelData.length; i++) {\n\n    ModelData.Delete(oModelArrayStorage, \"id\", modelData[i].id);\n\n}\n\nsetCacheoModelArrayStorage();\n\nconsole.log(modelData);\n\n\n\n\nAPI -\n\nAjaxSuccess -\n\nvar data = modeloModelArrayStorage.getData();\n\nsap.m.MessageToast.show(\"Data called & Cached\");\n\nconsole.log(data[0]);\n\nQRCode.setSrc(data[0].base64)\n\n\n"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55946083-weather-example-scenario-explanation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55946083-weather-example-scenario-explanation",
+    "sourceType": "video",
+    "content": "hi and welcome back to the E-Learning is this lesson we'll get you started with the offline capabilities of our platform by showcasing an offline application Neptune dxp offers the ability to build applications that work both online and offline in this application will use Multi models to cache data specifically on the first page will load the current location whether data and cache it to the device on the second page you will be able to submit forms both online and offline forms that are submitted will be cash and once you are back online the cash forms will be automatically saved in a table and a cash will be cleared let's Get Started by opening the application this is a very simple application with two pages and the goal of this video is to emphasise the logic rather than the look and feel will begin with the logic required for fetching a caching the weather data initially the application will request access to our location and sort of the longitude and the latitude in the bottom president we make a call to an external API specifically the weather API we provide the API key along with the longitude and the latitude obtained earlier the response from this API will be set to multimodal this multimodal is configured to automatically cache the response every time we call the API the multi model is computer to automatically cash the response every time we call the API this ensures that the model and the cache data are always in sync additionally the set in a load is enabled to trigger that cash in a load finish the vent each time the multimodal loads data from the index database if we are offline with disable the button that triggers the API additionally we call Function that takes the data from the multimodal and sets it to our first page otherwise the button remains enabled lastly for the weather logic we have registered some event listeners in the offline event we call the function that retrieves the multimodal data and sets it to our first page this means that each time we refresh while offline or go offline the application will display the cache data that's all for the weather logic"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55980867-weather-example-demo",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55980867-weather-example-demo",
+    "sourceType": "video",
+    "content": "let's see this in Action not you will need to run the offline application in a Launchpad and not stand-alone for caching to work open the application and also the storage tab in the developers console initially we only see the forms cash when we press the weather button will notice that there is a new key add in the folder with all the weather data now if we go offline we will see that the weather information on the first screen and if we refresh the application will render the cache weather data"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55946140-form-example-scenario-explanation",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55946140-form-example-scenario-explanation",
+    "sourceType": "video",
+    "content": "now let's move on the form logic initially when we open the application the clear form cost function is triggered where we set the multi models data to an mtra then we use the set cost function which is generated for all multi models that have their cache enabled this function takes the data that the multimodal has and caches it the reason we call this function for this multimodal and not for the previous one is that now the data is manually set to the multimodal whereas for the previous model the data is being set from an API this means that we will need to call the set cache function each time we update the model this will also make the model to always be at sync with the cache data as we mentioned before we will be storing each form in the model in the button press event we need to do the following first get the models current data and the data from the form if the model is empty and empty array since that is how the model was initialised we added the new entry to the model as the initial form otherwise we add the new form to the existing array of forms after that we clear the form and set the models data to the cache we mentioned that we would be able to cash forms both offline and online once you go from offline to online and API will get the cash form data and save it to a table in the online event is there is cache data we use the API to save it to the table if the operation is successful we clear the cache also this model is set the same way as the previous one but without a cash in a load finished event"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55981029-form-example-demo",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55981029-form-example-demo",
+    "sourceType": "video",
+    "content": "regarding the forms if you add a few forms we will see that the cash has been updated if we go offline and then back online the data will be stored in a table we configured and the cache will be cleared and that's all for this lesson thanks for watching and see you in the next one"
+  },
+  {
+    "chapterName": "Offline capabilities",
+    "lessonTitle": "55947311-offline-development-considerations",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55947311-offline-development-considerations",
+    "sourceType": "text",
+    "content": "When developing offline applications, there are several considerations to keep in mind:\n\nAsynchronous vs Synchronous: Decide whether your application should allow users to continue working while data is being processed in the background (asynchronous) or if they should wait for the processing to complete before continuing (synchronous). Neptune Software's Ajax and Rest API calls are asynchronous by default, but you can use App.setBusy() or Busy Dialogs to make them appear synchronous.\n\nPartial Offline Storage vs Full Offline Storage: Determine whether you need to store only a portion of your app data offline or if you should download and store all the necessary data for offline usage. Partial storage can help reduce network traffic and data volumes on the device, but full storage provides a better offline experience. Consider the size of the data and the requirements of your app.\n\nFull Data Synch vs Time-stamped Delta Synch: Decide whether to perform a full synchronization of data or only synchronize the data that has been created or changed since the last synchronization. Time-stamped delta synchronization can help reduce the amount of data transferred during synchronization and improve performance.\n\nOffline First vs Online First: Choose whether your app should prioritize offline functionality or online functionality. In an offline-first approach, data is immediately cached for later processing, while in an online-first approach, data is posted to the backend first and cached only if the post fails. Consider the user experience and the need for immediate responsiveness.\n\nConflicts when updating: Consider how to handle conflicts that may arise when multiple users make changes to the same data while offline. Decide whether to overwrite changes, discard changes, allow users to decide, or involve a supervisor to resolve conflicts.\n\nIt is important to discuss these considerations with your team and stakeholders to determine the best approach for your specific project."
+  },
+  {
+    "chapterName": "AppCache",
+    "lessonTitle": "55946807-overview-loading-applications-within-other-applications",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55946807-overview-loading-applications-within-other-applications",
+    "sourceType": "text",
+    "content": "By learning about the AppCache, you can understand its potential.\n\nIt contains several useful methods and data points, such as using .Load to open apps inside of other apps aids reusability and modular design.\n\nIn this lesson, you will learn how to load applications, and adaptive applications, in dialogs or objects, and pass in data.\n\nRequirements: The only requirement is that the parent application must be placed in a launchpad so that you can utilize the AppCache functions.\n\n\n\nHow to load an application in a dialog\n\nIn the parent application, decide when to open the application (press event, ajaxSuccess event etc) and place the following code:\n\nFor an App Designer application:\n\nAppCache.Load(\"<name-of-application>\", {\n\ndialogShow: true,\n\n});\n\n \n\nFor an Adaptive application:\n\nAppCache.LoadAdaptive(\"<id-of-adaptive-application>\", {\n\ndialogShow: true,\n\n});\n\n \n\n \n\nExtra attributes:\n\n \n\ndialogHeight: \"90%\", // dialog height\n\ndialogWidth: \"1200px\", // dialog width\n\ndialogTitle: \"\", // dialog title\n\ndialogIcon: \"\",  // dialog icon\n\ndialogModal:false, // turns dialog into a modal\n\ndialogHideMinimize: false, // hide the button the minimizes the dialog\n\ndialogHideMosaic: false, // hide the button the minimizes the dialog\n\ndialogHideMaximize: false, // hide the button the maximizes the dialog\n\nonDialogClose: function () { // event triggered when dialog closes\n\n \n\n \n\nHow to load an application in a component\n\nIn the parent application, do the following:\n\nAppCache.Load(\"<name-of-application>\", {\n\nparentObject: <name-of-component>,\n\n});\n\n \n\nHow to load data from the parent application to the child application\n\nIn the parent application do the following:\n\nAppCache.Load(\"<name-of-application>\", {\n\nparentObject: <name-of-component>,\n\nstartParams: <your-data-structure>\n\n});\n\n \n\nIn the child application do the following in a JavaScript file:\n\nsap.n.Shell.attachBeforeDisplay(function (startParams) {\n\n// apply your logic here\n\n// the startParams arg contains the data you sent from the parent application\n\nconsole.log(startParams);\n\n});\n\n \n\n \n\nNote: Open the code snippets to view more fields and settings"
+  },
+  {
+    "chapterName": "AppCache",
+    "lessonTitle": "55946753-appcache-examples",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55946753-appcache-examples",
+    "sourceType": "video",
+    "content": "55946753-appcache-examples"
+  },
+  {
+    "chapterName": "Custom Components",
+    "lessonTitle": "55898480-what-is-a-custom-component-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55898480-what-is-a-custom-component-overview",
+    "sourceType": "video",
+    "content": "hi and welcome back to the E-Learning in this lesson we'll get you started with the custom components similar to the building blocks once created it is available in the app designer alongside other components and can be added to your application custom components are used for component-based development any updates to these components are automatically reflected in all applications where they are used in contrast application building blocks are static copies and any changes made to them will not be reflected in your applications once they are added less demonstrate how to create one in the app designer select new application and set the type as custom components the name and Convention is as follows every word separated by an underscore will become a folder within the component library will start with the basic example and gradually add more functionalities for now let's drop an avatar in the HTML document click save and activate this is the simplest custom component you can create let's now create another application that will contain our custom components are we search for it in the component library will find all available custom components let's place it anywhere in our application for now save and activate as we can see the cousin component is reflected in the main applications any changes made in the custom component will be reflected in the parent application and that's it for this lesson thank you for watching and see you in the next lesson"
+  },
+  {
+    "chapterName": "Custom Components",
+    "lessonTitle": "55898507-custom-component-interface-containers",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55898507-custom-component-interface-containers",
+    "sourceType": "video",
+    "content": "55898507-custom-component-interface-containers"
+  },
+  {
+    "chapterName": "Custom Components",
+    "lessonTitle": "55914601-custom-component-typescript-logic",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55914601-custom-component-typescript-logic",
+    "sourceType": "video",
+    "content": "let's explain what a default typescript file is used for in this file you can export the logic you define in the custom component in the main application by creating a namespace and defining functions there you will be able to access these functions in your main application for best practice change the name of the default namespace in the main application we can access the exported functions of the namespace by typing the name of the namespace and then the editor will list all the functions let's Create another namespace in some functions once you refresh the master data you will see the changes you have done to your name spaces and functions lastly let's discuss some additional information that is good to know so you have learnt how to expose attributes of components within your custom component however you can programmatically access them by typing the name of the custom component followed by another score and the name of the components you can translate objects just like in a normal application you can add documentation for the custom components and an icon that will be visible within the componentry and lastly in the word use tab you can see in which applications the custom component is being utilised and that's it for this lesson thank you for watching and see you in the next lesson"
+  },
+  {
+    "chapterName": "Custom Components",
+    "lessonTitle": "55914730-tutorial-blog-getting-started-with-custom-components",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55914730-tutorial-blog-getting-started-with-custom-components",
+    "sourceType": "text",
+    "content": "Creating reusable components is crucial in application development for scalability and maintainability. Neptune DXP's App Designer facilitates this through Custom Components, which are reusable functional fragments within the same system instance.\n\nHere is an informative blog post detailing step by step instructions to create and integrate your own Custom Components.\n\nPractical Example:\nTo practice, install the sample Custom Component 'Example - Custom Component' from the Marketplace and integrate it into an application, such as using it as a GridListItem to display products in a catalog.\n\n\n\n\n"
+  },
+  {
+    "chapterName": "Custom Components",
+    "lessonTitle": "55914688-use-case-media-upload-custom-component",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55914688-use-case-media-upload-custom-component",
+    "sourceType": "text",
+    "content": "A great way to understand how to utilise custom components is to utilise an example.\n\nHere is a blog post that details the 'Media Upload Custom Component'\n\nIt explains how to implement, use, and customise the functionality within your own apps, to allow easy native uploading to the platforms Media Library.\n\nExperiment with implementing this within one of your own applications!"
+  },
+  {
+    "chapterName": "Events (Redis)",
+    "lessonTitle": "55915022-getting-started-with-redis",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55915022-getting-started-with-redis",
+    "sourceType": "text",
+    "content": "What is Redis?\n\nRedis is an in-memory data store used as a cache, vector database, document database, streaming engine, and message broker. Redis has built-in replication and various levels of on-disk persistence.\n\n\n\n\nHow is Redis used in Neptune DXP? \n\nIf you connect Redis to a Neptune DXP – Open Edition system, then you will be able to trigger scripts, jobs, and create event-driven applications. Read the following blogs to see some examples:\n\nPlay UNO! Card Game in Neptune with Redis - GitHub Project Available\n\nJD Bingo – Game built in 1 day with Neptune and Redis\n\n \n\nHow to install Redis and connect to it?\n\n Depending on your needs, you can install Redis locally or run it in a Docker container. Read the following to choose your deployment method https://redis.io/docs/latest/get-started/ \n\n \n\nIn this example, we will use Docker Compose, and we will provide the files for you to test it yourself. The link to the folder can be found at following repository:\n\nhttps://github.com/TerryakiSauce/dxp-open-edition-docker-compose-examples/tree/master/v23.10.4-simple-redis\n\n \n\nIf you already have a Redis server running, then you only need to go to System Settings > Database and in the Redis section, activate and enter the URI.\n\nSave and restart to apply the changes. If the connection fails, you will see errors in the System Logs tool. If not, you are ready to start developing event-driven applications."
+  },
+  {
+    "chapterName": "Events (Redis)",
+    "lessonTitle": "55915032-getting-started-with-event-driven-development",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55915032-getting-started-with-event-driven-development",
+    "sourceType": "text",
+    "content": "This lesson guides you through the fundamentals of event-driven application development. The aim is to make it easy for you to grasp, following a step-by-step approach by reading the relevant documentation and blog posts.\n\nStep 1: Learning the Components\n\nIn the following two documentation guides, you'll discover how to trigger a script from an application and understand how the event components collaborate to generate real-time event-driven actions.\n\nTriggering Scripts via an Event component in the App Designer\n\nEvent Components Documentation (Listen and Trigger)\n\nTry to replicate both examples in order to gain the best understanding from them.\n\nStep 2: Enhancing Your Understanding\n\nIn the following blog post and video tutorial, you'll review the components once more and learn how to create a drag-and-drop application using Redis. The blog offers a development package for download if you wish to explore the applications yourself.\n\nGetting started with Drag and Drop & Events with Redis\n\nStep 3: View projects and get inspiration\n\nThe following blogs are written by experienced developers that how they combined Redis and Neptune development to create their own applications.\n\nGetting started with Redis and Neptune DXP - Open Edition\n\nPlay UNO! Card Game in Neptune with Redis - GitHub Project Available\n\nImplementing Real-Time Web Push Notifications on Neptune DXP\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJD Bingo – Game built in 1 day with Open Edition and Redis\n\nQueue management Applications\n\n \n\n \n\n "
+  },
+  {
+    "chapterName": "Add-On Framework",
+    "lessonTitle": "55895299-overview",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55895299-overview",
+    "sourceType": "text",
+    "content": "In the context of the Open Edition of Neptune DXP, add-ons are extra tooling or functionality that can be installed on top of the core Neptune DXP. These add-ons provide additional features and capabilities to enhance the functionality of your Neptune DXP application. The main functionality of an add-on is that it is designed to run within the cockpit.\n\nThe Neptune DXP Marketplace is where you can find and install these add-ons. By providing add-ons through the marketplace, the installation process is separate from the Neptune DXP update cycle, allowing you to install and update add-ons as needed.\n\nOnce you install an add-on from the Neptune DXP Marketplace, a new Tile Group will be created in the Cockpit, which is the central hub for managing your Neptune DXP applications. This Tile Group will contain all the artifacts related to the installed add-on.\n\nIt's important to note that each add-on may have its own set of instructions and documentation, which will be provided with the add-on. These instructions may include steps like adding specific roles to users in order to view and utilize the add-on.\n\nSome of the add-ons currently available in the Neptune DXP Marketplace include Neptune Forms, which helps with data collection activities such as inspections, checklists, and audits.\n\nTo learn more about add-ons and their installation process, you can refer to the Open Edition Neptune Software documentation, specifically the Add-ons section in the Cockpit Overview\n\nSubject to categorization some add-ons available within the marketplace don't have any configurable cockpit tiles as they are designed to be utilized or integrated into other backend processes."
+  },
+  {
+    "chapterName": "Add-On Framework",
+    "lessonTitle": "55895311-add-on-security-considerations",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/55895311-add-on-security-considerations",
+    "sourceType": "text",
+    "content": "It is good to understand that add-ons are just like conventional application building block products except they've been configured with, designed to be included within, cockpit tiles and tile group(s).\nUnderstanding that tables included in Add-Ons are installed into the platform, as normal tables are configured, within the package. \n\nAdd-Ons do not add anything into the core.\n\n\nWith this in mind, you should be cautious of the access control to the cockpit and the related artifacts that are included within Add-On packages.\n\n\n"
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "56042918-docker-setup",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/56042918-docker-setup",
+    "sourceType": "text",
+    "content": "To run Neptune DXP – Open Edition in a Docker container, you need to have Docker installed on your computer.\n\nFollow the steps in this link according to your OS: Get Docker Desktop\n\n "
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "56043243-running-the-docker-image-locally-step-by-step-guide",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/56043243-running-the-docker-image-locally-step-by-step-guide",
+    "sourceType": "video",
+    "content": "56043243-running-the-docker-image-locally-step-by-step-guide"
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "56043247-running-the-docker-image-with-custom-configurations",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/56043247-running-the-docker-image-with-custom-configurations",
+    "sourceType": "video",
+    "content": "56043247-running-the-docker-image-with-custom-configurations"
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "56043049-code-snippet-for-rsa-keys",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/56043049-code-snippet-for-rsa-keys",
+    "sourceType": "text",
+    "content": "The code snippet that creates RSA keys + certificate with the subject: - use in the Terminal:\n\nopenssl genpkey -algorithm RSA -aes256 -pass pass:yourpassphrase -out private_key.pem -pkeyopt rsa_keygen_bits:2048 && openssl rsa -in private_key.pem -passin pass:yourpassphrase -pubout -out public_key.pem && openssl req -new -x509 -key private_key.pem -passin pass:yourpassphrase -out certificate.pem -days 365 -subj \"/C=US/ST=State/L=City/O=Organization/OU=Unit/CN=CommonName\"\n\n\n\n\nThis will create the corresponding files within the path of the terminal:\n"
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "55986957-entra-id-azure-ad-user-authentication-setup",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/lessons/55986957-entra-id-azure-ad-user-authentication-setup",
+    "sourceType": "video",
+    "content": "55986957-entra-id-azure-ad-user-authentication-setup"
+  },
+  {
+    "chapterName": "Other",
+    "lessonTitle": "56043718-authentication-users-from-different-sources",
+    "sourceUrl": "https://neptune.thinkific.com/courses/take/open-edition-developer-training-expert-2024/texts/56043718-authentication-users-from-different-sources",
+    "sourceType": "text",
+    "content": "Authentication is an essential aspect of ensuring security and access control in Neptune DXP Open Edition. \n\nUsers can be created locally, or automatically based on a number of available external authentication sources that can be integrated with the platform.\n\nLocal Login: By default, when hosting Open Edition locally, the admin login uses a local user account. This is the default login method for the Neptune Portal.\n\nExternal Authentication Sources: Neptune DXP provides the flexibility to integrate with external authentication sources to simplify the login process for end users. The following authentication methods are supported:\n\na. LDAP (Lightweight Directory Access Protocol):\n\nLDAP integration allows you to authenticate users against an LDAP server.\nRefer to the documentation for detailed instructions on configuring LDAP authentication.\nSAML (Security Assertion Markup Language):SAML integration enables single sign-on (SSO) using SAML-based identity providers.\nFollow the documentation to configure SAML authentication in Open Edition.\nMicrosoft Entra ID:\nIntegration with Microsoft Entra ID allows users to log in using their Microsoft credentials.\nConsult the documentation for instructions on setting up Microsoft Entra ID authentication.\nSelf-Registration:\nOpen Edition also supports self-registration, allowing users to create their own accounts.\nRefer to the documentation for guidance on enabling and configuring self-registration.\n\nTo configure the authentication methods in Open Edition, follow these steps:\n\na. Access the System Settings in the Neptune Cockpit.\n\nb. Navigate to the Authentication section.\n\nc. Choose the desired authentication method and follow the instructions provided in the documentation.\n\nOnce an authentication method has been configured, it can be configured to be utilized within the login process.\n\nEG:\n"
+  }
+]
